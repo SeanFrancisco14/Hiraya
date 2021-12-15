@@ -19,12 +19,12 @@ public class CategoryActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent;
-                intent = new Intent(CategoryActivity.this, CategoryLevel.class);
+                intent = new Intent(CategoryActivity.this, CategoryActivity.class);
                 startActivity(intent);
             }
         });
 
-        ImageButton btn_ToLanguageLevel = (ImageButton) findViewById(R.id.btn_culture);
+    ImageButton btn_ToLanguageLevel = (ImageButton) findViewById(R.id.btn_language);
         btn_ToLanguageLevel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +33,7 @@ public class CategoryActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        ImageButton btn_ToHistoryLevel = (ImageButton) findViewById(R.id.btn_culture);
+        ImageButton btn_ToHistoryLevel = (ImageButton) findViewById(R.id.btn_history);
         btn_ToHistoryLevel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
