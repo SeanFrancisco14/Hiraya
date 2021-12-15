@@ -19,7 +19,7 @@ public class CategoryActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent;
-                intent = new Intent(CategoryActivity.this, CategoryLevelEasy.class);
+                intent = new Intent(CategoryActivity.this, CategoryLevel.class);
                 startActivity(intent);
             }
         });
