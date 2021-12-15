@@ -12,34 +12,27 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity {
-    ImageButton start_sound;
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        start_sound = (ImageButton)findViewById(R.id.btn_start);
-        final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.clicksound);
-        start_sound.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mediaPlayer.start();
 
-        ImageButton btn_ToMenuScreen = (ImageButton) findViewById(R.id.btn_start);
-        btn_ToMenuScreen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent;
-                intent = new Intent(MainActivity.this,MenuActivity.class);
-                startActivity(intent);
-            }
-        });
-            }
-        });
+        findViewById(R.id.btn_start).setOnClickListener(this);
     }
+
+    public void onClick(View view) {
+        startActivity(new Intent(this, MenuActivity.class));
+
+        switch (view.getId()) {
+            case R.id.btn_start:
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+        }
+    }
+
     @Override
-    public void onBackPressed(){
+    public void onBackPressed() {
         final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setMessage("Are yoy sure you want to exit?");
         builder.setCancelable(true);
