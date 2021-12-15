@@ -24,6 +24,7 @@
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="centerInside"
+        android:contentDescription="@string/app_name"
         app:srcCompat="@drawable/startbutton" />
 
 

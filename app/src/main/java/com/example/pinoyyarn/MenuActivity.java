@@ -20,9 +20,8 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         startActivity(new Intent(this, CategoryActivity.class));
 
-        switch (view.getId()) {
-            case R.id.btn_play:
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+        if (view.getId() == R.id.btn_play) {
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
     }
 }

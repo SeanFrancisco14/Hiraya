@@ -5,13 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
@@ -25,9 +20,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         startActivity(new Intent(this, MenuActivity.class));
 
-        switch (view.getId()) {
-            case R.id.btn_start:
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+        if (view.getId() == R.id.btn_start) {
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
     }
 

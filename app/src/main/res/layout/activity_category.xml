@@ -8,90 +8,76 @@
     android:orientation="vertical"
     tools:context=".CategoryActivity">
 
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="375dp"
-        android:layout_height="292dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="415dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        android:contentDescription="@string/app_name"
-        app:srcCompat="@drawable/categorypage" />
-
-
     <ImageButton
         android:id="@+id/btn_culture"
-        android:layout_width="387dp"
-        android:layout_height="371dp"
+        android:layout_width="416dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="152dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="208dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="284dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/category_culture" />
-
-    <ImageButton
-        android:id="@+id/btn_history"
-        android:layout_width="383dp"
-        android:layout_height="193dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="453dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="83dp"
-        android:adjustViewBounds="true"
-        android:backgroundTint="#00FFFFFF"
-        android:scaleType="centerInside"
-        android:contentDescription="@string/app_name"
-        app:srcCompat="@drawable/category_hisotry" />
+        app:srcCompat="@drawable/category_culture"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/btn_language"
-        android:layout_width="383dp"
-        android:layout_height="193dp"
+        android:layout_width="411dp"
+        android:layout_height="148dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="344dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="192dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="216dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
-        android:scaleType="centerInside"
         android:contentDescription="@string/app_name"
-        app:srcCompat="@drawable/category_language" />
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/category_language"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/btn_back"
-        android:layout_width="326dp"
-        android:layout_height="216dp"
+        android:id="@+id/btn_history"
+        android:layout_width="415dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="526dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="-11dp"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="458dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="95dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
-        android:scaleType="centerInside"
         android:contentDescription="@string/app_name"
-        app:srcCompat="@drawable/backimg" />
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/category_hisotry"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="431dp"
+        app:srcCompat="@drawable/categorypage" />
+
+
 </RelativeLayout>
