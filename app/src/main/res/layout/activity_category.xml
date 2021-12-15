@@ -62,7 +62,7 @@
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/category_hisotry"
+        app:srcCompat="@drawable/category_history"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
