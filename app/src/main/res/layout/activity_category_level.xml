@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bamboo_one"
+    android:orientation="vertical"
+    tools:context=".CategoryLevel">
+
+    <ImageButton
+        android:id="@+id/btn_ceasy"
+        android:layout_width="wrap_content"
+        android:layout_height="408dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="186dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ceasy" />
+
+    <ImageButton
+        android:id="@+id/btn_cmed"
+        android:layout_width="403dp"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginBottom="89dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/cmedium" />
+
+    <ImageButton
+        android:id="@+id/btn_cdiff"
+        android:layout_width="401dp"
+        android:layout_height="398dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="-20dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/cdifficult" />
+
+</RelativeLayout>
