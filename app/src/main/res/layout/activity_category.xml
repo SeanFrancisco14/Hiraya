@@ -22,7 +22,6 @@
         android:contentDescription="@string/app_name"
         app:srcCompat="@drawable/categorypage" />
 
-
     <ImageButton
         android:id="@+id/btn_culture"
         android:layout_width="387dp"

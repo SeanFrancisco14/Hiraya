@@ -24,7 +24,7 @@ public class CategoryActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton btn_ToLanguageLevel = (ImageButton) findViewById(R.id.btn_culture);
+        ImageButton btn_ToLanguageLevel = (ImageButton) findViewById(R.id.btn_history);
         btn_ToLanguageLevel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +33,7 @@ public class CategoryActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        ImageButton btn_ToHistoryLevel = (ImageButton) findViewById(R.id.btn_culture);
+        ImageButton btn_ToHistoryLevel = (ImageButton) findViewById(R.id.btn_language);
         btn_ToHistoryLevel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

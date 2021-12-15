@@ -11,6 +11,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.btn_start:
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                Toast.makeText(this,"Welcome to Pinoy Yarn!?", Toast.LENGTH_SHORT).show();
+                break;
         }
     }
 

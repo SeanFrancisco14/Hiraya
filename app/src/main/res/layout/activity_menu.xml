@@ -22,9 +22,9 @@
         android:layout_marginBottom="275dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/play"
-        android:contentDescription="@string/app_name"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -41,9 +41,9 @@
         android:layout_marginBottom="181dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/achievements"
-        android:contentDescription="@string/app_name"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -60,9 +60,9 @@
         android:layout_marginBottom="105dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/setting"
-        android:contentDescription="@string/app_name"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -79,9 +79,9 @@
         android:layout_marginBottom="28dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/exit"
-        android:contentDescription="@string/app_name"
         tools:ignore="SpeakableTextPresentCheck" />
 
 
