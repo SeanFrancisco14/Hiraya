@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".LanguageStages"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryStages"
+            android:exported="false" />
+        <activity
             android:name=".SettingsActivity"
             android:exported="false" />
         <activity
