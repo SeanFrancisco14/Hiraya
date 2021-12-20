@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".CultureEasyQs"
+            android:exported="false" />
+        <activity
             android:name=".LanguageStages"
             android:exported="false" />
         <activity
