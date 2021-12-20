@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Html;
 import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
@@ -22,24 +23,24 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
 
-        },  3000);
+        },  1800);
     }
 
     @Override
     public void onBackPressed() {
         final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        builder.setMessage("Are yoy sure you want to exit?");
+        builder.setMessage(Html.fromHtml("<font color='#000000'>Are you sure you want to exit?</font>"));
         builder.setCancelable(true);
-        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(Html.fromHtml("<font color='#FFD700'>Yes</font>"), new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.cancel();
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
             }
         });
-        builder.setPositiveButton("Close", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton(Html.fromHtml("<font color='#FFD700'>No</font>"), new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialogInterface2, int which) {
-                finish();
+            public void onClick(DialogInterface dialog, int i) {
+                dialog.cancel();
             }
         });
         AlertDialog alertDialog = builder.create();

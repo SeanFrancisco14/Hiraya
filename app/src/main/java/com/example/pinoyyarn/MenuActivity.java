@@ -1,9 +1,12 @@
 package com.example.pinoyyarn;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -47,8 +50,23 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         }
         switch(v.getId()) {
             case R.id.btn_exit:
-                finish();
-                break;
+                final AlertDialog.Builder builder = new AlertDialog.Builder(MenuActivity.this);
+                builder.setMessage(Html.fromHtml("<font color='#000000'>Are you sure you want to exit?</font>"));
+                builder.setCancelable(true);
+                builder.setPositiveButton(Html.fromHtml("<font color='#FFD700'>Yes</font>"), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                });
+                builder.setNegativeButton(Html.fromHtml("<font color='#FFD700'>No</font>"), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int i) {
+                        dialog.cancel();
+                    }
+                });
+                AlertDialog alertDialog = builder.create();
+                alertDialog.show();
         }
     }
 }
