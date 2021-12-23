@@ -16,14 +16,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(MainActivity.this, MenuActivity.class);
-                startActivity(intent);
-            }
-
-        },  1800);
+        new Handler().postDelayed(() -> {
+            Intent intent = new Intent(MainActivity.this, MenuActivity.class);
+            startActivity(intent);
+        },  1750);
     }
 
     @Override
@@ -31,18 +27,8 @@ public class MainActivity extends AppCompatActivity {
         final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setMessage(Html.fromHtml("<font color='#000000'>Are you sure you want to exit?</font>"));
         builder.setCancelable(true);
-        builder.setPositiveButton(Html.fromHtml("<font color='#FFD700'>Yes</font>"), new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                finish();
-            }
-        });
-        builder.setNegativeButton(Html.fromHtml("<font color='#FFD700'>No</font>"), new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int i) {
-                dialog.cancel();
-            }
-        });
+        builder.setPositiveButton(Html.fromHtml("<font color='#FFD700'>Yes</font>"), (dialog, which) -> finish());
+        builder.setNegativeButton(Html.fromHtml("<font color='#FFD700'>No</font>"), (dialog, i) -> dialog.cancel());
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
     }
