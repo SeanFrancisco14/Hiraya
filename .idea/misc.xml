@@ -18,8 +18,31 @@
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_play.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/drawable/circle.xml" value="0.2875" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/drawable/cirlc.xml" value="0.2875" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_achievements.xml" value="0.23007246376811594" />
         <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_category.xml" value="0.223731884057971" />
-        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_culture_easy_qs.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_diff_qset.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_easy_qs.xml" value="0.254981884057971" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_easy_qs2.xml" value="0.254981884057971" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_easy_qs3.xml" value="0.254981884057971" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_easy_qs4.xml" value="0.254981884057971" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_easy_qset.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_easy_qset2.xml" value="0.254981884057971" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_easy_qset3.xml" value="0.254981884057971" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_easy_qset4.xml" value="0.254981884057971" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_med_qset.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hist_medium_qset.xml" value="0.254981884057971" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_history_diff_qs.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_history_easy_qs.xml" value="0.25" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_history_easy_sets.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_history_med_qs.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_history_sets_activty.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_history_stages.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_hscore.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_language_stages.xml" value="0.25226449275362317" />
+        <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
   </component>

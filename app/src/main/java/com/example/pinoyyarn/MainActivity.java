@@ -9,6 +9,11 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.text.Html;
 import android.view.View;
+import android.widget.ProgressBar;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

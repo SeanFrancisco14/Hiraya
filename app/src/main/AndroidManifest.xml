@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".histMediumQs1"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryEasyQs4"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryEasyQs3"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryEasyQs2"
+            android:exported="false" />
+        <activity
+            android:name=".hScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".histDiffQSet"
+            android:exported="false" />
+        <activity
+            android:name=".histMedQSet"
+            android:exported="false" />
+        <activity
+            android:name=".histDiffQs1"
+            android:exported="false" />
+        <activity
+            android:name=".histMedQs1"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryEasyQs1"
+            android:exported="false" />
+        <activity
             android:name=".CultureEasyQs"
             android:exported="false" />
         <activity
