@@ -17,47 +17,47 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class hEasyQ1 extends AppCompatActivity implements View.OnClickListener {
+public class cEasyQ1 extends AppCompatActivity implements View.OnClickListener {
 
     private TextView question, QCount, timer;
     private Button option1, option2, option3, option4;
-    private List<hEasyQ1_List> questionList;
+    private List<cEasyQ1_List> questionList;
     private int qNum;
     private CountDownTimer countDown;
-    private int hScore;
+    private int cScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_heasy_q1);
+        setContentView(R.layout.activity_ceasy_q1);
 
-        question = findViewById(R.id.hEasyCurrentQ);
-        QCount = findViewById(R.id.hEasy_qCount);
-        timer = findViewById(R.id.hEasyTimer);
+        question = findViewById(R.id.cEasyCurrentQ);
+        QCount = findViewById(R.id.cEasy_qCount);
+        timer = findViewById(R.id.cEasyTimer);
 
-        option1 = findViewById(R.id.hEasy1_OptionA);
-        option2 = findViewById(R.id.hEasy1_OptionB);
-        option3 = findViewById(R.id.hEasy1_OptionC);
-        option4 = findViewById(R.id.hEasy1_OptionD);
+        option1 = findViewById(R.id.cEasy1_OptionA);
+        option2 = findViewById(R.id.cEasy1_OptionB);
+        option3 = findViewById(R.id.cEasy1_OptionC);
+        option4 = findViewById(R.id.cEasy1_OptionD);
 
         option1.setOnClickListener(this);
         option2.setOnClickListener(this);
         option3.setOnClickListener(this);
         option4.setOnClickListener(this);
 
-        getHistEasyQuestions();
+        getCultEasyQuestions();
 
-        hScore = 0;
+        cScore = 0;
     }
 
-    private void getHistEasyQuestions() {
+    private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("Hello", "A", "B", "C", "D", 2));
-        questionList.add(new hEasyQ1_List("Question 2", "B", "B", "D", "C", 3));
-        questionList.add(new hEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new hEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new hEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
+        questionList.add(new cEasyQ1_List("Hello", "A", "B", "C", "D", 1));
+        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 1));
+        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
+        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
+        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
 
 
         setQuestion();
@@ -106,25 +106,25 @@ public class hEasyQ1 extends AppCompatActivity implements View.OnClickListener {
         int selectedOption = 0;
 
         switch(v.getId()){
-            case R.id.hEasy1_OptionA:
+            case R.id.cEasy1_OptionA:
                 selectedOption = 1;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.hEasy1_OptionB:
+            case R.id.cEasy1_OptionB:
                 selectedOption = 2;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.hEasy1_OptionC:
+            case R.id.cEasy1_OptionC:
                 selectedOption = 3;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.hEasy1_OptionD:
+            case R.id.cEasy1_OptionD:
                 selectedOption =4;
                 break;
             default:
@@ -136,7 +136,7 @@ public class hEasyQ1 extends AppCompatActivity implements View.OnClickListener {
     private void checkAnswer(int selectedOption, View view){
         if(selectedOption == questionList.get(qNum).getCorrectAns()){
             ((Button)view).setBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
-            hScore++;
+            cScore++;
         }
         else{
             ((Button)view).setBackgroundTintList(ColorStateList.valueOf(Color.RED));
@@ -183,10 +183,10 @@ public class hEasyQ1 extends AppCompatActivity implements View.OnClickListener {
             startTimer();
         }
         else{
-            Intent intent = new Intent(hEasyQ1.this, hScoreActivity.class);
-            intent.putExtra("SCORE", String.valueOf(hScore) + "/" + String.valueOf(questionList.size()));
+            Intent intent = new Intent(cEasyQ1.this, cScoreActivity.class);
+            intent.putExtra("SCORE", String.valueOf(cScore) + "/" + String.valueOf(questionList.size()));
             startActivity(intent);
-            hEasyQ1.this.finish();
+            cEasyQ1.this.finish();
         }
     }
 

@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".cDiffSets"
+            android:exported="false" />
+        <activity
+            android:name=".CultureStages"
+            android:exported="false" />
+        <activity
+            android:name=".cEasyQ4"
+            android:exported="false" />
+        <activity
+            android:name=".cEasyQ3"
+            android:exported="false" />
+        <activity
+            android:name=".cEasyQ2"
+            android:exported="false" />
+        <activity
+            android:name=".cMedSets"
+            android:exported="false" />
+        <activity
+            android:name=".cScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cEasySets"
+            android:exported="false" />
+        <activity
+            android:name=".cEasyQ1_List"
+            android:exported="false" />
+        <activity
+            android:name=".cEasyQ1"
+            android:exported="false" />
+        <activity
             android:name=".hEasyQ4"
             android:exported="false" />
         <activity
@@ -34,9 +64,6 @@
             android:name=".hEasySets"
             android:exported="false" />
         <activity
-            android:name=".CultureEasyQs"
-            android:exported="false" />
-        <activity
             android:name=".LanguageStages"
             android:exported="false" />
         <activity
@@ -47,9 +74,6 @@
             android:exported="false" />
         <activity
             android:name=".AchievementsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CultureStages"
             android:exported="false" />
         <activity
             android:name=".CategoryActivity"
