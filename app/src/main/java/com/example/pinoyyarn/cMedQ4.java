@@ -17,7 +17,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
+public class cMedQ4 extends AppCompatActivity implements View.OnClickListener {
 
     private TextView question, QCount, timer;
     private Button option1, option2, option3, option4;
@@ -29,16 +29,16 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ceasy_q1);
+        setContentView(R.layout.activity_cmed_q4);
 
-        question = findViewById(R.id.cEasyCurrentQ);
-        QCount = findViewById(R.id.cEasy_qCount);
-        timer = findViewById(R.id.cEasyTimer);
+        question = findViewById(R.id.cMedCurrentQ);
+        QCount = findViewById(R.id.cMed_qCount);
+        timer = findViewById(R.id.cMedTimer);
 
-        option1 = findViewById(R.id.cEasy1_OptionA);
-        option2 = findViewById(R.id.cEasy1_OptionB);
-        option3 = findViewById(R.id.cEasy1_OptionC);
-        option4 = findViewById(R.id.cEasy1_OptionD);
+        option1 = findViewById(R.id.cMed4_OptionA);
+        option2 = findViewById(R.id.cMed4_OptionB);
+        option3 = findViewById(R.id.cMed4_OptionC);
+        option4 = findViewById(R.id.cMed4_OptionD);
 
         option1.setOnClickListener(this);
         option2.setOnClickListener(this);
@@ -53,13 +53,11 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("Hello", "A", "B", "C", "D", 4));
+        questionList.add(new cEasyQ1_List("adi cute", "A", "B", "C", "D", 3));
         questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 4));
         questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
         questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
         questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-        questionList.add(new cEasyQ1_List("Question 6", "A", "D", "B", "C", 3));
-
 
 
         setQuestion();
@@ -108,25 +106,25 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
         int selectedOption = 0;
 
         switch(v.getId()){
-            case R.id.cEasy1_OptionA:
+            case R.id.cMed4_OptionA:
                 selectedOption = 1;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.cEasy1_OptionB:
+            case R.id.cMed4_OptionB:
                 selectedOption = 2;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.cEasy1_OptionC:
+            case R.id.cMed4_OptionC:
                 selectedOption = 3;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.cEasy1_OptionD:
+            case R.id.cMed4_OptionD:
                 selectedOption =4;
                 break;
             default:
@@ -185,10 +183,10 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
             startTimer();
         }
         else{
-            Intent intent = new Intent(cEasyQ4.this, cScoreActivity.class);
+            Intent intent = new Intent(cMedQ4.this, cScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(cScore) + "/" + String.valueOf(questionList.size()));
             startActivity(intent);
-            cEasyQ4.this.finish();
+            cMedQ4.this.finish();
         }
     }
 

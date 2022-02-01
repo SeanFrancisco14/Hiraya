@@ -54,7 +54,7 @@ public class hEasyQ2 extends AppCompatActivity implements View.OnClickListener {
         questionList = new ArrayList<>();
 
         questionList.add(new hEasyQ1_List("Hello", "A", "B", "C", "D", 2));
-        questionList.add(new hEasyQ1_List("Question 2", "B", "B", "D", "C", 2));
+        questionList.add(new hEasyQ1_List("Question 2", "B", "B", "D", "C", 1));
         questionList.add(new hEasyQ1_List("Question 3", "C", "D", "A", "A", 2));
         questionList.add(new hEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
         questionList.add(new hEasyQ1_List("Question 5", "A", "D", "B", "C", 2));

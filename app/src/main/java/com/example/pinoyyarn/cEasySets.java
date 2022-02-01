@@ -17,7 +17,7 @@ public class cEasySets extends AppCompatActivity implements View.OnClickListener
         Button set1 = findViewById(R.id.cEasySet1);
         Button set2 = findViewById(R.id.cEasySet2);
         Button set3 = findViewById(R.id.cEasySet3);
-        Button set4 = findViewById(R.id.cEasySet4) ;
+        Button set4 = findViewById(R.id.cEasySet4);
 
         set1.setOnClickListener(this);
         set2.setOnClickListener(this);
