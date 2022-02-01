@@ -10,6 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".hEasyQ4"
+            android:exported="false" />
+        <activity
+            android:name=".hEasyQ3"
+            android:exported="false" />
+        <activity
+            android:name=".hEasyQ2"
+            android:exported="false" />
+        <activity
+            android:name=".hScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hEasyQ1"
+            android:exported="false" />
+        <activity
+            android:name=".hDiffSets"
+            android:exported="false" />
+        <activity
+            android:name=".hMedSets"
+            android:exported="false" />
+        <activity
+            android:name=".hEasySets"
+            android:exported="false" />
+        <activity
             android:name=".CultureEasyQs"
             android:exported="false" />
         <activity
