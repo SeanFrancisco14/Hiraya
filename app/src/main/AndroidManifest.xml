@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".cHardSets"
+            android:exported="false" />
+        <activity
+            android:name=".cHardQ4"
+            android:exported="false" />
+        <activity
+            android:name=".cHardQ3"
+            android:exported="false" />
+        <activity
+            android:name=".cHardQ2"
+            android:exported="false" />
+        <activity
+            android:name=".cHardQ1_List"
+            android:exported="false" />
+        <activity
+            android:name=".cHardQ1"
+            android:exported="false" />
+        <activity
             android:name=".cMedQ4"
             android:exported="false" />
         <activity
@@ -23,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".cMedQ1"
-            android:exported="false" />
-        <activity
-            android:name=".cDiffSets"
             android:exported="false" />
         <activity
             android:name=".CultureStages"

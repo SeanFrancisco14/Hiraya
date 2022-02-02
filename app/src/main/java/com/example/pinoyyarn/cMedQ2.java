@@ -53,7 +53,7 @@ public class cMedQ2 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("tite", "A", "B", "C", "D", 4));
+        questionList.add(new cEasyQ1_List("Tanong mo sa pagong", "A", "B", "C", "D", 4));
         questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 4));
         questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
         questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
