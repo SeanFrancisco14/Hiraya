@@ -27,6 +27,6 @@ public class CultureStages extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         if (v.getId() == R.id.btn_culture_easy) startActivity(new Intent(this, cEasySets.class));
         if (v.getId() == R.id.btn_culture_medium) startActivity(new Intent(this, cMedSets.class));
-        if (v.getId() == R.id.btn_culture_difficult) startActivity(new Intent(this, cDiffSets.class));
+        if (v.getId() == R.id.btn_culture_difficult) startActivity(new Intent(this, cHardSets.class));
     }
 }
