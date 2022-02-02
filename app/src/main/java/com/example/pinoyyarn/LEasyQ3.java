@@ -17,11 +17,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class hEasyQ2 extends AppCompatActivity implements View.OnClickListener {
+public class LEasyQ3 extends AppCompatActivity implements View.OnClickListener {
 
     private TextView question, QCount, timer;
     private Button option1, option2, option3, option4;
-    private List<hEasyQ1_List> questionList;
+    private List<LEasyQ1_List> questionList;
     private int qNum;
     private CountDownTimer countDown;
     private int hScore;
@@ -29,41 +29,40 @@ public class hEasyQ2 extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_heasy_q1);
+        setContentView(R.layout.activity_leasy_q3);
 
-        question = findViewById(R.id.hEasyCurrentQ);
-        QCount = findViewById(R.id.hEasy_qCount);
-        timer = findViewById(R.id.hEasyTimer);
+        question = findViewById(R.id.LEasyCurrentQ);
+        QCount = findViewById(R.id.LEasy_qCount);
+        timer = findViewById(R.id.LEasyTimer);
 
-        option1 = findViewById(R.id.hEasy1_OptionA);
-        option2 = findViewById(R.id.hEasy1_OptionB);
-        option3 = findViewById(R.id.hEasy1_OptionC);
-        option4 = findViewById(R.id.hEasy1_OptionD);
+        option1 = findViewById(R.id.LEasy3_OptionA);
+        option2 = findViewById(R.id.LEasy3_OptionB);
+        option3 = findViewById(R.id.LEasy3_OptionC);
+        option4 = findViewById(R.id.LEasy3_OptionD);
 
         option1.setOnClickListener(this);
         option2.setOnClickListener(this);
         option3.setOnClickListener(this);
         option4.setOnClickListener(this);
 
-        getHistEasyQuestions();
+        getLanEasyQuestions();
 
         hScore = 0;
     }
 
-    private void getHistEasyQuestions() {
+    private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("He exercises all executive, legislative and judicial powers in the small communities during the pre-colonial era.", "A. Timawa", "B. Babaylan", "C. Sagigilid", "D. Datu", 4));
-        questionList.add(new hEasyQ1_List("The newspaper established by Marcelo H. del Pilar which served as a propaganda material for the reformists.", "A. Diariong Tagalog", "B. La Solidaridad", "C. La Liga Filipina", "D. Islas Filipina", 2));
-        questionList.add(new hEasyQ1_List("Who founded Diariong Tagalog?", "A. Juan Luna", "Pedro Laktaw", "C. Marcelo del Pillar", "D. Gregorio Sanciano", 3));
-        questionList.add(new hEasyQ1_List("Taga-Ilog was the pen name which was associated with?", "A. Juan Luna", "B. Mariano Ponce", "C. Jose Ma. Panganiban", "D. Antonio Luna", 4));
-        questionList.add(new hEasyQ1_List("Considered as the first Philippine hero.", "A. Lapu-Lapu", "Jose Rizal", "Ferdinand Magellan", "Emilio Aguinaldo", 1));
-        questionList.add(new hEasyQ1_List("When was Tagalog established as the national language of the Philippines?", "A. July 4, 1776", "B. November 12, 1937", "C. September 15, 1804", "D. February 2, 1807", 2));
-        questionList.add(new hEasyQ1_List("Which one of these languages is not indigenous to the Philippines?", "A. Davao", "B. Tagalog", "C. Waray-waray", "D. Kapampangan", 1));
-        questionList.add(new hEasyQ1_List("Who did Manny Pacquiao fight on November 14, 2009?", "A. Floyd Mayweather Jr.", "B.  Ricky Hatton", "Miguel Cotto", "D. Erik Morales", 3));
-        questionList.add(new hEasyQ1_List("Who killed Magellan?", "Tilapia", "Bangus", "Yellow fin", "Lapu-lapu", 4));
-        questionList.add(new hEasyQ1_List("Siya ang ina ng Katipunan.", "A. Gabriela Silang", "B. Melchora Aquino", "C. Tandang Sora", "D. Agueda Esteban", 2));
-
+        questionList.add(new LEasyQ1_List("itlog na puti", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
+        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
+        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
+        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
+        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
+        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
+        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
+        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
+        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
+        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
 
         setQuestion();
     }
@@ -111,25 +110,25 @@ public class hEasyQ2 extends AppCompatActivity implements View.OnClickListener {
         int selectedOption = 0;
 
         switch(v.getId()){
-            case R.id.hEasy1_OptionA:
+            case R.id.LEasy3_OptionA:
                 selectedOption = 1;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.hEasy1_OptionB:
+            case R.id.LEasy3_OptionB:
                 selectedOption = 2;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.hEasy1_OptionC:
+            case R.id.LEasy3_OptionC:
                 selectedOption = 3;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.hEasy1_OptionD:
+            case R.id.LEasy3_OptionD:
                 selectedOption =4;
                 break;
             default:
@@ -188,10 +187,10 @@ public class hEasyQ2 extends AppCompatActivity implements View.OnClickListener {
             startTimer();
         }
         else{
-            Intent intent = new Intent(hEasyQ2.this, hScoreActivity.class);
+            Intent intent = new Intent(LEasyQ3.this, hScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(hScore) + "/" + String.valueOf(questionList.size()));
             startActivity(intent);
-            hEasyQ2.this.finish();
+            LEasyQ3.this.finish();
         }
     }
 

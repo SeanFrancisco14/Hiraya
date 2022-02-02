@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".LHardSets"
+            android:exported="false" />
+        <activity
+            android:name=".LMedSets"
+            android:exported="false" />
+        <activity
+            android:name=".hMedSets"
+            android:exported="false" />
+        <activity
+            android:name=".LEasySets"
+            android:exported="false" />
+        <activity
+            android:name=".LEasyQ1_List"
+            android:exported="false" />
+        <activity
+            android:name=".LEasyQ4"
+            android:exported="false" />
+        <activity
+            android:name=".LEasyQ3"
+            android:exported="false" />
+        <activity
+            android:name=".LEasyQ2"
+            android:exported="false" />
+        <activity
+            android:name=".LEasyQ1"
+            android:exported="false" />
+        <activity
+            android:name=".hMedQ1_List"
+            android:exported="false" />
+        <activity
             android:name=".cHardSets"
             android:exported="false" />
         <activity
@@ -86,9 +116,6 @@
             android:exported="false" />
         <activity
             android:name=".hDiffSets"
-            android:exported="false" />
-        <activity
-            android:name=".hMedSets"
             android:exported="false" />
         <activity
             android:name=".hEasySets"
