@@ -13,6 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".LHardQ4"
+            android:exported="false" />
+        <activity
+            android:name=".LHardQ3"
+            android:exported="false" />
+        <activity
+            android:name=".LHardQ2"
+            android:exported="false" />
+        <activity
+            android:name=".LHardQ1"
+            android:exported="false" />
+        <activity
             android:name=".LMedQ4"
             android:exported="false" />
         <activity

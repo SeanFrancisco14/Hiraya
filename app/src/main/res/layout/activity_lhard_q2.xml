@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/easy_questions_cult"
+    android:background="@drawable/hlaneasy"
     android:foregroundTint="#FFFFFF"
-    tools:context=".LHardSets">
+    tools:context=".LHardQ2">
 
     <TextView
-        android:id="@+id/LsetSelect"
+        android:id="@+id/LHardCurrentQ"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -22,7 +22,7 @@
         android:layout_marginBottom="468dp"
         android:background="#4f7649"
         android:gravity="center"
-        android:text="Select the Question Set:"
+        android:text="Question"
         android:textColor="@color/white"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="-3dp"
@@ -48,7 +48,7 @@
         tools:layout_editor_absoluteY="23dp" />
 
     <Button
-        android:id="@+id/LHardSet1"
+        android:id="@+id/LHard2_OptionA"
         android:layout_width="304dp"
         android:layout_height="63dp"
         android:layout_alignParentStart="true"
@@ -59,12 +59,12 @@
         android:layout_marginBottom="350dp"
         android:background="@drawable/custom_round_button"
         android:backgroundTint="#ffffff"
-        android:text="Set 1"
+        android:text="option 1"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/LHardSet2"
+        android:id="@+id/LHard2_OptionB"
         android:layout_width="304dp"
         android:layout_height="63dp"
         android:layout_alignParentStart="true"
@@ -75,12 +75,12 @@
         android:layout_marginBottom="273dp"
         android:background="@drawable/custom_round_button"
         android:backgroundTint="#ffffff"
-        android:text="Set 2"
+        android:text="option 2"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/LHardSet3"
+        android:id="@+id/LHard2_OptionC"
         android:layout_width="304dp"
         android:layout_height="63dp"
         android:layout_alignParentStart="true"
@@ -91,12 +91,12 @@
         android:layout_marginBottom="190dp"
         android:background="@drawable/custom_round_button"
         android:backgroundTint="#ffffff"
-        android:text="Set 3"
+        android:text="option 3"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/LHardSet4"
+        android:id="@+id/LHard2_OptionD"
         android:layout_width="304dp"
         android:layout_height="63dp"
         android:layout_alignParentStart="true"
@@ -107,8 +107,23 @@
         android:layout_marginBottom="108dp"
         android:background="@drawable/custom_round_button"
         android:backgroundTint="#ffffff"
-        android:text="Set 4"
+        android:text="option 4"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/LHardTimer"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/custom_round_button"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="10" />
 </RelativeLayout>
