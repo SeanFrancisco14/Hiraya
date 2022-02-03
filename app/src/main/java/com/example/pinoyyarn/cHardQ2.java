@@ -53,7 +53,7 @@ public class cHardQ2 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("pogi ako", "A", "B", "C", "D", 1));
+        questionList.add(new cEasyQ1_List("culture hard 2", "A", "B", "C", "D", 1));
         questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 1));
         questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
         questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));

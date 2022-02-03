@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/easy_questions_cult"
+    android:background="@drawable/bg1"
     android:foregroundTint="#FFFFFF"
     tools:context=".cEasySets">
 
@@ -41,7 +41,7 @@
         android:layout_marginBottom="0dp"
         android:background="#4f7649"
         android:gravity="center"
-        android:text="· HISTORY ·"
+        android:text="· CULTURE AND TRADITION ·"
         android:textColor="@color/white"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="2dp"

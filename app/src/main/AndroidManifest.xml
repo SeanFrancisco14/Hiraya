@@ -121,9 +121,6 @@
             android:name=".cMedQ1_List"
             android:exported="false" />
         <activity
-            android:name=".cMedQ1"
-            android:exported="false" />
-        <activity
             android:name=".CultureStages"
             android:exported="false" />
         <activity

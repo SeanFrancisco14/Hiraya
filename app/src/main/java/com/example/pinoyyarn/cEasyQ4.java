@@ -29,16 +29,16 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ceasy_q1);
+        setContentView(R.layout.activity_ceasy_q4);
 
         question = findViewById(R.id.cEasyCurrentQ);
         QCount = findViewById(R.id.cEasy_qCount);
         timer = findViewById(R.id.cEasyTimer);
 
-        option1 = findViewById(R.id.cEasy1_OptionA);
-        option2 = findViewById(R.id.cEasy1_OptionB);
-        option3 = findViewById(R.id.cEasy1_OptionC);
-        option4 = findViewById(R.id.cEasy1_OptionD);
+        option1 = findViewById(R.id.cEasy4_OptionA);
+        option2 = findViewById(R.id.cEasy4_OptionB);
+        option3 = findViewById(R.id.cEasy4_OptionC);
+        option4 = findViewById(R.id.cEasy4_OptionD);
 
         option1.setOnClickListener(this);
         option2.setOnClickListener(this);
@@ -53,7 +53,7 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("Hello", "A", "B", "C", "D", 4));
+        questionList.add(new cEasyQ1_List("culture easy set 4", "A", "B", "C", "D", 4));
         questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 4));
         questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
         questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
@@ -108,25 +108,25 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
         int selectedOption = 0;
 
         switch(v.getId()){
-            case R.id.cEasy1_OptionA:
+            case R.id.cEasy4_OptionA:
                 selectedOption = 1;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.cEasy1_OptionB:
+            case R.id.cEasy4_OptionB:
                 selectedOption = 2;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.cEasy1_OptionC:
+            case R.id.cEasy4_OptionC:
                 selectedOption = 3;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.cEasy1_OptionD:
+            case R.id.cEasy4_OptionD:
                 selectedOption =4;
                 break;
             default:
