@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pinoyyarn">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
+        <activity
+            android:name=".LMedQ4"
+            android:exported="false" />
+        <activity
+            android:name=".LMedQ3"
+            android:exported="false" />
+        <activity
+            android:name=".LMedQ2"
+            android:exported="false" />
+        <activity
+            android:name=".LMedQ1"
+            android:exported="false" />
         <activity
             android:name=".LHardSets"
             android:exported="false" />

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/easy_questions_cult"
     android:foregroundTint="#FFFFFF"
-    tools:context=".lEasySets">
+    tools:context=".LEasySets">
 
     <TextView
         android:id="@+id/LsetSelect"
