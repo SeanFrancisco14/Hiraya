@@ -27,9 +27,9 @@ public class hDiffSets extends AppCompatActivity implements View.OnClickListener
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.hEasySet1) startActivity(new Intent(this, MenuActivity.class));
-        if (v.getId() == R.id.hEasySet2) startActivity(new Intent(this, MenuActivity.class));
-        if (v.getId() == R.id.hEasySet3) startActivity(new Intent(this, MenuActivity.class));
-        if (v.getId() == R.id.hEasySet4) startActivity(new Intent(this, MenuActivity.class));
+        if (v.getId() == R.id.hDiffSet1) startActivity(new Intent(this, hHardQ1.class));
+        if (v.getId() == R.id.hDiffSet2) startActivity(new Intent(this, hHardQ2.class));
+        if (v.getId() == R.id.hDiffSet3) startActivity(new Intent(this, hHardQ3.class));
+        if (v.getId() == R.id.hDiffSet4) startActivity(new Intent(this, hHardQ4.class));
     }
 }
