@@ -183,6 +183,7 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
         } else {
             Intent intent = new Intent(cEasyQ4.this, cScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(cScore) + "/" + String.valueOf(questionList.size()));
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
             cEasyQ4.this.finish();
         }

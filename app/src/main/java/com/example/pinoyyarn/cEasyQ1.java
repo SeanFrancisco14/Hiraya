@@ -183,10 +183,12 @@ public class cEasyQ1 extends AppCompatActivity implements View.OnClickListener {
             startTimer();
         }
         else{
+            //Go to Score Activity
             Intent intent = new Intent(cEasyQ1.this, cScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(cScore) + "/" + String.valueOf(questionList.size()));
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
-            cEasyQ1.this.finish();
+            //cEasyQ1.this.finish();
         }
     }
 

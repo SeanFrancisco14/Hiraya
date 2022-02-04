@@ -182,6 +182,7 @@ public class cHardQ3 extends AppCompatActivity implements View.OnClickListener {
         } else {
             Intent intent = new Intent(cHardQ3.this, cScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(cScore) + "/" + String.valueOf(questionList.size()));
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
             cHardQ3.this.finish();
         }
