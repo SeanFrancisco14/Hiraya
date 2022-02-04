@@ -61,11 +61,10 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
         questionList.add(new cEasyQ1_List("Question 6", "A", "D", "B", "C", 3));
 
 
-
         setQuestion();
     }
 
-    private void setQuestion(){
+    private void setQuestion() {
         timer.setText(String.valueOf(10));
 
         question.setText(questionList.get(0).getQuestion());
@@ -80,17 +79,16 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
         startTimer();
     }
 
-    private void startTimer(){
-        countDown = new CountDownTimer(12000,1000) {
+    private void startTimer() {
+        countDown = new CountDownTimer(12000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
-                if(millisUntilFinished < 10000){
-                    timer.setText(String.valueOf(millisUntilFinished/ 1000));}
-                if(millisUntilFinished <= 4000){
-                    timer.setTextColor(ColorStateList.valueOf(Color.RED));
+                if (millisUntilFinished < 10000) {
+                    timer.setText(String.valueOf(millisUntilFinished / 1000));
                 }
-                else
-                {
+                if (millisUntilFinished <= 4000) {
+                    timer.setTextColor(ColorStateList.valueOf(Color.RED));
+                } else {
                     timer.setTextColor(ColorStateList.valueOf(Color.BLACK));
                 }
             }
@@ -107,27 +105,27 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         int selectedOption = 0;
 
-        switch(v.getId()){
+        switch (v.getId()) {
             case R.id.cEasy4_OptionA:
                 selectedOption = 1;
                 break;
             default:
         }
-        switch(v.getId()){
+        switch (v.getId()) {
             case R.id.cEasy4_OptionB:
                 selectedOption = 2;
                 break;
             default:
         }
-        switch(v.getId()){
+        switch (v.getId()) {
             case R.id.cEasy4_OptionC:
                 selectedOption = 3;
                 break;
             default:
         }
-        switch(v.getId()){
+        switch (v.getId()) {
             case R.id.cEasy4_OptionD:
-                selectedOption =4;
+                selectedOption = 4;
                 break;
             default:
         }
@@ -135,15 +133,14 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
         checkAnswer(selectedOption, v);
     }
 
-    private void checkAnswer(int selectedOption, View view){
-        if(selectedOption == questionList.get(qNum).getCorrectAns()){
-            ((Button)view).setBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
+    private void checkAnswer(int selectedOption, View view) {
+        if (selectedOption == questionList.get(qNum).getCorrectAns()) {
+            ((Button) view).setBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
             cScore++;
-        }
-        else{
-            ((Button)view).setBackgroundTintList(ColorStateList.valueOf(Color.RED));
+        } else {
+            ((Button) view).setBackgroundTintList(ColorStateList.valueOf(Color.RED));
 
-            switch (questionList.get(qNum).getCorrectAns()){
+            switch (questionList.get(qNum).getCorrectAns()) {
                 case 1:
                     option1.setBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
                     break;
@@ -169,8 +166,8 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
         }, 1500);
     }
 
-    private void changeQuestion(){
-        if(qNum < questionList.size() - 1){
+    private void changeQuestion() {
+        if (qNum < questionList.size() - 1) {
             qNum++;
 
             playAnim(question, 0, 0);
@@ -183,8 +180,7 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
 
             timer.setText(String.valueOf(10));
             startTimer();
-        }
-        else{
+        } else {
             Intent intent = new Intent(cEasyQ4.this, cScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(cScore) + "/" + String.valueOf(questionList.size()));
             startActivity(intent);
@@ -192,7 +188,7 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
         }
     }
 
-    private void playAnim(View view, final int value, int viewNum){
+    private void playAnim(View view, final int value, int viewNum) {
         view.animate().alpha(value).scaleX(value).scaleY(value).setDuration(250)
                 .setStartDelay(100).setInterpolator(new DecelerateInterpolator()).
                 setListener(new Animator.AnimatorListener() {
@@ -203,27 +199,27 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
 
                     @Override
                     public void onAnimationEnd(Animator animation) {
-                        if(value == 0){
-                            switch (viewNum){
+                        if (value == 0) {
+                            switch (viewNum) {
                                 case 0:
-                                    ((TextView)view).setText(questionList.get(qNum).getQuestion());
+                                    ((TextView) view).setText(questionList.get(qNum).getQuestion());
                                     break;
                                 case 1:
-                                    ((Button)view).setText(questionList.get(qNum).getOptionA());
+                                    ((Button) view).setText(questionList.get(qNum).getOptionA());
                                     break;
                                 case 2:
-                                    ((Button)view).setText(questionList.get(qNum).getOptionB());
+                                    ((Button) view).setText(questionList.get(qNum).getOptionB());
                                     break;
                                 case 3:
-                                    ((Button)view).setText(questionList.get(qNum).getOptionC());
+                                    ((Button) view).setText(questionList.get(qNum).getOptionC());
                                     break;
                                 case 4:
-                                    ((Button)view).setText(questionList.get(qNum).getOptionD());
+                                    ((Button) view).setText(questionList.get(qNum).getOptionD());
                                     break;
                             }
 
-                            if (viewNum != 0){
-                                ((Button)view).setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
+                            if (viewNum != 0) {
+                                ((Button) view).setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
                             }
 
                             playAnim(view, 1, viewNum);
@@ -242,4 +238,10 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
                 });
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+        countDown.cancel();
+    }
 }
