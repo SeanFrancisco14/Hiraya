@@ -189,8 +189,9 @@ public class LHardQ2 extends AppCompatActivity implements View.OnClickListener {
         else{
             Intent intent = new Intent(LHardQ2.this, hScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(hScore) + "/" + String.valueOf(questionList.size()));
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
-            LHardQ2.this.finish();
+            //LHardQ2.this.finish();
         }
     }
 

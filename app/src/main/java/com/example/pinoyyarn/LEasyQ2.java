@@ -189,8 +189,9 @@ public class LEasyQ2 extends AppCompatActivity implements View.OnClickListener {
         else{
             Intent intent = new Intent(LEasyQ2.this, hScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(hScore) + "/" + String.valueOf(questionList.size()));
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
-            LEasyQ2.this.finish();
+            //LEasyQ2.this.finish();
         }
     }
 

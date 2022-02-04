@@ -189,8 +189,9 @@ public class LMedQ2 extends AppCompatActivity implements View.OnClickListener {
         else{
             Intent intent = new Intent(LMedQ2.this, hScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(hScore) + "/" + String.valueOf(questionList.size()));
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
-            LMedQ2.this.finish();
+            //LMedQ2.this.finish();
         }
     }
 
