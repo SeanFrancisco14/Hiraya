@@ -53,11 +53,16 @@ public class hEasyQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("History easy 3", "A", "B", "C", "D", 2));
-        questionList.add(new hEasyQ1_List("Question 2", "B", "B", "D", "C", 2));
-        questionList.add(new hEasyQ1_List("Question 3", "C", "D", "A", "A", 2));
-        questionList.add(new hEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new hEasyQ1_List("Question 5", "A", "D", "B", "C", 2));
+        questionList.add(new hEasyQ1_List("Sino ang utak ng Katipunan?", "A. Jose Rizal", "B. Andres Bonifacio", "C. Emilio Jacinto", "D. Marcelo del Pilar", 3));
+        questionList.add(new hEasyQ1_List("Sino ang nag pinta ng 'Spolarium' ", "A. Juan Luna", "B. Ang Kiukok", "C. Fernando Amorsolo", "D. Delfina Herbosa de Natividad", 1));
+        questionList.add(new hEasyQ1_List("Sino ang sumulat ng Lupang  Hinirang?", "A. Apolinario Mabini", "B. Emilio Aguinaldo", "C. Juan Felipe", "D. Marcela Mariño Agoncillo ", 3));
+        questionList.add(new hEasyQ1_List("Kailan nangyari ang Peoples’ Power Revolution?", "A. February 9-11, 1986 ", "B. February 22-25, 1986 ", "C. February 26-28, 1986", "D. February 6-9, 1986", 2));
+        questionList.add(new hEasyQ1_List("It is the date which marked the Philippine Independence Day when Emilio Aguinaldo waved the Philippine Flag for the first time in Kawit, Cavite.", "A. June 12, 1896 ", "B. June 12, 1899 ", "C. June 12, 1895", "D. June 12, 1898", 4));
+        questionList.add(new hEasyQ1_List("The Fall of Bataan which we celebrate every 9th of April is also regarded as _________.", "A. Araw ng Kabayanihan", "B. Araw ng Kagitingan", "C. Araw ng Katapangan", "D. Araw ng mga Bayani", 2));
+        questionList.add(new hEasyQ1_List("Where was the Rizal's novel 'Noli Mi Tangere' published?", "A. Berlin", "B. Barcelona", "C. Philippines", "D. Paris", 1));
+        questionList.add(new hEasyQ1_List("One of Dr. Jose Rizal's objective as a propagandist is the assimilation of the Philippines to Spain.", "A. Misleading", "B. True", "C. Fake News", "D. False", 2));
+        questionList.add(new hEasyQ1_List("The battle fought on 1 May 1898 between American and Spanish forces during the Spanish-American War. It is also known as the Battle of Cavite.", "A. Battle of Corregidor", "B. Battle of Bacoor", "C. Battle of Manila Bay", "D. Battle of Imus", 3));
+        questionList.add(new hEasyQ1_List("Katipunan literally means:", "A. Kataastaasang kagalanggalangang Katipunan ng mga anak ng pawis", "B. Kataastaasang kagalanggalangang Katipunan ng mga anak ng Pilipinas", "C. Kataastaasang kagalanggalangang Katipunan ng mga anak ng kapatiran", "D. Kataastaasang kagalanggalangang Katipunan ng mga anak ng bayan", 4));
 
         setQuestion();
     }
