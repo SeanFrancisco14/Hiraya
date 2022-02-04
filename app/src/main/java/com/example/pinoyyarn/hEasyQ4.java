@@ -29,16 +29,16 @@ public class hEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_heasy_q1);
+        setContentView(R.layout.activity_heasy_q4);
 
         question = findViewById(R.id.hEasyCurrentQ);
         QCount = findViewById(R.id.hEasy_qCount);
         timer = findViewById(R.id.hEasyTimer);
 
-        option1 = findViewById(R.id.hEasy1_OptionA);
-        option2 = findViewById(R.id.hEasy1_OptionB);
-        option3 = findViewById(R.id.hEasy1_OptionC);
-        option4 = findViewById(R.id.hEasy1_OptionD);
+        option1 = findViewById(R.id.hEasy4_OptionA);
+        option2 = findViewById(R.id.hEasy4_OptionB);
+        option3 = findViewById(R.id.hEasy4_OptionC);
+        option4 = findViewById(R.id.hEasy4_OptionD);
 
         option1.setOnClickListener(this);
         option2.setOnClickListener(this);
@@ -105,25 +105,25 @@ public class hEasyQ4 extends AppCompatActivity implements View.OnClickListener {
         int selectedOption = 0;
 
         switch(v.getId()){
-            case R.id.hEasy1_OptionA:
+            case R.id.hEasy4_OptionA:
                 selectedOption = 1;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.hEasy1_OptionB:
+            case R.id.hEasy4_OptionB:
                 selectedOption = 2;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.hEasy1_OptionC:
+            case R.id.hEasy4_OptionC:
                 selectedOption = 3;
                 break;
             default:
         }
         switch(v.getId()){
-            case R.id.hEasy1_OptionD:
+            case R.id.hEasy4_OptionD:
                 selectedOption =4;
                 break;
             default:
