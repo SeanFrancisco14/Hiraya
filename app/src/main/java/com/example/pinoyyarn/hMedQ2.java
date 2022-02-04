@@ -243,5 +243,10 @@ public class hMedQ2 extends AppCompatActivity implements View.OnClickListener {
                     }
                 });
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
 
+        countDown.cancel();
+    }
 }

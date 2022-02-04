@@ -243,5 +243,10 @@ public class hHardQ4 extends AppCompatActivity implements View.OnClickListener {
                     }
                 });
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
 
+        countDown.cancel();
+    }
 }

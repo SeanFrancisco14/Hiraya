@@ -238,5 +238,10 @@ public class hEasyQ3 extends AppCompatActivity implements View.OnClickListener {
                     }
                 });
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
 
+        countDown.cancel();
+    }
 }
