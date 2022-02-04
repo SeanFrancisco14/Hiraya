@@ -189,8 +189,9 @@ public class hEasyQ1 extends AppCompatActivity implements View.OnClickListener {
         else{
             Intent intent = new Intent(hEasyQ1.this, hScoreActivity.class);
             intent.putExtra("SCORE", String.valueOf(hScore) + "/" + String.valueOf(questionList.size()));
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
-            hEasyQ1.this.finish();
+            //hEasyQ1.this.finish();
         }
     }
 

@@ -184,7 +184,7 @@ public class cEasyQ3 extends AppCompatActivity implements View.OnClickListener {
             intent.putExtra("SCORE", String.valueOf(cScore) + "/" + String.valueOf(questionList.size()));
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
-            cEasyQ3.this.finish();
+            //cEasyQ3.this.finish();
         }
     }
 
