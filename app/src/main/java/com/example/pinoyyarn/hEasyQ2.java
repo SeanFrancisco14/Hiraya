@@ -53,16 +53,16 @@ public class hEasyQ2 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("He exercises all executive, legislative and judicial powers in the small communities during the pre-colonial era.", "A. Timawa", "B. Babaylan", "C. Sagigilid", "D. Datu", 4));
-        questionList.add(new hEasyQ1_List("The newspaper established by Marcelo H. del Pilar which served as a propaganda material for the reformists.", "A. Diariong Tagalog", "B. La Solidaridad", "C. La Liga Filipina", "D. Islas Filipina", 2));
-        questionList.add(new hEasyQ1_List("Who founded Diariong Tagalog?", "A. Juan Luna", "Pedro Laktaw", "C. Marcelo del Pillar", "D. Gregorio Sanciano", 3));
-        questionList.add(new hEasyQ1_List("Taga-Ilog was the pen name which was associated with?", "A. Juan Luna", "B. Mariano Ponce", "C. Jose Ma. Panganiban", "D. Antonio Luna", 4));
-        questionList.add(new hEasyQ1_List("Considered as the first Philippine hero.", "A. Lapu-Lapu", "Jose Rizal", "Ferdinand Magellan", "Emilio Aguinaldo", 1));
-        questionList.add(new hEasyQ1_List("When was Tagalog established as the national language of the Philippines?", "A. July 4, 1776", "B. November 12, 1937", "C. September 15, 1804", "D. February 2, 1807", 2));
-        questionList.add(new hEasyQ1_List("Which one of these languages is not indigenous to the Philippines?", "A. Davao", "B. Tagalog", "C. Waray-waray", "D. Kapampangan", 1));
-        questionList.add(new hEasyQ1_List("Who did Manny Pacquiao fight on November 14, 2009?", "A. Floyd Mayweather Jr.", "B.  Ricky Hatton", "Miguel Cotto", "D. Erik Morales", 3));
+        questionList.add(new hEasyQ1_List("He exercises all executive, legislative and judicial powers in the small communities during the pre-colonial era.", "Timawa", "Babaylan", "Sagigilid", "Datu", 4));
+        questionList.add(new hEasyQ1_List("The newspaper established by Marcelo H. del Pilar which served as a propaganda material for the reformists.", "Diariong Tagalog", "La Solidaridad", "La Liga Filipina", "Islas Filipina", 2));
+        questionList.add(new hEasyQ1_List("Who founded Diariong Tagalog?", "Juan Luna", "Pedro Laktaw", "Marcelo del Pillar", "Gregorio Sanciano", 3));
+        questionList.add(new hEasyQ1_List("Taga-Ilog was the pen name which was associated with?", "Juan Luna", "Mariano Ponce", "Jose Ma. Panganiban", "Antonio Luna", 4));
+        questionList.add(new hEasyQ1_List("Considered as the first Philippine hero.", "Lapu-Lapu", "Jose Rizal", "Ferdinand Magellan", "Emilio Aguinaldo", 1));
+        questionList.add(new hEasyQ1_List("When was Tagalog established as the national language of the Philippines?", "July 4, 1776", "November 12, 1937", "September 15, 1804", "February 2, 1807", 2));
+        questionList.add(new hEasyQ1_List("Which one of these languages is not indigenous to the Philippines?", "Davao", "Tagalog", "Waray-waray", "Kapampangan", 1));
+        questionList.add(new hEasyQ1_List("Who did Manny Pacquiao fight on November 14, 2009?", "Floyd Mayweather Jr.", "Ricky Hatton", "Miguel Cotto", "Erik Morales", 3));
         questionList.add(new hEasyQ1_List("Who killed Magellan?", "Tilapia", "Bangus", "Yellow fin", "Lapu-lapu", 4));
-        questionList.add(new hEasyQ1_List("Who's the mother of the Katipunan?", "A. Gabriela Silang", "B. Melchora Aquino", "C. Tandang Sora", "D. Agueda Esteban", 2));
+        questionList.add(new hEasyQ1_List("Who's the mother of the Katipunan?", "Gabriela Silang", "Melchora Aquino", "Tandang Sora", "Agueda Esteban", 2));
 
 
         setQuestion();

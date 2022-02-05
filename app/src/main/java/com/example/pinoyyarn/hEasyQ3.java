@@ -53,16 +53,16 @@ public class hEasyQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("Who is the brain of the Katipunan?", "A. Jose Rizal", "B. Andres Bonifacio", "C. Emilio Jacinto", "D. Marcelo del Pilar", 3));
-        questionList.add(new hEasyQ1_List("Who painted the 'Spolarium'? ", "A. Juan Luna", "B. Ang Kiukok", "C. Fernando Amorsolo", "D. Delfina Herbosa de Natividad", 1));
-        questionList.add(new hEasyQ1_List("Who wrote our National Anthem?", "A. Apolinario Mabini", "B. Emilio Aguinaldo", "C. Juan Felipe", "D. Marcela Mariño Agoncillo ", 3));
-        questionList.add(new hEasyQ1_List("When did the People's Power Revolution happened?", "A. February 9-11, 1986 ", "B. February 22-25, 1986 ", "C. February 26-28, 1986", "D. February 6-9, 1986", 2));
-        questionList.add(new hEasyQ1_List("It is the date which marked the Philippine Independence Day when Emilio Aguinaldo waved the Philippine Flag for the first time in Kawit, Cavite.", "A. June 12, 1896 ", "B. June 12, 1899 ", "C. June 12, 1895", "D. June 12, 1898", 4));
-        questionList.add(new hEasyQ1_List("The Fall of Bataan which we celebrate every 9th of April is also regarded as _________.", "A. Araw ng Kabayanihan", "B. Araw ng Kagitingan", "C. Araw ng Katapangan", "D. Araw ng mga Bayani", 2));
+        questionList.add(new hEasyQ1_List("Who is the brain of the Katipunan?", "Jose Rizal", "Andres Bonifacio", "Emilio Jacinto", "Marcelo del Pilar", 3));
+        questionList.add(new hEasyQ1_List("Who painted the 'Spolarium'? ", "Juan Luna", "Ang Kiukok", "Fernando Amorsolo", "Delfina Herbosa de Natividad", 1));
+        questionList.add(new hEasyQ1_List("Who wrote our National Anthem?", "Apolinario Mabini", "Emilio Aguinaldo", "Juan Felipe", "Marcela Mariño Agoncillo ", 3));
+        questionList.add(new hEasyQ1_List("When did the People's Power Revolution happened?", "February 9-11, 1986 ", "February 22-25, 1986 ", "February 26-28, 1986", " February 6-9, 1986", 2));
+        questionList.add(new hEasyQ1_List("It is the date which marked the Philippine Independence Day when Emilio Aguinaldo waved the Philippine Flag for the first time in Kawit, Cavite.", " June 12, 1896 ", "June 12, 1899 ", "June 12, 1895", "June 12, 1898", 4));
+        questionList.add(new hEasyQ1_List("The Fall of Bataan which we celebrate every 9th of April is also regarded as _________.", "Araw ng Kabayanihan", "Araw ng Kagitingan", "Araw ng Katapangan", "Araw ng mga Bayani", 2));
         questionList.add(new hEasyQ1_List("Where was the Rizal's novel 'Noli Mi Tangere' published?", "A. Berlin", "B. Barcelona", "C. Philippines", "D. Paris", 1));
-        questionList.add(new hEasyQ1_List("One of Dr. Jose Rizal's objective as a propagandist is the assimilation of the Philippines to Spain.", "A. Misleading", "B. True", "C. Fake News", "D. False", 2));
-        questionList.add(new hEasyQ1_List("The battle fought on 1 May 1898 between American and Spanish forces during the Spanish-American War. It is also known as the Battle of Cavite.", "A. Battle of Corregidor", "B. Battle of Bacoor", "C. Battle of Manila Bay", "D. Battle of Imus", 3));
-        questionList.add(new hEasyQ1_List("Katipunan literally means:", "A. Kataastaasang kagalanggalangang Katipunan ng mga anak ng pawis", "B. Kataastaasang kagalanggalangang Katipunan ng mga anak ng Pilipinas", "C. Kataastaasang kagalanggalangang Katipunan ng mga anak ng kapatiran", "D. Kataastaasang kagalanggalangang Katipunan ng mga anak ng bayan", 4));
+        questionList.add(new hEasyQ1_List("One of Dr. Jose Rizal's objective as a propagandist is the assimilation of the Philippines to Spain.", "Misleading", " True", "Fake News", "False", 2));
+        questionList.add(new hEasyQ1_List("The battle fought on 1 May 1898 between American and Spanish forces during the Spanish-American War. It is also known as the Battle of Cavite.", "Battle of Corregidor", "Battle of Bacoor", "Battle of Manila Bay", "attle of Imus", 3));
+        questionList.add(new hEasyQ1_List("Katipunan literally means:", "Kataastaasang kagalanggalangang Katipunan ng mga anak ng pawis", "Kataastaasang kagalanggalangang Katipunan ng mga anak ng Pilipinas", "Kataastaasang kagalanggalangang Katipunan ng mga anak ng kapatiran", "Kataastaasang kagalanggalangang Katipunan ng mga anak ng bayan", 4));
 
         setQuestion();
     }
