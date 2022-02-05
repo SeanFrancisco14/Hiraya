@@ -62,7 +62,7 @@ public class hEasyQ2 extends AppCompatActivity implements View.OnClickListener {
         questionList.add(new hEasyQ1_List("Which one of these languages is not indigenous to the Philippines?", "A. Davao", "B. Tagalog", "C. Waray-waray", "D. Kapampangan", 1));
         questionList.add(new hEasyQ1_List("Who did Manny Pacquiao fight on November 14, 2009?", "A. Floyd Mayweather Jr.", "B.  Ricky Hatton", "Miguel Cotto", "D. Erik Morales", 3));
         questionList.add(new hEasyQ1_List("Who killed Magellan?", "Tilapia", "Bangus", "Yellow fin", "Lapu-lapu", 4));
-        questionList.add(new hEasyQ1_List("Siya ang ina ng Katipunan.", "A. Gabriela Silang", "B. Melchora Aquino", "C. Tandang Sora", "D. Agueda Esteban", 2));
+        questionList.add(new hEasyQ1_List("Who's the mother of the Katipunan?", "A. Gabriela Silang", "B. Melchora Aquino", "C. Tandang Sora", "D. Agueda Esteban", 2));
 
 
         setQuestion();

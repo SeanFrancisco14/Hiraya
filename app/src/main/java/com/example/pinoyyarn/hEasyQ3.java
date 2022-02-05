@@ -53,10 +53,10 @@ public class hEasyQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("Sino ang utak ng Katipunan?", "A. Jose Rizal", "B. Andres Bonifacio", "C. Emilio Jacinto", "D. Marcelo del Pilar", 3));
-        questionList.add(new hEasyQ1_List("Sino ang nag pinta ng 'Spolarium' ", "A. Juan Luna", "B. Ang Kiukok", "C. Fernando Amorsolo", "D. Delfina Herbosa de Natividad", 1));
-        questionList.add(new hEasyQ1_List("Sino ang sumulat ng Lupang  Hinirang?", "A. Apolinario Mabini", "B. Emilio Aguinaldo", "C. Juan Felipe", "D. Marcela Mariño Agoncillo ", 3));
-        questionList.add(new hEasyQ1_List("Kailan nangyari ang Peoples’ Power Revolution?", "A. February 9-11, 1986 ", "B. February 22-25, 1986 ", "C. February 26-28, 1986", "D. February 6-9, 1986", 2));
+        questionList.add(new hEasyQ1_List("Who is the brain of the Katipunan?", "A. Jose Rizal", "B. Andres Bonifacio", "C. Emilio Jacinto", "D. Marcelo del Pilar", 3));
+        questionList.add(new hEasyQ1_List("Who painted the 'Spolarium'? ", "A. Juan Luna", "B. Ang Kiukok", "C. Fernando Amorsolo", "D. Delfina Herbosa de Natividad", 1));
+        questionList.add(new hEasyQ1_List("Who wrote our National Anthem?", "A. Apolinario Mabini", "B. Emilio Aguinaldo", "C. Juan Felipe", "D. Marcela Mariño Agoncillo ", 3));
+        questionList.add(new hEasyQ1_List("When did the People's Power Revolution happened?", "A. February 9-11, 1986 ", "B. February 22-25, 1986 ", "C. February 26-28, 1986", "D. February 6-9, 1986", 2));
         questionList.add(new hEasyQ1_List("It is the date which marked the Philippine Independence Day when Emilio Aguinaldo waved the Philippine Flag for the first time in Kawit, Cavite.", "A. June 12, 1896 ", "B. June 12, 1899 ", "C. June 12, 1895", "D. June 12, 1898", 4));
         questionList.add(new hEasyQ1_List("The Fall of Bataan which we celebrate every 9th of April is also regarded as _________.", "A. Araw ng Kabayanihan", "B. Araw ng Kagitingan", "C. Araw ng Katapangan", "D. Araw ng mga Bayani", 2));
         questionList.add(new hEasyQ1_List("Where was the Rizal's novel 'Noli Mi Tangere' published?", "A. Berlin", "B. Barcelona", "C. Philippines", "D. Paris", 1));
