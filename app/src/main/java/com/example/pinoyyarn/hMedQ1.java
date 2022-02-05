@@ -53,16 +53,16 @@ public class hMedQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("hist1", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new hEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new hEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new hEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new hEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new hEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new hEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new hEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new hEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new hEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
+        questionList.add(new hEasyQ1_List("The president who passed RA 6657 or the Comprehensive Agrarian Reform Law.", "Corazon C. Aquino", "Fidel V. Ramos", "Elpidio R. Quirino", "Ferdinand Marcos", 1));
+        questionList.add(new hEasyQ1_List("When were the 24-hour nationwide emergency hotlines launched?", "July 30, 2016", "August 1, 2016", "July 29, 2016", "August 5, 2016", 2));
+        questionList.add(new hEasyQ1_List("The Bataan Death March took place in what year?", "1890", "1950", "1950", "1942", 4));
+        questionList.add(new hEasyQ1_List("Which of these is not true of the La Solidaridad?", "It was the official organ of the reform movement.", "It was a vehicle for the expression of the political views of the reformers.", "It featured articles about the good deeds of the friars.", "It was a forum for discussion of the issues concerning the Philippines.", 3));
+        questionList.add(new hEasyQ1_List("When did Corregidor fall into the hands of the Japanese?", "March 5, 1942", "April 9, 1942", "January 2, 1942", "May 6, 1942", 4));
+        questionList.add(new hEasyQ1_List("The first real battle fought between Filipinos and the Spaniards is known as:", "San Juan Del Monte", "Pugad Lawin", "Majayjay", "Pinaglabanan", 1));
+        questionList.add(new hEasyQ1_List("In what year did the Portuguese explorer Ferdinand Magellan arrive in the shores of Philippines?", "1420", "1621", "1521", "1528", 3));
+        questionList.add(new hEasyQ1_List("He was one of the heroes of the Battle of Hill Eerie during the Korean War as a young lieutenant and later served as a President of the Philippines", "Fidel V. Ramos ", "Benigno Aquino III", "Rodrigo Duterte", "Ferdinand Marcos", 2));
+        questionList.add(new hEasyQ1_List("He was a former President of the USA who appointed General MacArthur to rule and govern the Philippines.", "Dwight D. Eisenhower", "Franklin D. Roosevelt", "William Howard Taft", "George Washington", 3));
+        questionList.add(new hEasyQ1_List("The date when the Philippines won over the arbitration case regarding the West Philippine Sea on the Permanent Court of Arbitration against China.", "July 13, 2016", "July 11, 2016", "July 14, 2016", "July 12, 2016", 4));
 
         setQuestion();
     }
