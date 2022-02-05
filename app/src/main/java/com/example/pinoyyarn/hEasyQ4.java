@@ -53,11 +53,16 @@ public class hEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("hist easy 4", "A", "B", "C", "D", 2));
-        questionList.add(new hEasyQ1_List("Question 2", "B", "B", "D", "C", 2));
-        questionList.add(new hEasyQ1_List("Question 3", "C", "D", "A", "A", 2));
-        questionList.add(new hEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new hEasyQ1_List("Question 5", "A", "D", "B", "C", 2));
+        questionList.add(new hEasyQ1_List("It is one of the pseudonyms of Dr. Jose Rizal.", "Plaridel", "Magdalo", "Hermano Pule", "Laong-Laan", 4));
+        questionList.add(new hEasyQ1_List("It is considered as the oldest city in the Philippines.", "Cebu", "Davao", "Manila", "Dumaguete", 2));
+        questionList.add(new hEasyQ1_List("Which of the following former presidents died in a plane crash?", "Emilio Aguinaldo", "Benigno S. Aquino Jr.", "Ramon Magsaysay", "Ferdinand Marcos", 3));
+        questionList.add(new hEasyQ1_List("Where did the name of the Philippines came from?", "King Philip I of Spain", "King Philip II of Spain", "King Philip III of Spain", "King Philip IV of Spain", 2));
+        questionList.add(new hEasyQ1_List("Uri ng alipin na walang sariling pagmamay-ari.", "Aliping Sanguiguilid", "Aliping Namamahay", "Aliping Nakikitulog", "Aliping Mababa", 1));
+        questionList.add(new hEasyQ1_List("Who was the third and last military governor of the Philippines?", "General Elwell Otis", "General Arthur MacArthur", "General Douglas MacArthur", "General Wesley Merit", 3));
+        questionList.add(new hEasyQ1_List("Which country had the Philippines as its colony for more than 300 years?", "France ", "Italy ", "China", "Spain", 4));
+        questionList.add(new hEasyQ1_List("Who was known as the 'Hero of Tirad Pass?''", "Gregorio Del Pilar", "Andres Bonifacio", "Dr. Jose Rizal", "Apolinario Mabini", 1));
+        questionList.add(new hEasyQ1_List("Uri ng alipin na hindi pwede ipagbili", "Aliping Sanguiguilid", "Aliping Nakikitulog", "Aliping Namamahay", "Aliping Mababa", 3));
+        questionList.add(new hEasyQ1_List("Where was the Death March ended?", "Pampanga", "Tarlac", "Bulacan", "La Union", 2));
 
         setQuestion();
     }
