@@ -63,7 +63,11 @@ public class hMedQ1 extends AppCompatActivity implements View.OnClickListener {
         questionList.add(new hEasyQ1_List("He was one of the heroes of the Battle of Hill Eerie during the Korean War as a young lieutenant and later served as a President of the Philippines", "Fidel V. Ramos ", "Benigno Aquino III", "Rodrigo Duterte", "Ferdinand Marcos", 2));
         questionList.add(new hEasyQ1_List("He was a former President of the USA who appointed General MacArthur to rule and govern the Philippines.", "Dwight D. Eisenhower", "Franklin D. Roosevelt", "William Howard Taft", "George Washington", 3));
         questionList.add(new hEasyQ1_List("The date when the Philippines won over the arbitration case regarding the West Philippine Sea on the Permanent Court of Arbitration against China.", "July 13, 2016", "July 11, 2016", "July 14, 2016", "July 12, 2016", 4));
-
+        questionList.add(new hEasyQ1_List("Who are the Malay?", "Americans who founded settlements in the Philippines", "Austronesian people inhabiting the Malay Peninsula’10", "Anglo-Saxon women who traded with natives", "Spaniards who founded settlements in the Philippines", 2));
+        questionList.add(new hEasyQ1_List("Who is  the 9th vice President of the Philippines?", "Corazon C. Aquino", "Diosdado Macapagal Jr.", "Elpidio R. Quirino", "Ferdinand Marcos", 2));
+        questionList.add(new hEasyQ1_List("It is the first political party in the Philippines", "Federal Party", "Makabayan Party", "Nacionalista Party", "Liberal Party", 1));
+        questionList.add(new hEasyQ1_List("What was the password used for the codes of 'Katipon'?", "Rizal", "Gomburza", "Anak ng Bayan", "Katipunan", 3));
+        questionList.add(new hEasyQ1_List("Ang namuno sa pinakamatagal na pag-aalsa ay si:", "Gregorio del Pilar", "Diego Silang", "Hermano Pule", "Francisco Dagohoy", 4));
         setQuestion();
     }
 
