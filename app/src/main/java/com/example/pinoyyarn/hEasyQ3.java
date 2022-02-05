@@ -55,8 +55,8 @@ public class hEasyQ3 extends AppCompatActivity implements View.OnClickListener {
 
         questionList.add(new hEasyQ1_List("Who is the brain of the Katipunan?", "Jose Rizal", "Andres Bonifacio", "Emilio Jacinto", "Marcelo del Pilar", 3));
         questionList.add(new hEasyQ1_List("Who painted the 'Spolarium'? ", "Juan Luna", "Ang Kiukok", "Fernando Amorsolo", "Delfina Herbosa de Natividad", 1));
-        questionList.add(new hEasyQ1_List("Who wrote our National Anthem?", "Apolinario Mabini", "Emilio Aguinaldo", "Juan Felipe", "Marcela Mariño Agoncillo ", 3));
-        questionList.add(new hEasyQ1_List("When did the People's Power Revolution happened?", "February 9-11, 1986 ", "February 22-25, 1986 ", "February 26-28, 1986", " February 6-9, 1986", 2));
+        questionList.add(new hEasyQ1_List("Who wrote The Philippine National Anthem?", "Apolinario Mabini", "Emilio Aguinaldo", "Juan Felipe", "Marcela Mariño Agoncillo ", 3));
+        questionList.add(new hEasyQ1_List("When did the People's Power Revolution happen?", "February 9-11, 1986 ", "February 22-25, 1986 ", "February 26-28, 1986", " February 6-9, 1986", 2));
         questionList.add(new hEasyQ1_List("It is the date which marked the Philippine Independence Day when Emilio Aguinaldo waved the Philippine Flag for the first time in Kawit, Cavite.", " June 12, 1896 ", "June 12, 1899 ", "June 12, 1895", "June 12, 1898", 4));
         questionList.add(new hEasyQ1_List("The Fall of Bataan which we celebrate every 9th of April is also regarded as _________.", "Araw ng Kabayanihan", "Araw ng Kagitingan", "Araw ng Katapangan", "Araw ng mga Bayani", 2));
         questionList.add(new hEasyQ1_List("Where was the Rizal's novel 'Noli Mi Tangere' published?", "A. Berlin", "B. Barcelona", "C. Philippines", "D. Paris", 1));
