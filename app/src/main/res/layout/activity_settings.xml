@@ -19,7 +19,7 @@
         android:layout_marginTop="48dp"
         android:background="#959C94"
         android:gravity="center"
-        android:text="Score"
+        android:text="Sounds"
         android:textColor="@color/black"
         android:textSize="24dp"
         android:textStyle="bold"
@@ -29,40 +29,54 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnSoundOn"
-        android:layout_width="175dp"
+        android:id="@+id/volumeControlUp"
+        android:layout_width="100dp"
         android:layout_height="48dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="212dp"
         android:background="@drawable/custom_round_button"
-        android:text="On"
-        android:textColor="#26D308"
+        android:text="+"
+        android:textColor="#1DD308"
+        android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.257"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Sounds" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnSoundOff"
-        android:layout_width="175dp"
+        android:id="@+id/volumeControlDown"
+        android:layout_width="100dp"
         android:layout_height="48dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="212dp"
         android:background="@drawable/custom_round_button"
-        android:text="Off"
-        android:textColor="#F80404"
-        app:layout_constraintStart_toEndOf="@+id/btnSoundOn"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Sounds" />
+        android:text="-"
+        android:textSize="24dp"
+        android:textColor="#EC0909"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnCredits"
         android:layout_width="250dp"
         android:layout_height="48dp"
-        android:layout_marginTop="352dp"
+        android:layout_marginTop="424dp"
         android:background="@drawable/custom_round_button"
         android:text="Credits"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBarVol"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Sounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
