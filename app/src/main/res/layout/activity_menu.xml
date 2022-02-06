@@ -79,9 +79,9 @@
         android:layout_marginBottom="28dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/exit"
-        android:contentDescription="@string/app_name"
         tools:ignore="SpeakableTextPresentCheck" />
 
 

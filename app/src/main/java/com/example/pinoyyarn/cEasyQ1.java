@@ -16,6 +16,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
 
 public class cEasyQ1 extends AppCompatActivity implements View.OnClickListener {
 
@@ -71,6 +72,8 @@ public class cEasyQ1 extends AppCompatActivity implements View.OnClickListener {
         option2.setText(questionList.get(0).getOptionB());
         option3.setText(questionList.get(0).getOptionC());
         option4.setText(questionList.get(0).getOptionD());
+
+
 
         QCount.setText(String.valueOf(1) + "/" + String.valueOf(questionList.size()));
 

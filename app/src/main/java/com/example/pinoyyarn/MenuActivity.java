@@ -10,6 +10,11 @@ import android.text.Html;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
@@ -27,6 +32,8 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         btn_settings.setOnClickListener(this);
         btn_exit.setOnClickListener(this);
     }
+
+
 
     @Override
     public void onClick(View v) {
