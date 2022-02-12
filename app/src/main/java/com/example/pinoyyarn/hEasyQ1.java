@@ -53,16 +53,16 @@ public class hEasyQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("Who founded the KKK?", "Apolinario Mabini", "Emilio Jacinto", "Andres Bonifacio", "Jose Rizal", 3));
-        questionList.add(new hEasyQ1_List("Who is the national hero of the Philippines?", "Andres Bonifacio", "Jose Rizal", "Emilio Aguinaldo", "Gregorio Del Pilar", 2));
-        questionList.add(new hEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "Emilio Aguinaldo", "Manuel L. Quezon", "Andres Bonifacio", "Manuel Roxas", 1));
-        questionList.add(new hEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "Teodora Alonso", "Gregoria de Jesus", "Gabriela Silang", "Leonor Rivera", 3));
-        questionList.add(new hEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "Gregoria de Jesus", "Segunda Katikbak", "Gabriela Silang", "Marina Dizon", 1));
-        questionList.add(new hEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "Gregorio del Pilar", "Andres Bonifacio", "Antonio Luna", "Emilio Jacinto", 2));
-        questionList.add(new hEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "Dipolog", "Ipil", "Dagonoy", "Dapitan", 4));
-        questionList.add(new hEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "Mi Ultimo Adios", "La Solidaridad", "Noli Me Tangere", "Ibong Adarna", 1));
-        questionList.add(new hEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "Felipe Calderon", "Apolinario Mabini", "Pedro Paterno", "Jose Rizal", 2));
-        questionList.add(new hEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "February 27", "April 9", "June 24", "December 30", 2));
+        questionList.add(new hEasyQ1_List("She was Rizal’s first love and first heart break.", "Leonor Valenzuela", "Leonor Rivera", "Segunda Katigbak", "Josephine Bracken", 3));
+        questionList.add(new hEasyQ1_List("What is the date when Dr. Jose Rizal was executed?", "December 30, 1896", "December 30, 1898", "December 30, 1892", "December 30, 1895", 1));
+        questionList.add(new hEasyQ1_List("Who is Jose Rizal’s mother?", "Narcisa Rizal", "Narcisa Alonso", "Teodora Alonso", "Teodora Rizal", 3));
+        questionList.add(new hEasyQ1_List("What is the complete legal name of Dr. Jose Rizal?", "Jose Protacio Rizal Mercado y Realonda Alonso", "Jose Protacio Rizal Mercado y Alonso Realonda", "Jose Protacio Rizal Realonda y Alonso Mercado", "Jose Protacio Rizal Alonso y Mercado Realonda", 2));
+        questionList.add(new hEasyQ1_List("What does the title “Noli Me Tangere” mean?", "Do not touch me", "You cannot touch me", "I don’t want your touch", "Touch me not", 4));
+        questionList.add(new hEasyQ1_List("How many women did Jose Rizal date?", "9", "7", "8", "10", 1));
+        questionList.add(new hEasyQ1_List("In which country did Jose Rizal start to write “Noli Me Tangere”?", "Germany", "Philippines", "Japan", "Spain", 4));
+        questionList.add(new hEasyQ1_List("What did Jose Rizal finished in UST?", "Political Science", "Psychology", "Nursing", "Opthalmology", 4));
+        questionList.add(new hEasyQ1_List("Where is the hometown of Jose Rizal?", "Malolos, Bulacan", "La Paz, Tarlac", "Calamba, Laguna", "Tondo, Manila", 3));
+        questionList.add(new hEasyQ1_List("What is the second novel written by Rizal?", "El Filibusterismo", "Noli Me Tangere", "Ibong Adarna", "Mi Ultimo Adios", 1));
 
         setQuestion();
     }
