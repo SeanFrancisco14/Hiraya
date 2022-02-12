@@ -53,16 +53,16 @@ public class hEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("It is one of the pseudonyms of Dr. Jose Rizal.", "Plaridel", "Magdalo", "Hermano Pule", "Laong-Laan", 4));
-        questionList.add(new hEasyQ1_List("It is considered as the oldest city in the Philippines.", "Cebu", "Davao", "Manila", "Dumaguete", 1));
-        questionList.add(new hEasyQ1_List("Which of the following former presidents died in a plane crash?", "Emilio Aguinaldo", "Benigno S. Aquino Jr.", "Ramon Magsaysay", "Ferdinand Marcos", 3));
-        questionList.add(new hEasyQ1_List("Where did the name of the Philippines came from?", "King Philip I of Spain", "King Philip II of Spain", "King Philip III of Spain", "King Philip IV of Spain", 2));
-        questionList.add(new hEasyQ1_List("Who are the unmarried alipins whose existence was completely dependent on the graces of their masters?", "Aliping Sanguiguilid", "Aliping Namamahay", "Aliping Nakikitulog", "Aliping Mababa", 1));
-        questionList.add(new hEasyQ1_List("Who was the third and last military governor of the Philippines?", "General Elwell Otis", "General Arthur MacArthur", "General Douglas MacArthur", "General Wesley Merit", 3));
-        questionList.add(new hEasyQ1_List("Which country had the Philippines as its colony for more than 300 years?", "France ", "Italy ", "China", "Spain", 4));
-        questionList.add(new hEasyQ1_List("Who was known as the 'Hero of Tirad Pass?''", "Gregorio Del Pilar", "Andres Bonifacio", "Jose Rizal", "Apolinario Mabini", 1));
-        questionList.add(new hEasyQ1_List("Who are the alipins that could own a house and live away from their master's house?", "Aliping Sanguiguilid", "Aliping Nakikitulog", "Aliping Namamahay", "Aliping Mababa", 3));
-        questionList.add(new hEasyQ1_List("Where was the Death March ended?", "Pampanga", "Tarlac", "Bulacan", "La Union", 2));
+        questionList.add(new hEasyQ1_List("When was Manuel L. Quezon born?", "August 19, 1878", "August 19, 1879", "August 20, 1878", "August 20, 1879", 1));
+        questionList.add(new hEasyQ1_List("When did Manuel L. Quezon died?", "August 1, 1945", "August 2, 1945", "August 1, 1944", "August 2, 1944", 3));
+        questionList.add(new hEasyQ1_List("Manuel L. Quezon was in _____ when war broke out in Pearl Harbor.", "Tondo", "Marikina", "Cavite", "Bataan", 2));
+        questionList.add(new hEasyQ1_List("What reason did Manuel L. Quezon died?", "Shot in the head", "Kidney Failure", "Tubeculosis", "Colon Cancer", 3));
+        questionList.add(new hEasyQ1_List("After college, where did Manuel L. Quezon study law?", "University of the Philippines", "University of Santo Tomas", "Polytechnic University of the Philippines", "Colegio de San Agustin", 1));
+        questionList.add(new hEasyQ1_List("Where did General McArthur want the president to retreat to?", "Mindoro", "Zambales", "Laguna", "Corregidor", 4));
+        questionList.add(new hEasyQ1_List("At what year did he gained control of the Nacionalista Party?", "1923", "1942", "1922", "1943", 3));
+        questionList.add(new hEasyQ1_List("He was elected president of the newly commonwealth on what date?", "September 17, 1933", "September 17, 1935", "September 17, 1934", "September 17, 1939", 2));
+        questionList.add(new hEasyQ1_List("At what year was he reelected as president?", "1941", "1942", "1943", "1944", 2));
+        questionList.add(new hEasyQ1_List("What title is he known for?", "Father of the National Language", "Hero of the National Language", "President of the National Language", "Savior of the National Language", 1));
 
         setQuestion();
     }
