@@ -34,13 +34,10 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
         volumeControlUp = findViewById(R.id.volumeControlUp);
         volumeControlDown = findViewById(R.id.volumeControlDown);
-        btnCredits= findViewById(R.id.btnCredits);
         seekBar = findViewById(R.id.seekBarVol);
 
         volumeControlUp.setOnClickListener(this);
         volumeControlDown.setOnClickListener(this);
-        btnCredits.setOnClickListener(this);
-
         seekBar.setMax(audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC));
         seekBar.setProgress(audioManager.getStreamVolume(AudioManager.STREAM_MUSIC));
     }
@@ -59,4 +56,6 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
             Toast.makeText(SettingsActivity.this, "Volume down", Toast.LENGTH_SHORT).show();
         }
     }
+
+
 }

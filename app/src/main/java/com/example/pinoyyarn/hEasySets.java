@@ -8,12 +8,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class hEasySets extends AppCompatActivity implements View.OnClickListener {
-    private Button hintone;
-    private Button hinttwo;
-    private Button hintthree;
-    private Button hintfour;
+    private ImageButton hintone;
+    private ImageButton hinttwo;
+    private ImageButton hintthree;
+    private ImageButton hintfour;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class hEasySets extends AppCompatActivity implements View.OnClickListener
         set4.setOnClickListener(this);
 
 
-        hintone = (Button) findViewById(R.id.Heasy1_hint);
+        hintone = (ImageButton) findViewById(R.id.Heasy1_hint);
         hintone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,7 +51,7 @@ public class hEasySets extends AppCompatActivity implements View.OnClickListener
             }
         });
 
-        hinttwo = (Button) findViewById(R.id.Heasy1_hint2);
+        hinttwo = (ImageButton) findViewById(R.id.Heasy1_hint2);
         hinttwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +70,7 @@ public class hEasySets extends AppCompatActivity implements View.OnClickListener
             }
         });
 
-        hintthree = (Button) findViewById(R.id.Heasy1_hint3);
+        hintthree = (ImageButton) findViewById(R.id.Heasy1_hint3);
         hintthree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +89,7 @@ public class hEasySets extends AppCompatActivity implements View.OnClickListener
             }
         });
 
-        hintfour = (Button) findViewById(R.id.Heasy1_hint4);
+        hintfour = (ImageButton) findViewById(R.id.Heasy1_hint4);
         hintfour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

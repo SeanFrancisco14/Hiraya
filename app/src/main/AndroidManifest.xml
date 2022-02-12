@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".HowToPlay"
+            android:exported="false" />
+        <activity
             android:name=".hHardQ4"
             android:exported="false" />
         <activity

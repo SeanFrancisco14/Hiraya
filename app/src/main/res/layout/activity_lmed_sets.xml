@@ -111,7 +111,7 @@
         android:textColor="@color/black"
         android:textStyle="bold" />
 
-    <Button
+    <ImageButton
         android:id="@+id/lmed1_hint"
         android:layout_width="71dp"
         android:layout_height="58dp"
@@ -121,13 +121,11 @@
         android:layout_marginStart="333dp"
         android:layout_marginEnd="6dp"
         android:layout_marginBottom="446dp"
-        android:background="@drawable/custom_round_button"
-        android:backgroundTint="@color/black"
-        android:text="A"
+        android:background="@drawable/hint_btn"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
-    <Button
+    <ImageButton
         android:id="@+id/lmed1_hint2"
         android:layout_width="71dp"
         android:layout_height="58dp"
@@ -137,13 +135,11 @@
         android:layout_marginStart="335dp"
         android:layout_marginEnd="4dp"
         android:layout_marginBottom="345dp"
-        android:background="@drawable/custom_round_button"
-        android:backgroundTint="#ffffff"
-        android:text="B"
+        android:background="@drawable/hint_btn"
         android:textColor="@color/black"
         android:textStyle="bold" />
 
-    <Button
+    <ImageButton
         android:id="@+id/lmed1_hint3"
         android:layout_width="71dp"
         android:layout_height="58dp"
@@ -153,13 +149,9 @@
         android:layout_marginStart="333dp"
         android:layout_marginEnd="6dp"
         android:layout_marginBottom="247dp"
-        android:background="@drawable/custom_round_button"
-        android:backgroundTint="#ffffff"
-        android:text="C"
-        android:textColor="@color/black"
-        android:textStyle="bold" />
+        android:background="@drawable/hint_btn" />
 
-    <Button
+    <ImageButton
         android:id="@+id/lmed1_hint4"
         android:layout_width="71dp"
         android:layout_height="58dp"
@@ -169,12 +161,5 @@
         android:layout_marginStart="331dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="150dp"
-        android:background="@drawable/custom_round_button"
-        android:backgroundTint="#ffffff"
-        android:text="D"
-        android:textColor="@color/black"
-        android:textStyle="bold" />
-
-
-
+        android:background="@drawable/hint_btn"/>
 </RelativeLayout>
