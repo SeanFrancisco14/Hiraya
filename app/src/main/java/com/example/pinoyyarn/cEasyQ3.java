@@ -53,12 +53,16 @@ public class cEasyQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture easy set 3", "A", "B", "C", "D", 3));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 2));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-
+        questionList.add(new cEasyQ1_List("It is a sea serpent deity of Bicolano and Visayan origin.", "Bakunawa", "Kapre", "Dalikamata", "Manananggal", 1));
+        questionList.add(new cEasyQ1_List("It is a vampire like creature that’s is capable of severing its upper torso and lower torso.", "Dalikamata", "Bakunawa", "Manananggal", "Kapre", 3));
+        questionList.add(new cEasyQ1_List("It is said to have a long, stretched human limbs and the head of a horse.", "Manananggal", "Tikbalang", "Lakapati", "Berbalang", 2));
+        questionList.add(new cEasyQ1_List("They are ghoul-like creatures who lurk in graveyards to feast on the blood of corpses.", "Lakapati", "Multo", "Dalikamata", "Berbalang", 4));
+        questionList.add(new cEasyQ1_List("This is considered as a multo, usually seen in the Balete drive in Quezon City.", "Dalikamata", "Mangkukulam", "White Lady", "Tikbalang", 3));
+        questionList.add(new cEasyQ1_List("It is a one-eyed creature with huge upper lips, humongous teeth and tusk that resembles those of an elephant.", "Manananggal", "Bungisngis", "Amomongo", "Kapre", 2));
+        questionList.add(new cEasyQ1_List("They aren’t frightening but they shouldn’t be taken lightly, an example of it is Mariang Makiling.", "Amomongo", "White Lady", "Lakapati", "Diwata", 4));
+        questionList.add(new cEasyQ1_List("This is closely associated with the province of Capiz, they consume the innards of a cadaver.", "Aswang", "Multo", "Amomongo", "Lakapati", 1));
+        questionList.add(new cEasyQ1_List("It was a harvest deity from the Tagalog pantheon and a symbol of fertility.", "Amomongo", "Lakapati", "Berbalang", "Diwata", 2));
+        questionList.add(new cEasyQ1_List("She is said to have a thousands of eyes all over her body and a goddess who can heal.", "Lakapati", "Dalikamata", "Berbalang", "Kapre", 2));
 
         setQuestion();
     }
