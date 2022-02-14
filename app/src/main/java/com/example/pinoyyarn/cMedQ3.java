@@ -53,11 +53,21 @@ public class cMedQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture med 3", "A", "B", "C", "D", 3));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 4));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
+        questionList.add(new cEasyQ1_List("Known as the ‘Grand Old Man of Philippine Art’.", "a.\tJose Jaya", "b.\tPacita Abad", "c.\tAng Kiukok", "d.\tFernando Amorsolo", 4));
+        questionList.add(new cEasyQ1_List("He is the best-selling commercial painter of his generation and a prominent head of the local contemporary art scene.", "a.\tBenedicto Cabrera", "b.\tKidlat Tahimik", "c.\tAgnes Arellano", "d.\tRoberto Chabet", 1));
+        questionList.add(new cEasyQ1_List("Noted as the Father of Modern Filipino sculpture.", "a.\tRoberto Chavet", "b.\tNapoleon Abueva", "c.\tAng Kiukok", "d.\tJose Jaya", 2));
+        questionList.add(new cEasyQ1_List("The series of ¬¬¬¬¬¬¬¬______, which connects both energy, faith and the struggle of fishermen under a vibrant crimson sun labouring together to bring in the haul for the day", "a.\tFishermen and the haul", "b.\tFishermen at the boat", "c.\tFishermen at Sea", "d.\tFishermen at Ocean", 3));
+        questionList.add(new cEasyQ1_List("What is Jose Joya’s most notable painting from 1958?", "a.\tGranadean Arabesque", "b.\tGrande Arabe", "c.\tTrapunto", "d.\tThe Great Trapunto", 1));
+        questionList.add(new cEasyQ1_List("Best known for her surrealist and expressionist work in plaster, bronze and cold-cast marble.", "a.\tAgnes Arellano", "b.\tAng Kiukok", "c.\tPacita Abad", "d.\tKidlat Tahimik", 1));
+        questionList.add(new cEasyQ1_List("He is the one who introduced modern visual art in the country through his exhibition", "a.\tFernando Amorsolo", "b.\tRoberto Chabet", "c.\tVicente Manansala", "d.\tDiosdado Lorenzo", 3));
+        questionList.add(new cEasyQ1_List("Who was considered as Father of Indigenous Art?", "a.\tDiosdado Lorenzo", "b.\tElito Circa", "c.\tTeofilo Garcia ", "d.\tFernando Amorsolo", 2));
+        questionList.add(new cEasyQ1_List("In 1984, she became the first woman to win the Ten Outstanding Young Men (TOYM) Award.", "a.\tAng Kiukok", "b.\tPacita Abad", "c.\tAngela Silva", "d.\tLou Lim", 2));
+        questionList.add(new cEasyQ1_List("Famous for his work ‘The Bonifacio Monument’, which became the symbol of the freedom struggle of the Philippines. ", "a.\tJuan Luna", "b.\tFernando Amorsolo", "c.\tBenedicto Cabrera", "d.\tGuillermo Tolentino", 4));
+        questionList.add(new cEasyQ1_List("He is prodigious artist who received a six-month grant from UNESCO.", "a.\tBenedicto Cabrera", "b.\tVicente Manansala", "c.\tVictorio Edades", "d.\tAng Kiukok", 2));
+        questionList.add(new cEasyQ1_List("She explores themes that thrive on femininity, sensuality, sexuality, and mental health", "a.\tKrista Nogueras", "b.\tKarina Gonzaga", "c.\tJan Sunday", "d.\tLou Lim", 1));
+        questionList.add(new cEasyQ1_List("Isay Rodriguez’s work ____, featured augmented and virtual realities that allow humans to simulate the struggles of a bee.", "A.\tDaily flight", "B.\tDoon", "C.\tDark Nights", "D.\tDetailed Flights", 2));
+        questionList.add(new cEasyQ1_List("Her first solo exhibition, ‘Slips and Pitfall’, the artist used the pitcher plant as a symbol of how the body can capture and control perceptions of the self.", "a.\tJan Sunday", "b.\tKarina Gonzaga", "c.\tNoelle Varela", "d.\tBea Camacho", 3));
+        questionList.add(new cEasyQ1_List("He made the masterpiece ‘Genesis’ in 1968.", "a.\tHernando Ocampo", "b.\tJan Sunday", "c.\tNapoleon Abueva", "d.\tVictorio Edades", 1));
 
 
         setQuestion();
