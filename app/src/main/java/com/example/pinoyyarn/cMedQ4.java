@@ -53,12 +53,21 @@ public class cMedQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture med 4", "A", "B", "C", "D", 3));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 4));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-
+        questionList.add(new cEasyQ1_List("It is known as the City of Smiles.", "Bacolod", "Cebu", "Zamboanga", "Zambales", 1));
+        questionList.add(new cEasyQ1_List("This is Luzon’s summer capital. ", "Zambales", "Tarlac", "Baguio", "Quezon", 3));
+        questionList.add(new cEasyQ1_List("Hailed as the Queen City of the South.", "Navotas", "Marikina", "Makati", "Cebu", 4));
+        questionList.add(new cEasyQ1_List("Cagayan De Oro is known for _______.", "City of New Shoes", "City of Golden Friendships", "City of hot balloon", "City of Art", 2));
+        questionList.add(new cEasyQ1_List("This is the Asia’s Latin’s City.", "Angono", "Navotas", "Capiz", "Zamboanga", 4));
+        questionList.add(new cEasyQ1_List("Angono is known for being the ______. ", "Art Capital of the Philippines", "Whale Capital of the Philippines", "Fishing Capital of the Philippines", "Bangus Capital of the Philippines", 1));
+        questionList.add(new cEasyQ1_List("Cadiz is know for being the city of ____. ", "Whales", "Bangus", "Whale Shark", "Tilapia", 1));
+        questionList.add(new cEasyQ1_List("What is known for being the Pearl of the Orient.", "Cebu City", "Zamboanga", "Bataan", "Manila", 4));
+        questionList.add(new cEasyQ1_List("What is the Fishing Capital of the Philippines", "Marikina", "Quezon", "Navotas", "Nueva Ecija", 3));
+        questionList.add(new cEasyQ1_List("Marikina is the _______.", "Bangus capital of the Philippines", "Shoe capital of the Philippines", "Food capital of the Philippines", "Business capital of the Philippines", 2));
+        questionList.add(new cEasyQ1_List("What is known for being the Business capital of the Philippines.", "Makati", "Marikina", "Quezon", "Laguna", 1));
+        questionList.add(new cEasyQ1_List("Imus is known for being the ___ capital of the Philippines.", "Slippers", "Art", "Flag", "Narra ", 3));
+        questionList.add(new cEasyQ1_List("Where is the whale shark capital of the world?", "Donsol", "Iba", "Tondo", "Bangsamoro", 1));
+        questionList.add(new cEasyQ1_List("Known for being the Bangus capital of the Philippines", "Pangasinan", "Navotas", "icol", "Palawan", 1));
+        questionList.add(new cEasyQ1_List("It is the Islamic City of the Philippines.", "Zamboanga", "Davao", "Marawi", "General Santos", 3));
 
         setQuestion();
     }
