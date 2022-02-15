@@ -53,15 +53,15 @@ public class LEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("Which of the following is a payak", "Ligo", "Naliligo", "Ligong-ligo", "Naligo", 3));
+        questionList.add(new LEasyQ1_List("Which of the following is a payak", "Ligo", "Naliligo", "Ligong-ligo", "Naligo", 1));
         questionList.add(new LEasyQ1_List("Which of the following is a payak?   ", "tKumakain", "Kain", "Kumain", "Kain na", 2));
-        questionList.add(new LEasyQ1_List("Which of the following is a tambalan?", "Silid", "Silid-tanggapan", "Tanggap na tanggap", "Tumatanggap", 1));
-        questionList.add(new LEasyQ1_List("Which of the following is a maylapi?", "Nagkwentuhan", "Kwento", "Kwentuhan", "Kwentuhan tayo", 3));
-        questionList.add(new LEasyQ1_List("Bahay-kubo is an example of what?", "Payak", "Maylapi", "Tambalan", "None of the choices", 1));
+        questionList.add(new LEasyQ1_List("Which of the following is a tambalan?", "Silid", "Silid-tanggapan", "Tanggap na tanggap", "Tumatanggap", 2));
+        questionList.add(new LEasyQ1_List("Which of the following is a maylapi?", "Nagkwentuhan", "Kwento", "Kwentuhan", "Kwentuhan tayo", 1));
+        questionList.add(new LEasyQ1_List("Bahay-kubo is an example of what?", "Payak", "Maylapi", "Tambalan", "None of the choices", 3));
         questionList.add(new LEasyQ1_List("Sasakay is an example of what?", "Payak", "Maylapi", "Tambalan", "None of the choices", 2));
-        questionList.add(new LEasyQ1_List("Hatinggabi is an example of what?", "Payak", "Maylapi", "Tambalan", "None of the choices", 4));
+        questionList.add(new LEasyQ1_List("Hatinggabi is an example of what?", "Payak", "Maylapi", "Tambalan", "None of the choices", 3));
         questionList.add(new LEasyQ1_List("Tahi is an example of what?", "Payak", "Maylapi", "Tambalan", "None of the choices", 1));
-        questionList.add(new LEasyQ1_List("Matapobre is an example of what?", "Payak", "Maylapi", "Tambalan", "None of the choices", 2));
+        questionList.add(new LEasyQ1_List("Matapobre is an example of what?", "Payak", "Maylapi", "Tambalan", "None of the choices", 3));
         questionList.add(new LEasyQ1_List("Kani-kanina is an example is what?", "Payak", "Maylapi", "Tambalan", "None of the choices", 2));
 
         setQuestion();
