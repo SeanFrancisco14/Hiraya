@@ -53,16 +53,21 @@ public class LMedQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("1", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
+        questionList.add(new LEasyQ1_List("Minekaniko ni Moniko ang makina ng _____ ni Monika.", "Mantika", "Manika ", "Maharlika", "Makina", 2));
+        questionList.add(new LEasyQ1_List("Pitongput pitong puting ______.", "Pating", "Puto", "Pito", "Pari", 1));
+        questionList.add(new LEasyQ1_List("Sinusi ni Susan ang sisidlan ng ______.", "Sisig", "Susi", "Sisiw", "Sitsit", 3));
+        questionList.add(new LEasyQ1_List("Pinaputi ni Tepiterio ang pitong ______ putong patong patong.", "Paring", "Puting", "Puhing", "Pawing", 2));
+        questionList.add(new LEasyQ1_List("Kalabit ng kalabit si Alabit na may _____ sa balikat ng kanyang kalapit-kabalikat kapitbahay.", "Bilin", "Bituin", "Bikini", "Bitbit", 4));
+        questionList.add(new LEasyQ1_List("Kakakanan lang sa ________ sa may kakahuyan si Ken Ken.", "Kumpulan", "Kangkungan", "Kulungan", "Kaban", 2));
+        questionList.add(new LEasyQ1_List("Siopao, _____ , suman", "Sushi", "Sugar", "Siomai", "Sisiw", 3));
+        questionList.add(new LEasyQ1_List("Ang _____ ni Leroy ay rolex.", "Regla", "Relo", "Rambutan", "Rusi", 2));
+        questionList.add(new LEasyQ1_List("Makati sa _____, may pari sa Aparri, mahihilo sa ______ at may bagio sa Baguio.", "Makati; Bilo-bilo", "Marawi; Ilo ilo", "Makati; Ilo ilo ", "Marawi;  Bilo-bilo", 3));
+        questionList.add(new LEasyQ1_List("Ang bra ni Barbara ay ______", "Nabura", "Nasira", "Nabara", "Naluma", 3));
+        questionList.add(new LEasyQ1_List("Piliin ang tama", "Nakakapagpagabagab", "Nakakapagbagabag", "Nakakapagpabagabag", "Nakakapagkagabagab", 3));
+        questionList.add(new LEasyQ1_List("Piliin ang tama", "Kababakabaka ka ba?", "Kakabakababa ba ka?", "Kakakababa ka ba?", "Kakabakaba ka ba?", 4));
+        questionList.add(new LEasyQ1_List("Piliin ang tama", "Nginangasab sangab", "Nginangasab-ngasab", "Nginasagab-basag", "Nginangasagsag", 2));
+        questionList.add(new LEasyQ1_List("Piliin ang tama", "Kinakikilibutan", "Kinakakalibutan", "Kinakakabalutan", "Kinakikilabutan ", 4));
+        questionList.add(new LEasyQ1_List("Piliin ang tama", "Binabalukabakan", "Binabalikbalukan", "Binabalakubakbakan", "Binabalakubakan", 4));
 
         setQuestion();
     }
