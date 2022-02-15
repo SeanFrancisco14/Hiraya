@@ -53,16 +53,16 @@ public class LEasyQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("itlog na puti", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
+        questionList.add(new LEasyQ1_List("Complete the sentence ‘Sana kumakain ka ___ Mabuti.’.", "Ng", "Nang", "Both", "None of the choices", 2));
+        questionList.add(new LEasyQ1_List("Complete the sentence ‘Siya ay kumuha dito __ maraming pagkain.’.", "Ng", "Nang", "Both", "None of the choices", 1));
+        questionList.add(new LEasyQ1_List("Complete the sentence ‘Akala ko siya ay pumunta ___ sa kanyang pinanggalingan.’.", "Doon", "Roon", "Both", "None of the choices", 2));
+        questionList.add(new LEasyQ1_List("Complete the sentence ‘Saan ba ___ ang tindahan nila aling Bebang?’.", "Dito", "Rito", "Both", "None of the choices", 2));
+        questionList.add(new LEasyQ1_List("Complete the sentence ‘____ ang daan patungo sa aming eskwelahan.’.", "Dito", "Rito", "Doon", "A and C", 4));
+        questionList.add(new LEasyQ1_List("Complete the sentence ‘Mapupunta rin naman ____ ang inyong pagmamahalan.’.", "Doon", "Roon", "Both", "None of the choices", 1));
+        questionList.add(new LEasyQ1_List("Complete the sentence ‘Akala ko ___ siya pupunta sa bahay nila Alex.’.", "Dito", "Rito", "Both", "None of the choices", 2));
+        questionList.add(new LEasyQ1_List("Complete the sentence “Sabi ___ ng guro ay manatili sa loob ng silid.’.", "Din", "Rin", "Both", "None of the choices", 2));
+        questionList.add(new LEasyQ1_List("Complete the sentence “Si Adrian ___ ang may kasalanan ng mga basag na bote.’.", "Din", "Rin", "Both", "None of the choices", 1));
+        questionList.add(new LEasyQ1_List("Complete the sentence “Dito ___ gaganapin ang kasal nila Derek at Meredith.’.", "Din", "Rin", "Both", "None of the choices", 2));
 
         setQuestion();
     }
