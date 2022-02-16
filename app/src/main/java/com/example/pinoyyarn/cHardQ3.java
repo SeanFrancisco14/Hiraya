@@ -53,16 +53,34 @@ public class cHardQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture hard 3", "A", "B", "C", "D", 1));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 1));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-
-
+        questionList.add(new cEasyQ1_List("What was the rightist wing of La Liga called?", "Cuerpos de Propagandistas", "Cuerpos de Compromisarios", "Cuerpos de Militantes", "Cuerpos de la Revolucionarios", 2));
+        questionList.add(new cEasyQ1_List("It referred to provinces not yet fully controlled by the colonial government.", "Alcaldia", "Corregimiento", "Residencia", "Visitador", 2));
+        questionList.add(new cEasyQ1_List("The first bishop of Manila in 1581.", "Miguel Lopez de Legazpi", "Domiñgo de Salazar", "Jose Basco Y Vargas", "Pedro de Sarrio", 2));
+        questionList.add(new cEasyQ1_List("They accompany the governor general and gobernadorcillo in patroling the town.", "Cuadrilleros", "Guardia Civil", "Guardia Civil Veterana", "Guardia Civil Alcaldia", 1));
+        questionList.add(new cEasyQ1_List("Raja Lakandula and Raja Sulayman revolted against Governor Guido de Lavezaris, because of the abuses by the Spaniards. What is the revolt called?", "Manila Revolt", "Tamblot Revolt", "Pampanga Revolt", "Isneg Revolt", 1));
+        questionList.add(new cEasyQ1_List("Which one of these Philippine revolts during the Hispanic period lasted longest?", "Dagohoy Revolt", "Parang and Upay Revolt", "Palaris Revolt", "Camerino Revolt", 1));
+        questionList.add(new cEasyQ1_List("The Tejeros Convention happened in which Philippine province?", "Manila", "Cavite", "Laguna", "Batangas", 2));
+        questionList.add(new cEasyQ1_List("Who was the Spanish governor-general who ordered the deportation of Jose Rizal to Dapitan?", "Camilo de Polavieja", "Fermin Jaudenes", "Carlos Maria dela Torre", "Eulogio Despujol", 1));
+        questionList.add(new cEasyQ1_List("What was the name of the Filipino soldier who led the Cavite Mutiny of 1872?", "Lt. Taviel de Andrade", "Fr. Jose Burgos", "Sergeant Lamadrid", "Gen. Mariano Noriel", 3));
+        questionList.add(new cEasyQ1_List("Who excommunicated Fr. Gregorio Aglipay?", "Vidal", "Santos", "Norzaleda", "Sin", 3));
+        questionList.add(new cEasyQ1_List("Who is the Filipino historian who claimed that there was no Philippine history before the execution of the three nationalist priests?", "Teodoro Agoncillo", "Onofre Corpuz", "Gregorio Zaide", "Fidel Villaruel", 1));
+        questionList.add(new cEasyQ1_List("Who established the Spanish colonial rule in the Philippines?", "Miguel Lopez de Legazpi", "Carlos Maria dela Torre", "Andres de Urdaneta", "Ferdinand Magellan", 1));
+        questionList.add(new cEasyQ1_List("What economic policy imposed by Spain on the Indios that requires them to do forced labor?", "tribute", "polo y servicios", "bandala", "cedula", 2));
+        questionList.add(new cEasyQ1_List("Who were Spaniards born in the Philippines?", "creoles", "peninsulares", "ilustrados", "insulares", 4));
+        questionList.add(new cEasyQ1_List("What social class developed the consciousness of the Filipinos to fight Spain?", "mestizos de España", "principalia", "mestizos de sangleys", "ilustrados", 4));
+        questionList.add(new cEasyQ1_List("It refers to the highest court of justice in the Philippines during the Spanish occupation", "Real Audiencia", "Ministry of Colonies", "Court of Appeals", "Ombudsman", 1));
+        questionList.add(new cEasyQ1_List("An old practice in Spain wherein the King, in an effort to recognize the good deeds, services, and loyalty of his officers and men awarded a piece of land", "Encomienda system", "Kasama system", "Bandala system", "Caste system", 1));
+        questionList.add(new cEasyQ1_List("It refers to the obligation of Filipino farmers to sell their products to government at a minimum price.", "Encomienda system", "Kasama system", "Bandala system", "Caste system", 3));
+        questionList.add(new cEasyQ1_List("This is the money paid to be exempted from polo.", "falla", "calla", "mella", "libre", 1));
+        questionList.add(new cEasyQ1_List("They are a mix of both Spanish and Indio. They were regarded inferior people by both Spanish and Filipinos.", "Peninsulares", "Insulares", "Mestizos", "Indio", 3));
+        questionList.add(new cEasyQ1_List("Legazpi took possession of Maynilad in the name of King Philip II on?", "May 19, 1571", "June 3, 1571", "June 24, 1571", "June 1, 1574", 3));
+        questionList.add(new cEasyQ1_List("He gave Manila the name, Insigne y Siempre Leal Ciudad.", "King Charles I", "Legazpi", "King Philip II", "Lavezaris", 3));
+        questionList.add(new cEasyQ1_List("The wife of Raha Humabon, she was renamed after her baptism for the mother of King Charles I of Spain, Magellan gave her a gift of the image of Sto. Nino.", "Beatriz", "Elizabeth", "Juana", "Gabriela", 3));
+        questionList.add(new cEasyQ1_List("A Spanish expedition to the Philippines on 1527, with 3 ships and 110 men. It reached Mindanao but failed to colonize the Philippines.", "Saavedra", "Cabot", "Legazpi", "Villalobos", 4));
+        questionList.add(new cEasyQ1_List("A Spanish settlement, the first of its kind in the Philippines, it was established by  Legazpi on 1565.", "Panay ", "Cebu", "Manila", "Sulu", 2));
         setQuestion();
     }
-
+z
     private void setQuestion() {
         timer.setText(String.valueOf(10));
 
