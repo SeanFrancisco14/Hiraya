@@ -53,31 +53,31 @@ public class cHardQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("It was built by Miguel López de Legazpi who led the Spanish conquistadors into the city.", "2,000", "15,000", "76,000", "110,000", 3));
-        questionList.add(new cEasyQ1_List("When was the WW2 started in the Philippines?", "December 8, 1941", "April 19, 1941", "November 30, 1941", "July 9, 1941", 1));
-        questionList.add(new cEasyQ1_List("When was the attack of Pearl Harbor in the US?", "July 9, 1941", "August 21, 1941", "April 19, 1941", "December 8, 1941", 4));
-        questionList.add(new cEasyQ1_List("In 1946, the Japanese commander of the march was convicted by a U.S. military commission and executed. What was the name of this commander?", "Akiyama Saneyuki", "Murakami Kakuichi", "Shimamura Hayao", "Homma Masaharu", 4));
-        questionList.add(new cEasyQ1_List("When was the Bataan Death March started?", "May 7, 1942", "March 16, 1942", "April 9, 1942", "February 8, 1942", 3));
-        questionList.add(new cEasyQ1_List("How long is The Bataan Death March?", "55 miles or 88.5139", "65 miles or 104.607 kilometers", "75 miles or 120.701 kilometers", "85 miles or 136.794 kilometers", 4));
-        questionList.add(new cEasyQ1_List("Who is the leader of Hukbalahap?", "Fernando Amorsolo", "Jose Laurel Jr.", "Miguel Malvar", "Luis Taruc", 4));
-        questionList.add(new cEasyQ1_List("When was the Japanese commander executed by firing squad?", "July 4, 1946", "May 9, 1946", "December 6, 1946", "April 3, 1946", 4));
-        questionList.add(new cEasyQ1_List("Who is the first and last president of the Second Republic of the Philippines?", "Emilio Aguinaldo", "Manuel L. Quezon", "Jose P. Laurel", "Sergio Osmena", 3));
-        questionList.add(new cEasyQ1_List("The historic death march started in __________, Bataan.", "Mariveles", "San Francisco", "Capas", "Tarlac", 1));
-        questionList.add(new cEasyQ1_List("The following are the cities and places that was bombed by the Japanese except __________.", "Davao", "Baguio", "Cebu", "Manila", 1));
-        questionList.add(new cEasyQ1_List("This is the location of the largest US naval base.", "New Mexico", "California", "South Carolina", "Hawaii", 4));
-        questionList.add(new cEasyQ1_List("What is the complete name of the combined forces of Filipinos and American soldiers?", "United States Armalite Forces in the Far East", "United States Army Forces in the Far East", "United States Army Forces in the Fair East", "United States Army Facets in the Far East", 2));
-        questionList.add(new cEasyQ1_List("What signaled the beginning of the Second World War?", "Bombing of Bataan", "Bombing of USAFFE", "Bombing of Pearl Harbor", "Bombing of Corregidor", 2));
-        questionList.add(new cEasyQ1_List("What served as the last defense of our country against the Japanese occupation?", "Bataan", "Manila", "Cebu", "Corregidor", 4));
-        questionList.add(new cEasyQ1_List("What is the name of the Camp where prisoners of war walked for days to reach it?", "Camp O’Jonnel", "Camp O’Jenell", "Camp O’Flannel", "Camp O’Donell", 4));
-        questionList.add(new cEasyQ1_List("Who was the elected Filipino President of the Japanese Puppet Government?", "Manuel Quezon", "Sergio Osmeña", "Jose P. Laurel", "Jorge Vargas", 3));
-        questionList.add(new cEasyQ1_List("What did the Philippine government declare to Manila in order to prevent further destruction of the city during the war?", "It was declared a colony of Japan.", "It was surrendered by the Philippine government to the Japanese.", "They made a truce with the Japanese.", "It was declared as an Open City.", 4));
-        questionList.add(new cEasyQ1_List("Where did the Philippine government go when the Japanese attacked Manila?", "Malolos, Bulacan", "Corregidor, Bataan", "San Fernando, Pampanga", "Palo, Leyte", 2));
-        questionList.add(new cEasyQ1_List("What force was the US a member of during World War II?", "Axis Forces", "Nazis Forces", "Allied Forces", "Samurai Forces", 3));
-        questionList.add(new cEasyQ1_List("What triggered World War II?", "The killing of the Jews.", "The creation of the atomic bombs.", "The bombing of Pearl Harbor", "The territorial dispute on the Philippines.", 3));
-        questionList.add(new cEasyQ1_List("What do you call these historical event where American and Filipino war captives were forced to walk from Bataan to Pampanga?", "Comfort Women", "Death March", "Harakiri", "Procession", 2));
-        questionList.add(new cEasyQ1_List("Where did the American forces arrive to liberate the Philippines from the Japanese?", "Palo, Leyte", "Intramuros, Manila", "Kawit, Cavite", "Corregidor, Bataan", 1));
-        questionList.add(new cEasyQ1_List("What triggered the surrender of the Japanese and ended the war in the Pacific?", "The bombing of Hiroshima and Nagasaki", "The bombing Pearl Harbor", "The bombing of Clark Field.", "The bombing of Manila.", 2));
-        questionList.add(new cEasyQ1_List("When was the Philippines declared as a sovereign state?", "February 25, 1986", "June 12, 1898", "July 4, 1946", "December 30, 1896", 3));
+        questionList.add(new cEasyQ1_List("It was built by Miguel López de Legazpi who led the Spanish conquistadors into the city.", "Fort San Pablo", "Fort San Pedro", "Fort Santiago", "Fort Bonifacio", 2));
+        questionList.add(new cEasyQ1_List("Located at 155-Lopez Jaena corner Mabini Street in Parian, a couple of meters from the Heritage Monument of Cebu.", "Casa Gorordo", "Yap-Sandiego Ancestral House", "Archbishop's Palace of Cebu", "Museo de Parian", 2));
+        questionList.add(new cEasyQ1_List("It was home to the highest Jesuit official in the country. It showcases important artifacts and remnants of old Cebu.", "Museo Sugbo", "Museo Colon", "Museo Osmeña", "Museo Parian", 4));
+        questionList.add(new cEasyQ1_List("This place is considered as one of the most significant sites in the history of Cebu.", "Plaza Sugbu", "Plaza Independencia", "City Square Plaza", "Cebu Pension Plaza", 2));
+        questionList.add(new cEasyQ1_List("The official Sinulog flower is called __________.", "Sunflower", "Celosia", "Rose", "Sampaguita", 2));
+        questionList.add(new cEasyQ1_List("Cebu's ruler when Magellan and his men arrived was __________.", "Bulakna", "Lapu-Lapu", "Dagohoy", "Jumabon", 4));
+        questionList.add(new cEasyQ1_List("A sub-form of Bikol languages spoken by people in the northern part of Catanduanes is called?", "Rinconada Bikol", "Pandan Bikol", "Albay Bikol", "Catanduanes Bikol", 2));
+        questionList.add(new cEasyQ1_List("What is the oldest church in Bicol region?", "Basilica of Our Lady of Penafrancia", "Daraga Church", "Church of Magarao", "Quipayo Church", 2));
+        questionList.add(new cEasyQ1_List("Who is the composer of the most popular song in Bicol, Sarung Banggi (One Evening)?", "Jude Michael", "Paolo Clemente", "Fr. Jessel Gonzales, SJ", "Potenciano Gregorio", 4));
+        questionList.add(new cEasyQ1_List("According to the Creation story from the Igorot, what was the name of the Great Spirit who created people?", "Samoki", "Babaylan", "Bathala", "Lumawig", 4));
+        questionList.add(new cEasyQ1_List("This is a symbolic plate or basket of food for the spirits of Igorot ancestors.", "Atang", "Bayya-o", "Borbon", "Serbesa", 1));
+        questionList.add(new cEasyQ1_List("Igorots sing a Eulogy called?", "Menpalti", "Atang", "Bayya-o", "Tengaw", 4));
+        questionList.add(new cEasyQ1_List("For Igorots, 'Menpalti/ Menkanyaw', is an act of?", "butchering and offering animals", "praying to the Gods at night", "praying to the Gods at day", "sending condolences to the families", 1));
+        questionList.add(new cEasyQ1_List("The prayers are usually performed by an elderly person of the town called?", "Panginaan", "Pangamaen", "Pangamenan", "Panginaen", 2));
+        questionList.add(new cEasyQ1_List("Their tataya is round-bottomed head so that it can withstand the strong waves of the sea.", "Ivatan", "Agta", "Mangyan", "Gaddang", 1));
+        questionList.add(new cEasyQ1_List("They believe their tattoos will help them in entering heaven.", "Gaddang", "Kalinga", "Bontoc", "Mangyan", 1));
+        questionList.add(new cEasyQ1_List("They live in a house like the Ifugaos but theirs has a cage that serve as granary.", "Agta", "Bontoc", "Mangyan", "Kalinga", 2));
+        questionList.add(new cEasyQ1_List("Geographic location of the literary work, 'Pamulinawen'?", "Bicol Region", "Ifugao", "Ilocos", "Benguet", 3));
+        questionList.add(new cEasyQ1_List("Which of the following is used as a death blanket by the Ifugaos?", "Burnay", "Kinuttiyan", "Abel", "Binakul", 2));
+        questionList.add(new cEasyQ1_List("What do you call the g-string worn by Ifugao men?", "Tapis", "Wanno", "Batek", "Bahag", 2));
+        questionList.add(new cEasyQ1_List("Geographic location of the literary work, 'Alim'?", "Bicol Region", "Ifugao", "Ilocos", "Benguet", 2));
+        questionList.add(new cEasyQ1_List("What is the generic name for tattoo in Kalinga?", "Fikum", "Batok", "Vakul", "Callado", 2));
+        questionList.add(new cEasyQ1_List("In Igorot culture,It is a tattoo that signifies that one has beheaded an enemy in protection of their village?", "Khaman", "Pinipingao", "Chaklag", "Sorag", 3));
+        questionList.add(new cEasyQ1_List("What do you call this warrior tattoo that recognizes his exceptional and unsurpassed bravery?", "Dakag", "Gayaman", "Sinokray", "Sorag", 1));
+        questionList.add(new cEasyQ1_List("Geographic location of the literary work, 'Tigsik'?", "Bicol Region", "Ifugao", "Ilocos", "Benguet", 1));
         setQuestion();
     }
 
