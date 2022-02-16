@@ -53,16 +53,31 @@ public class LHardQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("metung", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
+        questionList.add(new LEasyQ1_List("This word means carpenter", "Kaluwage", "Anluwage", "Manluwage", "Naliwage", 2));
+        questionList.add(new LEasyQ1_List("The filipino term for “charger”", "Bateryador", "Saksakan", "Tablayan", "Pantablay", 4));
+        questionList.add(new LEasyQ1_List("This word means “goodbye” or “farewell”", "Pahimakas", "Pamuhina", "Pasamay", "Parisaya", 1));
+        questionList.add(new LEasyQ1_List("What kind of person is an “ulayaw”?", "An enemy", "A good friend", "A stranger", "A neighbor", 2));
+        questionList.add(new LEasyQ1_List("This means to break lose or to be set free.", "Alpas", "Kawali", "Palapas", "Muwarin", 1));
+        questionList.add(new LEasyQ1_List("This word can be used to show that you are attracted to someone.", "Munimuni", "Sinain", "Pagwiling", "Marahuyo", 4));
+        questionList.add(new LEasyQ1_List("What does the word Kinaiya mean?", "Characteristics", "Hardworking", "Knowledge", "Meal", 1));
+        questionList.add(new LEasyQ1_List("It is the Filipino term for “hyperlink”", "Hawingan", "Kawingan", "Tugunan", "Sanggunian", 2));
+        questionList.add(new LEasyQ1_List("WIt means infinity or boundless.", "Hangganan", "Awanggan", "Kalangitan", "Salayaran", 2));
+        questionList.add(new LEasyQ1_List("What is a paliya?", "Cabbage", "Ampalaya", "Lettuce", "Eggplant", 4));
+        questionList.add(new LEasyQ1_List("What kind of vegetable is a tambaliong?", "Turnip", "Carrot", "Radish", "Squash", 4));
+        questionList.add(new LEasyQ1_List("The Filipino term for the chemical element “Mercury”", "Merkura", "Asoge", "Asoke", "Mirkyurar", 2));
+        questionList.add(new LEasyQ1_List("The Filipino term for the word “arithmetic”", "Binluran", "Sipnayan", "Kapnayan", "Hulligan", 1));
+        questionList.add(new LEasyQ1_List("This term means addicted or obsessed", "Gumon", "Pagkalurong", "Pananaligin", "Humon", 1));
+        questionList.add(new LEasyQ1_List("This word means “to avoid shame”", "Takas", "Sulyap ", "Ulaw", "Tumangaw", 3));
+        questionList.add(new LEasyQ1_List("The other term for the word “tinidor”", "Sambat", "Panusok", "Panturok", "Patinis", 1));
+        questionList.add(new LEasyQ1_List("The other term for the word “kusina”", "Paningganan", "Kinakainan", "Paminggalan", "Linulutuan", 3));
+        questionList.add(new LEasyQ1_List("This word means “one who climbs up, or rises”", "Pagtalas", "Gumirang", "Hakin", "Sakada", 4));
+        questionList.add(new LEasyQ1_List("It is a personal daily record or a diary.", "Talasulatan", "Talaarawan", "Talasarili", "Talasulatin", 3));
+        questionList.add(new LEasyQ1_List("This means to sharpen something.", "Yakis", "Talig", "Simat", "Piskil", 1));
+        questionList.add(new LEasyQ1_List("The Filipino term for “menstrual period”", "Masarilang", "Karumalan", "Pagluluran", "Pananandulan", 2));
+        questionList.add(new LEasyQ1_List("What does the word “pook-sapot” means?", "Meeting spot", "Website", "Zoo", "Bookstore", 2));
+        questionList.add(new LEasyQ1_List("The Filipino term for e-mail is?", "Panayaman", "Talingsulat", "Magaliham", "Sulatroniko", 4));
+        questionList.add(new LEasyQ1_List("The Filipino term for headset is?", "Pang-taingang hatinig", "Pang-ulong hatinig", "Saliktinig", "Pang-ulong saliktinig", 2));
+        questionList.add(new LEasyQ1_List("This word means you are extremely fond of someone to the point of obsession.", "Kamaling", "Pagsinta", "Pagsamo", "Humaling", 4));
 
         setQuestion();
     }

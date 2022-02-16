@@ -53,7 +53,7 @@ public class cHardQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("Around how many soldiers were forced to Bataan Death March?", "2,000", "15,000", "76,000", "110,000", 3));
+        questionList.add(new cEasyQ1_List("It was built by Miguel López de Legazpi who led the Spanish conquistadors into the city.", "2,000", "15,000", "76,000", "110,000", 3));
         questionList.add(new cEasyQ1_List("When was the WW2 started in the Philippines?", "December 8, 1941", "April 19, 1941", "November 30, 1941", "July 9, 1941", 1));
         questionList.add(new cEasyQ1_List("When was the attack of Pearl Harbor in the US?", "July 9, 1941", "August 21, 1941", "April 19, 1941", "December 8, 1941", 4));
         questionList.add(new cEasyQ1_List("In 1946, the Japanese commander of the march was convicted by a U.S. military commission and executed. What was the name of this commander?", "Akiyama Saneyuki", "Murakami Kakuichi", "Shimamura Hayao", "Homma Masaharu", 4));
