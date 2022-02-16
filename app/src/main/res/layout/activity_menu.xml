@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/menu"
+    android:background="@drawable/scorebg"
     android:orientation="vertical"
     tools:context=".MenuActivity">
 
@@ -83,6 +83,14 @@
         android:scaleType="centerInside"
         app:srcCompat="@drawable/exit"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="307dp"
+        app:srcCompat="@drawable/title" />
 
 
 </RelativeLayout>
