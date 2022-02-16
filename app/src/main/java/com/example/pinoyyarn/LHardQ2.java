@@ -53,17 +53,31 @@ public class LHardQ2 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("adwa", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
-
+        questionList.add(new LEasyQ1_List("Let's say you are in Cebu and spot a fantastic locally-made guitar you wish to purchase. What phrase would come in useful?", "Palihog lingkod? ", "Muadto mo sa pista?", "Dili ko?", "Tag-pila ni?", 4));
+        questionList.add(new LEasyQ1_List("What is the Visayan word for bird?", "Ibon", "Iro", "Halas", "Langgam", 4));
+        questionList.add(new LEasyQ1_List("When you are in Cagayan de Oro, what would you call something nice?", "Galling", "Maganda", "Chada", "Gumirang", 3));
+        questionList.add(new LEasyQ1_List("How do you say “How old are you?” in Cebuano?", "eda man ka?", "Ikaw unsa imu?", "unsa imu edad?", "pila na imu edad?", 3));
+        questionList.add(new LEasyQ1_List("How do you say “I need a doctor” in Cebuano?", "Wa ko kasabot duktor", "Nanginahanglan ko ug duktor", "Tabangko ug duktor", "Gihilantan ko ug duktor", 2));
+        questionList.add(new LEasyQ1_List("How do you say” what is your name?” in Cebuano?", "pwede ko makatabang ko pangalan?", "Unsa imu pangalan?", "Pangalan ka nako?", "Asa man ang pangalan?", 2));
+        questionList.add(new LEasyQ1_List("How do you say “how much is this?” in Cebuano?", "Asa man ka gikan?", "Asa ka nagpuyo?", "Tagpila man ni?", "Unsa man imu panginabuhi?", 3));
+        questionList.add(new LEasyQ1_List("How do you say “Happy Birthday” in Cebuano?", "Malipayong kaarawan", "Malipayong kaadrawan", "Malipayong kaadlawan", "Maayong kaarawan", 3));
+        questionList.add(new LEasyQ1_List("How do you say “how” in Cebuano?", "Unsa", "Kinsa", "Nganu", "Giunsa", 1));
+        questionList.add(new LEasyQ1_List("How do you say the word “yesterday” in Cebuano?", "Karon adlawa", "Unya gabi-e", "Ugma na hapon", "Gahapon", 2));
+        questionList.add(new LEasyQ1_List("How do you say “Do you speak English?” in Cebuano?", "Makausap ka ug Ingles?", "Makastorya ka ug Iningles?", "Salita man ug Ingles?", "Makasalita ka ug Ingles?", 2));
+        questionList.add(new LEasyQ1_List("How do you say “a little bit” in Cebuano?", "Kaunti lamang", "Ginagmay lamang", "Katamtam lamang", "Kaliit lamang", 2));
+        questionList.add(new LEasyQ1_List("How do you say “It was nice talking to you” in Cebuano?", "Makigstorya nindot nimu", "Nindot kaau makigstorya nimu ", "Makigusap ug nimu", "Nindot makigusap kauu nimu", 2));
+        questionList.add(new LEasyQ1_List("How do you say “what do you mean?” in Cebuano?", "Untay buot pasabi?", "Unsay imu buot pasabot?", "Unsay buot man pasan?", "Untay man pasabi?", 2));
+        questionList.add(new LEasyQ1_List("What exactly does 'nasipnget'' mean?", "Hard of hearing", "Good-person quality, kind, obedient", "Arrival", "The darkness of outside at night", 4));
+        questionList.add(new LEasyQ1_List("When Ilocano women get angry, they put the front of their wrists on the sides of their waists, making their elbows form a 90-degree angle. What is that stance called in Ilocano?", "Bannikes", "ag-paparaw", "idda", "akimbo", 2));
+        questionList.add(new LEasyQ1_List("In Ilocano, which of the following Ilocano words means 'to get knocked down, as in an upright object being toppled'?", "Awan", "Itnag", "Tuwang", "Tiro", 3));
+        questionList.add(new LEasyQ1_List("Which Ilocano word most accurately describes a child's hyperactivity?", "Rugit", "Kuti", "Ranggas", "Napuskol", 2));
+        questionList.add(new LEasyQ1_List("In Ilocano, what does it mean when a girl is said to be 'arjud'?", "the way she carries herself, as seen in her efforts to make herself look beautiful by over adornment", "in the state of feeling unwanted by men, but yet happy about it", "purposely staying away from men for the sole purpose of self-confidence and prestige", "angry at the world because she'd rather be a man", 1));
+        questionList.add(new LEasyQ1_List("In Ilocano, the word 'kapsot' has three meanings. Which of the following is NOT a meaning of the word 'kapsot'?", "Physically weak", "Dumb", "Slow", "Small", 4));
+        questionList.add(new LEasyQ1_List("When Ilocano people mention 'kimat' and 'kurruog', what are they talking about?", "Wind and rain", "Plants and animals", "Thunder and lightning", "Air and water", 3));
+        questionList.add(new LEasyQ1_List("In Ilocano, which of the following is an expression of pity?", "Ubet apo na'n!", "Pakawanan berde!", "Ta ushang na't tuyen!", "Ay, piman!", 4));
+        questionList.add(new LEasyQ1_List("In Ilocano, which of the following is the best definition for 'kano'?", "Activity that describes child's play", "An American", "Indicating that what is being said has a news source", "A copycat", 3));
+        questionList.add(new LEasyQ1_List("How do you say “what do you do for a living?” in Cebuano?", "Unsa man imu panginabuhi? ", "Unsa man ika trabaho?", "Unsa man imu trabaho?", "Unsa man panginabi?", 1));
+        questionList.add(new LEasyQ1_List("How do you say “can you help me?” in Cebuano?", "Pwede ko makatabang ko nimu?", "Makabang ug nimu?", "Makanabang ug nako?", "Makatabang ka nako?", 4));
         setQuestion();
     }
 
