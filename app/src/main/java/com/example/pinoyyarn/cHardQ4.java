@@ -53,13 +53,31 @@ public class cHardQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture hard 4", "A", "B", "C", "D", 1));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 1));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-
-
+        questionList.add(new cEasyQ1_List("According to the Spanish authorities, what was the main reason for the execution of GOMBURZA?", "Secularization issue", "Conspiracy against Spanish King", "Involvement in Cavite Mutiny", "Failure to follow the Catholic teachings", 3));
+        questionList.add(new cEasyQ1_List("Rizal wrote the lines 'If Burgos had shown the courage of Gomez, the Filipinos would have been different from what they are today' on his letter to?", "Harry Sichrovsky on May 23, 1887", "Mariano Ponce on April 18 1889", "Maximo Viola on June 9 1883", "Ferdinand Blumentritt on December 30 1886", 2));
+        questionList.add(new cEasyQ1_List("He concluded that the retraction document, said to have been discovered in 1935, was not in Rizal's handwriting.", "Ricardo P. Garcia", "Pio Valenzuela", "Rafael Palma", "Guillermo Masangkay", 1));
+        questionList.add(new cEasyQ1_List("He stated 'Surely whether Rizal died as a Catholic or an apostate adds or detracts nothing from his greatness as a Filipino... Catholic or Mason, Rizal is still Rizal.'", "Jose Diokno", "Nicolas Zafra", "Gregorio Zaede", "Marciano Guzman", 1));
+        questionList.add(new cEasyQ1_List("Which event paved the way for the influx of liberal ideas from Europe which also influenced the emergence of Filipino consciousness?", "1872 Cavity Mutiny", "Opening of the Suez Canal", "French Revolution", "American Revolution", 2));
+        questionList.add(new cEasyQ1_List("All of these are Controversies to arise in Philippine History except one?", "Site of the First Mass", "Cavite Mutiny", "Battle of Tirad Pass", "Cry of Rebellion: Balintawak or Pugadlawin", 3));
+        questionList.add(new cEasyQ1_List("What was the punishment given to three Filipino martyr-priests?", "Firing Squad", "Reclusion Perpetua", "Garote", "Silya Elektrika", 3));
+        questionList.add(new cEasyQ1_List("In this Controversy, it can be used as benchmark in measuring how present-day society values martyrdrom, courage and bravery in understanding nationalism and patriotism.", "Rizal's Retraction", "First Mass in Limasawa", "Execution of Rizal", "All of the above", 1));
+        questionList.add(new cEasyQ1_List("He wrote a letter to Rizal describing the current situation of the Filipinos due to taxes.", "Austin Coates", "Rafael Palma", "Mariano Herbosa", "Macario Sakay", 3));
+        questionList.add(new cEasyQ1_List("There are several claims that Bolinao may have been earlier than Limasawa/Masao, but one historian refuted Bolinao’s claim. Who was the explorer that landed on Bolinao?", "Andres de Urdaneta", "Odoric of Pordenone", "Hernandeo de Magallanes", "Miguel Lopez de Legazpi", 2));
+        questionList.add(new cEasyQ1_List("The most weighing reason why the Native Heroes did not qualify for the candidacy of National Hero.", "The scale of their movements was only on a baranggay level.", "They were not literate enough to qualify.", "Their resistance was believed to be mostly politically motivated only.", "They did not accept Christianity as a religion.", 3));
+        questionList.add(new cEasyQ1_List("In 1996, the National Historical Institute (NHI) has already reaffirmed the popular belief propelled by ___________ that the first Holy Mass was celebrated in Masao in Butuan on March", "Republic Act 7384", "Republic Act 2836", "Republic Act 2733", "Republic Act 6542", 3));
+        questionList.add(new cEasyQ1_List("Who was the Spanish governor-general when the Cavite Mutiny happened?", "Miguel Lopez de Legazpi", "Rafael de Izquierdo", "Ramon Blanco", "Camilo de Polavieja", 2));
+        questionList.add(new cEasyQ1_List("The Malolos Congress was conceived by Mabini as:", "An advisory body", "A legislative body", "A judicial body", "An executive body", 1));
+        questionList.add(new cEasyQ1_List("A political condition common throughout the archipelago that develop nationalism among the Indios.", "Unfair treatment against women ", "Immense church influence over state affairs", "Equal opportunity for all the social classes", "Discrimination by foreign parties", 3));
+        questionList.add(new cEasyQ1_List("In __________ , Valenzuela averred that the Katipunan began meeting on 22 August while the Cry took place on 23 August at Apolonio Samson’s house in Balintawak.", "1911", "1909", "1910", "1912", 1));
+        questionList.add(new cEasyQ1_List("This person was a 19th-century Katipunero who had rivalries with his group mates. Due to this, he exposed the secret society of Katipunan. Who was he?", "Miguel Vicos", "Pedro Paterno", "Teodoro Patiño", "Mariano Gil", 3));
+        questionList.add(new cEasyQ1_List("What was the name of the Filipino soldier who led the Cavite Mutiny of 1872?", "Fr. Jose Burgos", "Lt. Taviel de Andrade", "Gen. Mariano Noriel", "Sergeant Lamadrid", 4));
+        questionList.add(new cEasyQ1_List("Below are the literary works of Andres Bonifacio except for?", "Ang Dapat Mabatid ng mga Tagalog", "Katapusang Hibik ng Pilipinas", "Sa Mga Kababayan", "Tapunan ng Lingap", 3));
+        questionList.add(new cEasyQ1_List("All of which is true about Antonio Luna except for?", "It is said that Luna was prolific with the gun and rifle.", "Juan Luna killed his wife and mother-in-law.", "Antonio and his brother Juan set up a firing club called Sala de Armas.", "He was assassinated by the order of Aguinaldo.", 3));
+        questionList.add(new cEasyQ1_List("A failed uprising in 1872 headed by Seargeat Lamadrid in an attempt to overthrow Spanish regime?", "Gomburza Mutiny", "Philippine Revolution", "Dagohoy Revolt", "Cavite Mutiny", 4));
+        questionList.add(new cEasyQ1_List("It is the place claimed by the people of Butuan as the first site of mass in the Philippines.", "Limasawa", "Mazaua", "Cebu", "Panay", 2));
+        questionList.add(new cEasyQ1_List("Based on the plan proposed by whom was The Malolos Constitution drafted?", "Paterno", "Calderon", "Mabini", "Aguinaldo", 2));
+        questionList.add(new cEasyQ1_List("A body of documents on the Philippine revolutions that contains confidential reports, transcripts, clippings, and photographs from Spanish and Philippine newspapers.", "Cuerpos de Compromisarios de Manila", "Cuerpo de Vigilancia de Manila", "Cuerpos de Propagandistas de Manila", "Cuerpos de Militantes de Manila", 2));
+        questionList.add(new cEasyQ1_List("Which is true about Emilio Aguinaldo?", "He saved Bonifacio’s life once.", "He prioritized the investigation for the alleged rape of Bonifacio’s wife.", "He ignored Luna’s advice for guerrilla warfare only to use it in the end.", "He engaged in political mudslinging against Jose P. Laurel.", 3));
         setQuestion();
     }
 
