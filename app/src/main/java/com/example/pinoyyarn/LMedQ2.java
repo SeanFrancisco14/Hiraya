@@ -53,16 +53,21 @@ public class LMedQ2 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("2", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
+        questionList.add(new LEasyQ1_List("Idyoma: Ninangas-Cogon ", "Mainipin ", "Tamad", "Masipag ", "Di-pangmatagalan", 4));
+        questionList.add(new LEasyQ1_List("Idyoma: Naghalo ang balat sa tinalupan ", "Nagkaayos", "Nagusap ", "Pinaghalo ang balat at tinalupan ", "Labanan o awayan", 4));
+        questionList.add(new LEasyQ1_List("Idyoma: Natuka ng ahas ", "Nalason ", "Hindi nakakibo", "Namatay", "Nakarma ", 2));
+        questionList.add(new LEasyQ1_List("Idyoma: Naglalaro ng apoy ", "Nagpapainit ", "Nagtaksil", "Nagsinungaling ", "Nasunugan", 2));
+        questionList.add(new LEasyQ1_List("Idyoma: Makati ang dila ", "Madaldal", "May singaw ", "Pipi ", "Nakagat dila ", 1));
+        questionList.add(new LEasyQ1_List("Idyoma: Anghel ng tahanan. ", "Isip bata ", "Malilikot na bata ", "Maliit na bata", "Magandang lahing bata ", 3));
+        questionList.add(new LEasyQ1_List("Idyoma: Bulang-gugo ", "Galante", "Matapobre ", "Iyakin ", "Sugatan", 1));
+        questionList.add(new LEasyQ1_List("Idyoma: Nag-alsa balutan ", "Nilalamig ", "Naglayas", "Nagbalot ng pagkain ", "Nagbaon ng pagkain ", 2));
+        questionList.add(new LEasyQ1_List("Idyoma: Maglubid ng buhangin ", "Magpatiwakal", "Maglaro ng buhangin ", "Magsinungaling ", "Magsabi ng totoo. ", 3));
+        questionList.add(new LEasyQ1_List("Idyoma: Balitang kutsero ", "Balitang walang katotohanan", "Balitang kalye ", "Balitang totoo", "Balitang sabi ng kutsero ", 1));
+        questionList.add(new LEasyQ1_List("Idyoma: Sariling pugad ", "Pugad ng ibon", "Sariling tahanan", "Pugad ng manok", "Pugad ng ibon", 2));
+        questionList.add(new LEasyQ1_List("Idyoma: Utang na loob ", "Utang na lamanloob ", "Utang na pera ", "Utang na buhat sa kagandahang-asal ", "Utang na hindi bayad ", 3));
+        questionList.add(new LEasyQ1_List("Idyoma: Matigas ang leeg ", "May stiffed neck ", "Masamang tao", "Mapagmataas", "Mahaba ang leeg ", 3));
+        questionList.add(new LEasyQ1_List("Idyoma: Isulat sa tubig ", "Kalimutan", "Tandaan", "Busabos ", "Lumutang sa tubig ", 1));
+        questionList.add(new LEasyQ1_List("Idyoma: Halang ang bituka ", "Mabuting tao ", "Salbaheng tao", "Matandang tao ", "Nagugutom na tao", 2));
 
         setQuestion();
     }

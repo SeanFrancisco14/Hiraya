@@ -53,16 +53,16 @@ public class LEasyQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("tae mo?", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
+        questionList.add(new LEasyQ1_List("Pick the right term for  ‘very obvious’.", "Kita-kita", "Kita kitang", "Kitang kita", "Kitang-kita", 4));
+        questionList.add(new LEasyQ1_List("Pick the right term for ‘excessive’.", "Labi-labis", "Labis-labis", "Lumalabis", "Labislabis", 2));
+        questionList.add(new LEasyQ1_List("Pick the right term for ‘crazy’", "Loko", "Loko-loko", "Lukoluko", "Luko-luko", 4));
+        questionList.add(new LEasyQ1_List("Pick the right term for ‘quite far’", "Malayo-layo", "Malayong-malayo", "Malayong-layo", "Malayo", 1));
+        questionList.add(new LEasyQ1_List("Pick the right term for ‘sluggish’", "Papatay", "Papatay-patay", "Patay-patay", "Patay", 3));
+        questionList.add(new LEasyQ1_List("Pick the right term for ‘eating together’. ", "Salong-salo", "Salo-salo", "Saklolo", "Salu-salo", 2));
+        questionList.add(new LEasyQ1_List("Pick the right term for ‘noise’ or ‘warning’. ", "Kabog-kabog", "Kabig-big", "Abog-abog", "Abig-kabig", 3));
+        questionList.add(new LEasyQ1_List("Pick the right term for ‘with sudden’ or ‘intermittent force’. ", "Bugsong-bugso", "Pabugso-uso", "Pabugso-bugso", "Bugso-bugso", 3));
+        questionList.add(new LEasyQ1_List("Pick the right term for ‘little by little’. ", "Onti-onti", "Onti-unti", "Unti-unti", "Unti-onti", 3));
+        questionList.add(new LEasyQ1_List("Pick the right term for ‘mentally deranged’.", "Sinto-sinto", "b.	Sinto-sino", "Sinisinto", "Sintu-sinto", 1));
 
         setQuestion();
     }

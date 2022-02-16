@@ -53,12 +53,21 @@ public class cMedQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture med 1", "A", "B", "C", "D", 1));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 1));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-
+        questionList.add(new cEasyQ1_List("A series of recordings made on music played on the spot and has to be performed once.", "Primal Music", "Gong Music", "Indigenous Music", "Rondalla Music", 1));
+        questionList.add(new cEasyQ1_List("Racked gong chime instrument played in the southern islands of the Philippines", "Gangsa", "Kulintang", "Rondalla", "Tinikling", 2));
+        questionList.add(new cEasyQ1_List("Rooted in the Mexican-Spanish tradition and based on the rhythmic patterns of the habanera.", "Gangsa", "Harana", "Kundiman", "Rondalla", 2));
+        questionList.add(new cEasyQ1_List("He is known for the witty song ‘Butse Kik’", "Willie Revillame", "Rey Valera", "Yoyoy Villame", "Ely Buendia", 3));
+        questionList.add(new cEasyQ1_List("His songs are ‘Maging Sino Ka Man’, ‘Pangako Sa’yo’, ‘Kahit Wala Ka Na’ and many more.", "Willie Revillame", "Rey Valera", "Yoyoy Villame", "Ely Buendia", 2));
+        questionList.add(new cEasyQ1_List("He has 39 Albums and won the Awit Award for the ‘Best Male Performer’ 12 times.", "Ely Buendia", "Gary Valenciano", "Ryan Cayabyab", "Ogie Alcasid", 2));
+        questionList.add(new cEasyQ1_List("What is the term that gave rise to songs using colloquial language?", "Manila Sound", "OPM", "Rap", "Pinoy Rock", 1));
+        questionList.add(new cEasyQ1_List("He led the first Philippine performance of Bach's Christmas Oratorio.", "Rey Valera", "Antonio Molina", "Jose Maceda", "Gary Valenciano", 2));
+        questionList.add(new cEasyQ1_List("It is a two-stringed boat-shaped lute.", "Kudyapi", "Rondalla", "Kudlung", "Saludoy", 1));
+        questionList.add(new cEasyQ1_List("She was known for being instrumental to the development of Philippine music and culture.", "Lucresia Roces Kasipag", "Lucresia Roses Kasipag", "Lucresia Roces Kasilag", "Lucresia Roses Kasilag", 3));
+        questionList.add(new cEasyQ1_List("The Golden Era of ballad in the Philippines is during ____.", "1980s", "1990s", "1970s", "1960s", 1));
+        questionList.add(new cEasyQ1_List("These are instruments that are plucked.", "Idiophones", "Chordophones", "Aerophones", "Membranophones", 2));
+        questionList.add(new cEasyQ1_List("She was hailed as 'The Queen of Filipino Jazz'and as 'The Queen of Bodabil.'", "Ciara Sotto", "Lucresia Roces Kasilag", "Katy dela Cruz", "Ayen Laurel", 3));
+        questionList.add(new cEasyQ1_List("He was named as the National Artist of the Philippines for Music in 2018.", "Ely Buendia", "Rico Blanco", "Jay-R Siaboc", "Rey Cayabyab", 4));
+        questionList.add(new cEasyQ1_List("Who is the first Filipino singer to do a local version of an English rock song?", "Ariel Rivera", "Rico Blanco", "Rico Puno", "Bobby Gonzales", 4));
 
         setQuestion();
     }

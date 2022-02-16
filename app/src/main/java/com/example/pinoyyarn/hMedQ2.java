@@ -53,17 +53,21 @@ public class hMedQ2 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("hist1", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new hEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new hEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new hEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new hEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new hEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new hEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new hEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new hEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new hEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
-
+        questionList.add(new hEasyQ1_List("Where is the Aguinaldo Shrine located in?", "Tarlac", "Quezon", "Calamba", "Cavite", 4));
+        questionList.add(new hEasyQ1_List("The Dambana ng Kagitingan is also called as?", "Shrine of Heroes", "Shrine of Agents", "Shrine of Valor", "Shrine of the People", 3));
+        questionList.add(new hEasyQ1_List("It was called as Bagumbayan before.", "Eco Park", "Bonifacio Shrine", "Intramuros", "Rizal Park", 4));
+        questionList.add(new hEasyQ1_List("Where is the first Philippine flag raised?", "Fort Pilar", "Dapitan Shrine", "Aguinaldo Shrine", "Bagumbayan", 3));
+        questionList.add(new hEasyQ1_List("This was built to defend Christians against the Muslims.", "Fort Pilar", "Dapitan Shrine", "Aguinaldo Shrine", "Intramuros", 1));
+        questionList.add(new hEasyQ1_List("It is the oldest settlement in the Philippines located in Manila.", "Tondo", "Sampaloc", "Espana", "Binondo", 1));
+        questionList.add(new hEasyQ1_List("The famous San Agustin Church is located where?", "Bataan", "Nueva Ecija", "Intramuros", "Mindoro", 3));
+        questionList.add(new hEasyQ1_List("Father Valderamma held the first mass in the Philippines in _______.", "Manila", "Cebu", "Southern Leyte", "Northern Leyte", 3));
+        questionList.add(new hEasyQ1_List("It is filled with cobblestone streets and heritage houses, which some are converted into museums, hotels, restaurants and houses.", "Biak na Bato", "Cinco de Noviembre Memorial", "Cagsawa Ruins", "Calle Crisologo", 4));
+        questionList.add(new hEasyQ1_List("This was built on 1611 and more commonly known as Baler church. ", "Plaza Cuartel", "San Luis Obispo de Tolosa Parish", "Basilica del Santo Nino", "Barasoain Church", 2));
+        questionList.add(new hEasyQ1_List("During the American occupation, this was fortified with coastal artillery to defend the entrance of Manila Bay from enemy ships.", "Fort Santiago", "Fort San Pedro", "Corregidor Island", "Mactan Shrine", 3));
+        questionList.add(new hEasyQ1_List("This mansion originally was built Don Mariano Lacson in honor of his late wife, Maria Braga.", "Plaza Cuartel", "The Ruins", "Sandugo Shrine", "Las Casas", 2));
+        questionList.add(new hEasyQ1_List("This was made of wood and immediately put up after the arrival of the Spanish explorer in order to keep the Muslim raiders away from the area", "Fort San Pedro", "Fort Pilar", "Dauis Watchtower", "Punta Cruz Watchtower", 1));
+        questionList.add(new hEasyQ1_List("Also known as El Fraile Island, it is an abandoned military post that still has its rusting guns.", "Fort San Pedro", "Fort Pillar", "Punta Cruz Watch tower", "Fort Drum", 4));
+        questionList.add(new hEasyQ1_List("It is the oldest playhouse in Cebu established in 1895 and was a venue for civic affairs.", "Teatro y Hernandez", "Teatro Junquera", "Teatro Patricio", "Teatro Jakosalem", 2));
         setQuestion();
     }
 

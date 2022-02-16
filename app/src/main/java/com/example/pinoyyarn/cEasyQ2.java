@@ -53,12 +53,16 @@ public class cEasyQ2 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture easy set 2", "A", "B", "C", "D", 4));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 4));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-
+        questionList.add(new cEasyQ1_List(" A festival held in Zambales to celebrate the bountiful harvest of mangoes.", "Ati-atihan Festival", "Dinamulag Festival", "Kadayawan Festival", "Pahiyas Festival", 2));
+        questionList.add(new cEasyQ1_List("It is a religious festival held in the Queen city, Cebu City every January.", "Ati-atihan Festival", "Sinulog Festival", "MassKara Festival", "Ibalong Festival", 2));
+        questionList.add(new cEasyQ1_List("What does “sinulog” means?", "A season for blossoming", "Good, valuable and superior", "Like the water current", "Colorful and enchanting", 3));
+        questionList.add(new cEasyQ1_List("During ati-atihan festival they chant ______.", "Hala Bira!", "Madayaw!", "Dagyang!", "Kipings!", 1));
+        questionList.add(new cEasyQ1_List("It is a local Kankana-ey term in Cordillera which means “a season of blossoming”.", "Ati-atihan", "Kadayawan", "Higantes", "Panagbenga", 4));
+        questionList.add(new cEasyQ1_List("Celebrated in the Art Capital of the Philippines and is based from the Angono folklore.", "Moriones Festival", "Ibalong Festival", "Higantes Festival", "T’nalak Festival", 3));
+        questionList.add(new cEasyQ1_List("This is a way to preserve and promote South Cotabato’s cultural heritage as to celebrate with the annual foundation anniversary of South Cotabato.", "T’nalak Festival", "Ibalong Festival", "Moriones Festival", "MassKara Festival", 1));
+        questionList.add(new cEasyQ1_List("One of the religious festivals that celebrates the feast of Sto. Nino in Iloilo City.", "Ati-atihan Festival", "Pahiyas Festival", "Dinagyang Festival", "Kadayawan Festival", 3));
+        questionList.add(new cEasyQ1_List("Where is the Ibalong Festival held?", "Ilocos Sur", "Marinduque", "Bicol", "General Santos City", 3));
+        questionList.add(new cEasyQ1_List("It is a giant masquerade held at the country’s city of smiles, Bacolod.", "Pintados Festival", "Aliwan Festival ", "Kadayawan Festival", "MassKara Festival", 4));
 
         setQuestion();
     }

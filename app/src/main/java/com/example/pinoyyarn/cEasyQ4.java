@@ -53,14 +53,16 @@ public class cEasyQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture easy set 4", "A", "B", "C", "D", 4));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 4));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-        questionList.add(new cEasyQ1_List("Question 6", "A", "D", "B", "C", 3));
-
-
+        questionList.add(new cEasyQ1_List("This superstition says that you should go somewhere else before going home after you went to a wake.", "Tao po!", "Sukob", "Pagpag", "Tabi tabi po!", 3));
+        questionList.add(new cEasyQ1_List("A common line used by Filipinos when knocking someone’s door that is used to make sure that the person inside is a real person.", "Sukob!", "Tao po!", "Tabi tabi po!", "Pagpag!", 2));
+        questionList.add(new cEasyQ1_List("This superstition advises against siblings marrying within the same year as it said to divide the luck between the two marriages.", "Pagpag", "Tabi tabi po!", "Sukob", "Tao po!", 3));
+        questionList.add(new cEasyQ1_List("Complete the sentence ‘Kapag naggupit ng kuko sa gabi, may ___ na mahal sa buhay.’.", "Mabubuntis", "Mamamatay", "Babagsak sa pagsusulit", "Malulunod", 2));
+        questionList.add(new cEasyQ1_List("Complete the sentence ‘Kung namatay sa sanhi na krimen, nilalagyan ng ______ ang ibabaw ng kabaong.’.", "Pera", "Bulaklak", "Bigas", "Sisiw", 4));
+        questionList.add(new cEasyQ1_List("What do you offer to the ‘lamang lupa’ if you disturb them?", "Food", "Money", "Wine", "Alive pig", 1));
+        questionList.add(new cEasyQ1_List("We believe that a black cat is?", "Lucky", "Unlucky", "Sign for money", "Sign to pass exams", 2));
+        questionList.add(new cEasyQ1_List("What is the number that is believed to be unlucky?", "88", "6", "13", "24", 3));
+        questionList.add(new cEasyQ1_List("If you had a bad dream, you should bite a _____?", "Bark of a tree", "Skin of the person next to you", "Pillow", "Fingernails", 1));
+        questionList.add(new cEasyQ1_List("Complete the sentence ‘May kinakasal na ______ kapag umaaraw at umuulang nang sabay.’.", "Mangkukulam", "Multo", "Berbalang", "Tikbalang", 4));
         setQuestion();
     }
 

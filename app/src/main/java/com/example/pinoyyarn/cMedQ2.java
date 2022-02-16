@@ -53,12 +53,21 @@ public class cMedQ2 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture med 2", "A", "B", "C", "D", 4));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 4));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-
+        questionList.add(new cEasyQ1_List("The dance's place of origin is at Lingayen, Pangasinan and dancers are using sticks to perform.", "Tinikling", "Sua-ku-sua", "Pangalay", "Biniskalan", 4));
+        questionList.add(new cEasyQ1_List("Philippine Folk Dance mirrors the _____ of the Filipinos.", "Beliefs", "Value and moral", "Culture and Tradition", "Knowledge and wisdom", 3));
+        questionList.add(new cEasyQ1_List("It is performed mainly during weddings and other festive events.", "Binislakan", "Pangalay", "Tinikling", "Bahay-Kubo", 2));
+        questionList.add(new cEasyQ1_List("One of the most famous dances in the Philippines that uses bamboo poles.", "Tinikling", "Itik-Itik", "Maglalatik", "Pantomina", 1));
+        questionList.add(new cEasyQ1_List("A folk dance in Luzon that is a mock dance over a fight over coconut meat, a highly prized food.", "Maglalatik", "Itik-itik", "Pantomina", "Binasuan", 1));
+        questionList.add(new cEasyQ1_List("This dance is performed on the top of a narrow chair that originated in Pangasinan.", "Itik-itik", "Pantomina", "Sayaw sa Bangko", "Binasuan", 3));
+        questionList.add(new cEasyQ1_List("A folk dance from Pangasinan that uses drinking glasses that the dancers balances in their head and hand as they move.", "Pantomina", "Itik-itik", "Pantomina", "Binasuan", 4));
+        questionList.add(new cEasyQ1_List("Is a cultural dance in the Philippines influenced by Muslims that is originated by the Maranao tribe in Mindanao.", "Kappa Malong-malong", "Binasuan", "Pantomina", "Itik-itik", 1));
+        questionList.add(new cEasyQ1_List("This is typically performed by fishermen to celebrate a bountiful catch.", "Itik-itik", "Pantomina", "Pandanggo Oasiwas", "Kuratsa", 3));
+        questionList.add(new cEasyQ1_List("It is another courtship dance in the Philippines that is said to mimic the movement of doves in courtship.", "Pantomina", "Pandaggo sa Ilaw", "Kuratsa", "Itik-Itik", 1));
+        questionList.add(new cEasyQ1_List("Where does Kuratsa originated from?", "Bicol Region", "Pangasinan", "Samar Island", "Batanes", 3));
+        questionList.add(new cEasyQ1_List("Known for her abstract ballets to music Rhapsody in Blue, Rhapsody on a Theme of Paganini, Serenade for Strings, Cappriccio Espagnol.", "Rosalia Merino Santos", "Julie Borromeo", "Leonor Orosa Goquingco", "Remedios de Oteyza", 4));
+        questionList.add(new cEasyQ1_List("Which of these is not a step of Polkabal?", "uksong Uwak", "Corriba", "Paseo", "Ensayo", 2));
+        questionList.add(new cEasyQ1_List("It is a comic dance from Ilocos sur that depicts the movement of a person bitten by ants.", "Kinoton", "Habanera", "Kuratsa", "Itik-itik", 1));
+        questionList.add(new cEasyQ1_List("It is a mix of Cuban, Spanish and African rhythms and dance moves.", "Kinoton", "Kuratsa", "Habanera", "Itik-itik", 3));
 
         setQuestion();
     }

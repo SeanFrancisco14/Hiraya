@@ -53,21 +53,21 @@ public class hMedQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("The president who passed RA 6657 or the Comprehensive Agrarian Reform Law.", "Corazon C. Aquino", "Fidel V. Ramos", "Elpidio R. Quirino", "Ferdinand Marcos", 1));
-        questionList.add(new hEasyQ1_List("When were the 24-hour nationwide emergency hotlines launched?", "July 30, 2016", "August 1, 2016", "July 29, 2016", "August 5, 2016", 2));
-        questionList.add(new hEasyQ1_List("The Bataan Death March took place in what year?", "1890", "1950", "1950", "1942", 4));
-        questionList.add(new hEasyQ1_List("Which of these is not true of the La Solidaridad?", "It was the official organ of the reform movement.", "It was a vehicle for the expression of the political views of the reformers.", "It featured articles about the good deeds of the friars.", "It was a forum for discussion of the issues concerning the Philippines.", 3));
-        questionList.add(new hEasyQ1_List("When did Corregidor fall into the hands of the Japanese?", "March 5, 1942", "April 9, 1942", "January 2, 1942", "May 6, 1942", 4));
-        questionList.add(new hEasyQ1_List("The first real battle fought between Filipinos and the Spaniards is known as:", "San Juan Del Monte", "Pugad Lawin", "Majayjay", "Pinaglabanan", 1));
-        questionList.add(new hEasyQ1_List("In what year did the Portuguese explorer Ferdinand Magellan arrive in the shores of Philippines?", "1420", "1621", "1521", "1528", 3));
-        questionList.add(new hEasyQ1_List("He was one of the heroes of the Battle of Hill Eerie during the Korean War as a young lieutenant and later served as a President of the Philippines", "Fidel V. Ramos ", "Benigno Aquino III", "Rodrigo Duterte", "Ferdinand Marcos", 2));
-        questionList.add(new hEasyQ1_List("He was a former President of the USA who appointed General MacArthur to rule and govern the Philippines.", "Dwight D. Eisenhower", "Franklin D. Roosevelt", "William Howard Taft", "George Washington", 3));
-        questionList.add(new hEasyQ1_List("The date when the Philippines won over the arbitration case regarding the West Philippine Sea on the Permanent Court of Arbitration against China.", "July 13, 2016", "July 11, 2016", "July 14, 2016", "July 12, 2016", 4));
-        questionList.add(new hEasyQ1_List("Who are the Malay?", "Americans who founded settlements in the Philippines", "Austronesian people inhabiting the Malay Peninsula’10", "Anglo-Saxon women who traded with natives", "Spaniards who founded settlements in the Philippines", 2));
-        questionList.add(new hEasyQ1_List("Who is  the 9th vice President of the Philippines?", "Corazon C. Aquino", "Diosdado Macapagal Jr.", "Elpidio R. Quirino", "Ferdinand Marcos", 2));
-        questionList.add(new hEasyQ1_List("It is the first political party in the Philippines", "Federal Party", "Makabayan Party", "Nacionalista Party", "Liberal Party", 1));
-        questionList.add(new hEasyQ1_List("What was the password used for the codes of 'Katipon'?", "Rizal", "Gomburza", "Anak ng Bayan", "Katipunan", 3));
-        questionList.add(new hEasyQ1_List("Ang namuno sa pinakamatagal na pag-aalsa ay si:", "Gregorio del Pilar", "Diego Silang", "Hermano Pule", "Francisco Dagohoy", 4));
+        questionList.add(new hEasyQ1_List("When did Japan seized the Philippines?", "1941", "1951", "1942", "1952", 1));
+        questionList.add(new hEasyQ1_List("On what year did Ferdinand Marcos declare the Martial law?", "September 22, 1972", "September 22, 1971", "September 21, 1972", "September 21, 1971", 3));
+        questionList.add(new hEasyQ1_List("On June 15, 1991, what volcano erupted?", "Bulkang Taal", "Mt. Kanlaon", "Bulkang Pinatubo", "Mayon Volcano", 3));
+        questionList.add(new hEasyQ1_List("When did the assassination of Benigno Aquino Jr.?", "August 21, 1983", "August 22, 1983", "August 23, 1984", "August 23, 1985", 1));
+        questionList.add(new hEasyQ1_List("Who led the EDSA Revolution on 1986?", "Juan Ponce Enrile", "Corazon Aquino", "Fidel V. Ramos", "Jaime Cardinal Sin", 2));
+        questionList.add(new hEasyQ1_List("Who was elected president on 1944?", "Emilio Aguinaldo", "Manuel L Quezon", "Ferdinand Marcos", "Sergio Osmena", 4));
+        questionList.add(new hEasyQ1_List("When did Ferdinand Magellan died?", "April 27, 1522", "April 28, 1522", "April 27, 1521", "April 28, 1521", 3));
+        questionList.add(new hEasyQ1_List("The first agreement for peace in the Philippine happened when?", "June 7, 1564 ", "June 6, 1563", "June 5, 1566", "June 4, 1565", 4));
+        questionList.add(new hEasyQ1_List("On February 19, 1897, the Battle of _____ happened.", "Lumang Bato", "Zapote Bridge", "Pinaglabanan", "Tejeros Convention", 2));
+        questionList.add(new hEasyQ1_List("The Battle of Tirad pass happened during?", "December 2, 1899", "December 3, 1899", "December 4, 1899", "December 5, 1899", 1));
+        questionList.add(new hEasyQ1_List("On March 17, 1957, which president died?", "Sergio Osmena", "Ferdinand Marcos", "Manuel Roxas", "Ramon Magsaysay", 4));
+        questionList.add(new hEasyQ1_List("On February 9, 1986, how many computer technicians of the Commission of Elections walked out of their job?", "10", "17", "30", "27", 3));
+        questionList.add(new hEasyQ1_List("When was the flag day proclaimed by the National Assembly?", "October 29, 1919", "October 31, 1919", "October 29, 1920", "October 31, 1920", 2));
+        questionList.add(new hEasyQ1_List("On May 1, 1903, the first Labor day rally was organized by?", "Iglesia Filipina Independiente", "El Renacimiento", "Congreso Obrero de Filipinas", "Union Obrero Democratica de Filipinas", 4));
+        questionList.add(new hEasyQ1_List("What law was signed by Theodore Roosevelt on March 25, 1934?", "Law on women’s suffrage", "Tagalog as official language", "Tydings-Mcduffie Law", "Pensionado Law", 3));
         setQuestion();
     }
 
