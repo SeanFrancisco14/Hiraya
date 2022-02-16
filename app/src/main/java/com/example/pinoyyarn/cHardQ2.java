@@ -53,31 +53,31 @@ public class cHardQ2 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("Who is the highest American military official that was killed in action during the Filipino-American war?", "Col. Grayson", "Gen. Pershing", "Gen. Lawton", "Gen. Merrit", 3));
-        questionList.add(new cEasyQ1_List("What is the name of Filipino armed contingent that helped the Americans capture Aguinaldo?", "Fire Brigade", " Balangiga Rangers", "Macabebe Scouts", "Abu Sayyaf", 3));
-        questionList.add(new cEasyQ1_List("One of the last Filipino generals who fought the Americans and established the so-called 'Tagalog Republic’.", "Macario Sakay", "Manuel Tinio", "Miguel Malvar", "Gregorio del Pilar", 1));
-        questionList.add(new cEasyQ1_List("Who was the last general of the Filipino-American revolution to surrender to the Americans?", "Miguel Malvar", "Cornelio Felizardo", "Artemio Ricarte", "Simeon Ola", 4));
-        questionList.add(new cEasyQ1_List("It is the law which allowed the establishment of American Civil Government in the Philippines.", "Tydings-McDuffie Law", "Jone’s Law of 1916", "Taft’s Law", "Warren Law", 2));
-        questionList.add(new cEasyQ1_List("He was a former President of the USA who appointed General MacArthur to rule and govern the Philippines.", "Dwight D. Eisenhower", "Franklin D. Roosevelt", "George Washington", "William Howard Taft", 4));
-        questionList.add(new cEasyQ1_List("Who was the American President who declared the Benevolent Assimilation?", "William McKinley", "Theodore Roosevelt", "Franklin Roosevelt", "Warren Harding", 1));
-        questionList.add(new cEasyQ1_List("Which recommended that US should remain in the Philippines since our country was not yet ready for independence?", "Jones Law", "Tydings-McDuffie Law", "Schurman Commission", "Taft Commission", 2));
-        questionList.add(new cEasyQ1_List("Which provided for a 10-year transition period under Commonwealth?", "Tydings-McDuffie Law", "Jones Law", "Schurman Commission", "Taft Commission", 1));
-        questionList.add(new cEasyQ1_List("Which of the following laws of the Americans defined the structure, the power and duties of the three branches of government in the Philippines?", "Jones Law", "Hare-Hawes Cutting Act", "Tydings-McDuffie Law", "Cooper Act", 1));
-        questionList.add(new cEasyQ1_List("__________________ provided the US bill of rights for the Filipino people", "Cooper Act", "Taft Commission", "Hare-Hawes Cutting Act", "Tydings-McDuffie", 2));
-        questionList.add(new cEasyQ1_List("_________________ established a civil government and train Filipinos for self-government.", "Cooper Act", "Jones Law", "Taft Commission", "Wood-Forbes Mission", 1));
-        questionList.add(new cEasyQ1_List("What was the evidence that the Americans dominate the provincial government?", "The Filipinos are not allowed to vote for the provincial government", "The officers for the provincial government were appointed by the Central Government", "The influential positions were under the Americans", "The American Commissioner supervise the provincial government", 3));
-        questionList.add(new cEasyQ1_List("Why did the elite dominate the local government?", "Because they had the money to buy votes", "Because they are the well-educated", "Because the masses had no interest", "Because of the qualifications for suffrage", 4));
-        questionList.add(new cEasyQ1_List("When was the civil government in the Philippines officially inaugurated?", "August 9, 1991", "May 16, 1901", "July 4, 1901", "July 4, 1908", 3));
-        questionList.add(new cEasyQ1_List("This amendment called for the establishment of a civil government in the Philippines. ", "Taft Amendment", "Spooner Amendment", "Mckinley Amendment", "Jones Amendment", 2));
-        questionList.add(new cEasyQ1_List("He was the US President who ordered the colonization of the Philippines.", "Henry Cooper", "William Mckinley", "Theodore Roosevelt", "Jacob Schurman", 2));
-        questionList.add(new cEasyQ1_List("What was the name of the United States Navy ship that sank in Havana Harbor in February 1898, contributing to the outbreak of the Spanish–American War?", "USS Dolphin", "USS Maine", " U.S.S. Brooklyn", "U.S.S. Marblehead", 2));
-        questionList.add(new cEasyQ1_List("Where was the USS Maine anchored?", "Trinidad, Cuba", "Los Angeles", "Corregidor Island", "Havana, Cuba", 4));
-        questionList.add(new cEasyQ1_List("Who led the American fleet who arrived at the Manila bay on May 1, 1898?", "General Fermin Faudenes", "Major General Wesley Merritt", "Commodore George Dewey", "General Francis Green", 3));
-        questionList.add(new cEasyQ1_List("When did the Mock battle took place?", "August 13,", "August 13,1898", "August 14,1898", "August 13,1897", 2));
-        questionList.add(new cEasyQ1_List("Who is the Spanish fleet commander who fought against the American fleet led by Commodore George Dewey?", "General Francis Green", "Emilio Aguinaldo", "Governor General Fermin Jaudenes", "Admiral Patricio Montojo", 4));
-        questionList.add(new cEasyQ1_List("He is a Spanish commander and also one of the people who knew about the Mock battle in Manila.", "General Francis Green", "General Wesley Merritt", "Governor General Fermin Jaudenes", "Admiral Patricio Montojo", 3));
-        questionList.add(new cEasyQ1_List("Theodore Roosevelt and his 'Rough Riders' fought at which battle?", "The Battle of Sand Wand Hill", "The Battle of Manila Bay", "The Battle of Madrid", "The Battle of San Juan Hill", 4));
-        questionList.add(new cEasyQ1_List("_____________ was elected as the president of the Constitutional Convention in 1934.", "Manuel Quezon", "Emilio Aguinaldo", "Claro Recto", "Cayetano Arellano", 3));
+        questionList.add(new cEasyQ1_List("Who was the first Philippine National Artist in 1972, recognized for outstanding contribution to Philippine art??", " Fernando C. Amorsolo", "Lázaro Francísco", "Federico Aguilar Alcuaz", "Manuel Conde", 1));
+        questionList.add(new cEasyQ1_List("Which Philippine national artist used the pen name Doveglion?", " F. Sionil Jose", "Jose Garcia Villa", "Edilberto Tiempo", "Francisco Arcellana", 2));
+        questionList.add(new cEasyQ1_List("Who created the famous Bamboo Organ of Las Piñas?", "Architect Ludwig Alvarez", "Fray Luca Pacioli", "Father Diego Cera", "Architect Francisco Mañosa", 3));
+        questionList.add(new cEasyQ1_List("Who was the first National Artist for Historical Literature in the Philippines?", "Carlos Quirino", "Carlos P. Romulo", "Amado V. Hernandez", "Nestor Vicente Madali Gonzales", 1));
+        questionList.add(new cEasyQ1_List("This writer received a rare achievement after two of his short stories won first prizes at the Don Carlos Palanca Memorial Awards for Literature two years in a row (1970 and 1971).", "Jose Garcia Villa", "Amado Hernandez", "Ricky Lee", "Virgilio Almario", 3));
+        questionList.add(new cEasyQ1_List("Which national dance artist of the Philippines had the pen name Cristina Luna?", "Leonor Orosa-Goquingco", "Diana Toy", "Francisca Reyes-Aquino", "Atang dela Rama", 1));
+        questionList.add(new cEasyQ1_List("Which national music artist of the Philippines studied at Escuela Catolica de Nuestra Padre Jesus Nazareno?", "Ernani Joson Cuenco", "Jose Maceda", "Antonio Molina", "Levi Celerio", 3));
+        questionList.add(new cEasyQ1_List("The famous sarsuela in the country entitled 'Walang Sugat' was written by?", "Howie Severino", "Precioso Palma", "Severino Reyes", "Ryan Cayabyab", 3));
+        questionList.add(new cEasyQ1_List("He is a prolific Filipino writer whose works have been translated in more than 20 languages.", "Nick Joaquin", "F. Sionil Jose", "N.V.M Gonzalez", "Francisco Arcellana", 2));
+        questionList.add(new cEasyQ1_List("He is an award-winning poet, librettist and scholar.", "Bienvenido Lumbera", "Cirilo F. Bautista", "Lazaro Francisco", "Carlos L. Quirino", 1));
+        questionList.add(new cEasyQ1_List("He is a highly praised poet, fictionist and essayist.", "Bienvenido Lumbera", "Cirilo F. Bautista", "Lazaro Francisco", "Carlos L. Quirino", 2));
+        questionList.add(new cEasyQ1_List("He was imprisoned for his participation in the communist movement.", "Virgilio Almario", "Carlos P. Romulo", "Jose Garcia Villa", "Amado V. Hernandez", 4));
+        questionList.add(new cEasyQ1_List("He is also known as Rio Alma.", "Edith Ocampo", "Carlos Garcia", "Virgilio S. Almario", "Jose Villa", 3));
+        questionList.add(new cEasyQ1_List("If you will study about his works, you will notice his use of comma in every word.", "Jose Garcia Villa", "Edith L. Tiempo", "Nick Joaquin", "F. Sionil Jose", 1));
+        questionList.add(new cEasyQ1_List("He also used the pen name Quijano de Manila for some of his works.", "Amado V. Hernandez", "Nick Joaquin", "Virgilio Almario", "Carlos Romulo", 2));
+        questionList.add(new cEasyQ1_List("He is a famed poet, short story writer, essayist, professor and recipient of numerous recognitions.", "Nick Joaquin", "N. V. M. Gonzalez", "Francisco Arcellana", "F. Sionil Jose", 2));
+        questionList.add(new cEasyQ1_List("He is a courageous Filipino writer well-known for his disapproval of social injustices in the country.", "Virgilio S. Almario", "Amado V. Hernandez", "Carlos P. Romulo", "Rio Alma", 2));
+        questionList.add(new cEasyQ1_List("He is also the founder of the Boy scouts of the Philippines.", "Carlos P. Romulo", "Amado V. Hernandez", " Virgilio S. Almario", "Nick Joaquin", 1));
+        questionList.add(new cEasyQ1_List("One of the most talented biographers of his time.", "Lazaro Francisco", "Carlos P. Romulo", "Carlos L. Quirino", "Cirilo F. Bautista", 3));
+        questionList.add(new cEasyQ1_List("He is considered to be an icon in Tagalog writing through his nationalist and social criticisms.", "Amado V. Hernandez", "Lazaro Fancisco", "Bienvenido Lumbera", "Carlos L. Quirino", 2));
+        questionList.add(new cEasyQ1_List("Who is the National Artist that composed the accompaniment to the folkdance 'Pandango sa Ilaw'?", "Jose Maceda", "Ernani Cuenco", "Antonio Buenaventura", "Levi Celerio", 3));
+        questionList.add(new cEasyQ1_List("Who is the National Artist that is known for incorporating indigenous Filipino instruments into orchestral productions?", "Jose Maceda", "Honorata Dela Rama", "Antonio Molina", "Lucrecia Kasilag", 4));
+        questionList.add(new cEasyQ1_List("Who is the National Artist that introduced the French style of piano playing in the Philippines?", "Antonio Buenaventura", "Jose Maceda", "Ryan Cayabyab", "Antonio Molina", 2));
+        questionList.add(new cEasyQ1_List("Who is the National Artist that showcased the Filipino love ballad songs by adding the elements of Kundiman to it?", "Ryan Cayabyab", "Levi Celerio", "Ernani Cuenco", "Antino Molina", 3));
+        questionList.add(new cEasyQ1_List("Who is the National Artist that used impressionism style of music in his works?", "Jose Maceda", "Ryan Cayabyab", "Levi Celerio", "Antonio Molina", 4));
 
         setQuestion();
     }
