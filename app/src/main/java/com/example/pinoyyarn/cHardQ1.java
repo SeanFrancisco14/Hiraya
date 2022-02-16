@@ -53,13 +53,31 @@ public class cHardQ1 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("culture hard 1", "A", "B", "C", "D", 1));
-        questionList.add(new cEasyQ1_List("Question 2", "B", "B", "D", "C", 1));
-        questionList.add(new cEasyQ1_List("Question 3", "C", "D", "A", "A", 1));
-        questionList.add(new cEasyQ1_List("Question 4", "C", "D", "A", "B", 2));
-        questionList.add(new cEasyQ1_List("Question 5", "A", "D", "B", "C", 4));
-
-
+        questionList.add(new cEasyQ1_List("Around how many soldiers were forced to Bataan Death March?", "2,000", "15,000", "76,000", "110,000", 3));
+        questionList.add(new cEasyQ1_List("When was the WW2 started in the Philippines?", "December 8, 1941", "April 19, 1941", "November 30, 1941", "July 9, 1941", 1));
+        questionList.add(new cEasyQ1_List("When was the attack of Pearl Harbor in the US?", "July 9, 1941", "August 21, 1941", "April 19, 1941", "December 8, 1941", 4));
+        questionList.add(new cEasyQ1_List("In 1946, the Japanese commander of the march was convicted by a U.S. military commission and executed. What was the name of this commander?", "Akiyama Saneyuki", "Murakami Kakuichi", "Shimamura Hayao", "Homma Masaharu", 4));
+        questionList.add(new cEasyQ1_List("When was the Bataan Death March started?", "May 7, 1942", "March 16, 1942", "April 9, 1942", "February 8, 1942", 3));
+        questionList.add(new cEasyQ1_List("How long is The Bataan Death March?", "55 miles or 88.5139", "65 miles or 104.607 kilometers", "75 miles or 120.701 kilometers", "85 miles or 136.794 kilometers", 4));
+        questionList.add(new cEasyQ1_List("Who is the leader of Hukbalahap?", "Fernando Amorsolo", "Jose Laurel Jr.", "Miguel Malvar", "Luis Taruc", 4));
+        questionList.add(new cEasyQ1_List("When was the Japanese commander executed by firing squad?", "July 4, 1946", "May 9, 1946", "December 6, 1946", "April 3, 1946", 4));
+        questionList.add(new cEasyQ1_List("Who is the first and last president of the Second Republic of the Philippines?", "Emilio Aguinaldo", "Manuel L. Quezon", "Jose P. Laurel", "Sergio Osmena", 3));
+        questionList.add(new cEasyQ1_List("The historic death march started in __________, Bataan.", "Mariveles", "San Francisco", "Capas", "Tarlac", 1));
+        questionList.add(new cEasyQ1_List("The following are the cities and places that was bombed by the Japanese except __________.", "Davao", "Baguio", "Cebu", "Manila", 1));
+        questionList.add(new cEasyQ1_List("This is the location of the largest US naval base.", "New Mexico", "California", "South Carolina", "Hawaii", 4));
+        questionList.add(new cEasyQ1_List("What is the complete name of the combined forces of Filipinos and American soldiers?", "United States Armalite Forces in the Far East", "United States Army Forces in the Far East", "United States Army Forces in the Fair East", "United States Army Facets in the Far East", 2));
+        questionList.add(new cEasyQ1_List("What signaled the beginning of the Second World War?", "Bombing of Bataan", "Bombing of USAFFE", "Bombing of Pearl Harbor", "Bombing of Corregidor", 2));
+        questionList.add(new cEasyQ1_List("What served as the last defense of our country against the Japanese occupation?", "Bataan", "Manila", "Cebu", "Corregidor", 4));
+        questionList.add(new cEasyQ1_List("What is the name of the Camp where prisoners of war walked for days to reach it?", "Camp O’Jonnel", "Camp O’Jenell", "Camp O’Flannel", "Camp O’Donell", 4));
+        questionList.add(new cEasyQ1_List("Who was the elected Filipino President of the Japanese Puppet Government?", "Manuel Quezon", "Sergio Osmeña", "Jose P. Laurel", "Jorge Vargas", 3));
+        questionList.add(new cEasyQ1_List("What did the Philippine government declare to Manila in order to prevent further destruction of the city during the war?", "It was declared a colony of Japan.", "It was surrendered by the Philippine government to the Japanese.", "They made a truce with the Japanese.", "It was declared as an Open City.", 4));
+        questionList.add(new cEasyQ1_List("Where did the Philippine government go when the Japanese attacked Manila?", "Malolos, Bulacan", "Corregidor, Bataan", "San Fernando, Pampanga", "Palo, Leyte", 2));
+        questionList.add(new cEasyQ1_List("What force was the US a member of during World War II?", "Axis Forces", "Nazis Forces", "Allied Forces", "Samurai Forces", 3));
+        questionList.add(new cEasyQ1_List("What triggered World War II?", "The killing of the Jews.", "The creation of the atomic bombs.", "The bombing of Pearl Harbor", "The territorial dispute on the Philippines.", 3));
+        questionList.add(new cEasyQ1_List("What do you call these historical event where American and Filipino war captives were forced to walk from Bataan to Pampanga?", "Comfort Women", "Death March", "Harakiri", "Procession", 2));
+        questionList.add(new cEasyQ1_List("Where did the American forces arrive to liberate the Philippines from the Japanese?", "Palo, Leyte", "Intramuros, Manila", "Kawit, Cavite", "Corregidor, Bataan", 1));
+        questionList.add(new cEasyQ1_List("What triggered the surrender of the Japanese and ended the war in the Pacific?", "The bombing of Hiroshima and Nagasaki", "The bombing Pearl Harbor", "The bombing of Clark Field.", "The bombing of Manila.", 2));
+        questionList.add(new cEasyQ1_List("When was the Philippines declared as a sovereign state?", "February 25, 1986", "June 12, 1898", "July 4, 1946", "December 30, 1896", 3));
         setQuestion();
     }
 
