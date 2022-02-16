@@ -4,70 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/settings_bg"
+    android:background="@drawable/settingsbg"
     android:orientation="vertical"
     tools:context=".SettingsActivity">
 
-    <TextView
+    <ImageView
         android:id="@+id/textView_Sounds"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_width="342dp"
+        android:layout_height="164dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="48dp"
-        android:background="#959C94"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/sound"
         android:gravity="center"
-        android:text="Sounds"
-        android:textColor="@color/black"
-        android:textSize="24dp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/volumeControlUp"
-        android:layout_width="100dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="212dp"
-        android:background="@drawable/custom_round_button"
-        android:text="+"
-        android:textColor="#1DD308"
-        android:textSize="24dp"
+        android:layout_width="102dp"
+        android:layout_height="106dp"
+        android:background="@drawable/up"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintHorizontal_bias="0.275"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
 
-    <Button
+    <ImageButton
         android:id="@+id/volumeControlDown"
-        android:layout_width="100dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="212dp"
-        android:background="@drawable/custom_round_button"
-        android:text="-"
-        android:textSize="24dp"
+        android:layout_width="102dp"
+        android:layout_height="106dp"
+        android:background="@drawable/down"
         android:textColor="#EC0909"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintHorizontal_bias="0.747"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btnCredits"
-        android:layout_width="250dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="424dp"
-        android:background="@drawable/custom_round_button"
-        android:text="Credits"
-        android:textColor="@color/black"
+        android:layout_width="342dp"
+        android:layout_height="164dp"
+        android:background="@drawable/credits"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
 
     <SeekBar
         android:id="@+id/seekBarVol"
