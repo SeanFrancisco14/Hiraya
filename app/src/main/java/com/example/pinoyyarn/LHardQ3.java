@@ -53,16 +53,33 @@ public class LHardQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("atlo", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
+        questionList.add(new LEasyQ1_List("These are words that tell something about the subject (simuno).", "Pang-uri", "Panagur", "Adhetibo", "Paksa", 2));
+        questionList.add(new LEasyQ1_List("In Filipino grammar, it is a type of sentence wherein the predicate precedes the subject.", "Matuwid", "Karaniwan", "Sukat", "Diretso", 2));
+        questionList.add(new LEasyQ1_List("It is a type of sentence wherein the subject goes before the predicate.", "Baliktad", "Kabaligtaran", "Hindi Tuwid", "Saliwaan", 2));
+        questionList.add(new LEasyQ1_List("It is a sentence that expresses presence and being.", "Pagmamayroon", "Eksistensyal", "Kontekstwal", "Kongkreto", 2));
+        questionList.add(new LEasyQ1_List("It refers to single or double syllables that express intense emotion.", "Padamdam", "Sambitlang", "Pandamdam", "Pasambit", 2));
+        questionList.add(new LEasyQ1_List("In Filipino grammar, what are routine greetings and salutations called?", "Pormularyong panlipunan", "Pambungad na pangngalan", "Pangngalang Panambit", "Pananalitang Pambungad", 1));
+        questionList.add(new LEasyQ1_List("It is a type of sentence that states a fact or an event.", "Pagbibigay ng Impormasyon", "Pagbibigay ng Katunayan", "Pasalaysay", "Pakuwento", 3));
+        questionList.add(new LEasyQ1_List("It is a sentence expresses only one thought. Example: “Maganda ang Panahon”.", "Isahang Pangungusap", "Payak na Pangungusap", "Karaniwang Pangungusap", "Isahang Yari ng Pangungusap", 2));
+        questionList.add(new LEasyQ1_List("Consists of one clause that can unite and one or more clauses that cannot unite.", "Tambalan", "Hugnayan", "Dalawahan", "Langkapan", 2));
+        questionList.add(new LEasyQ1_List("Consists of two or more clauses that can stand alone and one or more clauses that cannot stand alone.", "Langkapan", "Tambalan", "Hugnayan", "Dalawahan", 1));
+
+        questionList.add(new LEasyQ1_List("It expresses the different parts of a sentence efficiently.", "Pang-ugnay", "Pandiwang", "Pananda", "Pang-angkop", 3));
+        questionList.add(new LEasyQ1_List("Experiencing one of the five senses and having a physical nature.", "Basal", "Lansak", "Kongkreto", "Tahas", 4));
+        questionList.add(new LEasyQ1_List("Refers to concepts that are not experienced by the five senses and have no physical properties. ", "Di-Kongkreto", "Tasal", "Lansak", "Basal", 4));
+        questionList.add(new LEasyQ1_List("Refers to a conglomerate (kalipunan) or majority (karamihan). Example:” tropa”,” barkada”", "Maramihan", "Lansak", "Kabuuan", "Kolektibo", 2));
+        questionList.add(new LEasyQ1_List("These are words or phrases that are figurative and abstract.", "Metapora", "Patalinghaga", "Simili", "Idiyoma", 2));
+
+        questionList.add(new LEasyQ1_List("Terms used to add meaning but can be omitted from the sentence without destroying the meaning of the message.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 4));
+        questionList.add(new LEasyQ1_List("It connects two words, phrases or clauses in a sentence.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 3));
+        questionList.add(new LEasyQ1_List("It connects the modifier (panuring) and the word being treated (salitang tinuturingan)", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 4));
+        questionList.add(new LEasyQ1_List("It connects a noun to another word in the sentence.", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 3));
+        questionList.add(new LEasyQ1_List("It always precedes the noun (paksa) or pronoun (panghalip) used in the subject.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 3));
+        questionList.add(new LEasyQ1_List("These are words or phrases that express a specific attitude or intense feeling.", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 2));
+        questionList.add(new LEasyQ1_List("What do you call the relationship of the verb (pandiwa) to the subject (paksa) of the sentence?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
+        questionList.add(new LEasyQ1_List("It is the study of how words and morphemes combine to form larger units such as phrases and sentences", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 2));
+        questionList.add(new LEasyQ1_List("____________ is a set of conventions for writing a language, including norms of spelling, emphasis, and punctuation.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 4));
+        questionList.add(new LEasyQ1_List("__________ is the study of a language that includes morphology, syntax, semantics, and etymology.", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 3));
 
         setQuestion();
     }
