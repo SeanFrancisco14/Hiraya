@@ -3,17 +3,11 @@ package com.example.pinoyyarn;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
 import android.widget.ImageButton;
-
-import com.google.firebase.firestore.FirebaseFirestore;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -23,9 +17,9 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_menu);
 
         ImageButton btn_play = findViewById(R.id.btn_play);
-        ImageButton btn_achievements = findViewById(R.id.btn_achievements);
         ImageButton btn_settings = findViewById(R.id.btn_settings);
         ImageButton btn_exit = findViewById(R.id.btn_exit);
+        ImageButton btn_achievements = findViewById(R.id.btn_achievements);
 
         btn_play.setOnClickListener(this);
         btn_achievements.setOnClickListener(this);
@@ -42,7 +36,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
         if (v.getId() == R.id.btn_achievements) {
-            startActivity(new Intent(this, AchievementsActivity.class));
+            startActivity(new Intent(this, HowToPlay.class));
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
         if (v.getId() == R.id.btn_settings) {

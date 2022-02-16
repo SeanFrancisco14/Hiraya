@@ -5,15 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class cHardSets extends AppCompatActivity implements View.OnClickListener {
-    public Button hintone;
-    public Button hinttwo;
-    public Button hintthree;
-    public Button hintfour;
+    public ImageButton hintone;
+    public ImageButton hinttwo;
+    public ImageButton hintthree;
+    public ImageButton hintfour;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +33,7 @@ public class cHardSets extends AppCompatActivity implements View.OnClickListener
         set4.setOnClickListener(this);
 
 
-        hintone = (Button) findViewById(R.id.chard1_hint);
+        hintone = (ImageButton) findViewById(R.id.chard1_hint);
         hintone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,7 +52,7 @@ public class cHardSets extends AppCompatActivity implements View.OnClickListener
             }
         });
 
-        hinttwo = (Button) findViewById(R.id.chard1_hint2);
+        hinttwo = (ImageButton) findViewById(R.id.chard1_hint2);
         hinttwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +71,7 @@ public class cHardSets extends AppCompatActivity implements View.OnClickListener
             }
         });
 
-        hintthree = (Button) findViewById(R.id.chard1_hint3);
+        hintthree = (ImageButton) findViewById(R.id.chard1_hint3);
         hintthree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +90,7 @@ public class cHardSets extends AppCompatActivity implements View.OnClickListener
             }
         });
 
-        hintfour = (Button) findViewById(R.id.chard1_hint4);
+        hintfour = (ImageButton) findViewById(R.id.chard1_hint4);
         hintfour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

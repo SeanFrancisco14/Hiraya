@@ -8,12 +8,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class cMedSets extends AppCompatActivity implements View.OnClickListener {
-    public Button hintone;
-    public Button hinttwo;
-    public Button hintthree;
-    public Button hintfour;
+    public ImageButton hintone;
+    public ImageButton hinttwo;
+    public ImageButton hintthree;
+    public ImageButton hintfour;
 
 
     @Override
@@ -31,7 +32,7 @@ public class cMedSets extends AppCompatActivity implements View.OnClickListener 
         set3.setOnClickListener(this);
         set4.setOnClickListener(this);
 
-        hintone = (Button) findViewById(R.id.cmed1_hint);
+        hintone = (ImageButton) findViewById(R.id.cmed1_hint);
         hintone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,7 +51,7 @@ public class cMedSets extends AppCompatActivity implements View.OnClickListener 
             }
         });
 
-        hinttwo = (Button) findViewById(R.id.cmed1_hint2);
+        hinttwo = (ImageButton) findViewById(R.id.cmed1_hint2);
         hinttwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +70,7 @@ public class cMedSets extends AppCompatActivity implements View.OnClickListener 
             }
         });
 
-        hintthree = (Button) findViewById(R.id.cmed1_hint3);
+        hintthree = (ImageButton) findViewById(R.id.cmed1_hint3);
         hintthree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +89,7 @@ public class cMedSets extends AppCompatActivity implements View.OnClickListener 
             }
         });
 
-        hintfour = (Button) findViewById(R.id.cmed1_hint4);
+        hintfour = (ImageButton) findViewById(R.id.cmed1_hint4);
         hintfour.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
