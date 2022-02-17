@@ -53,31 +53,32 @@ public class cHardQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("According to the Spanish authorities, what was the main reason for the execution of GOMBURZA?", "Secularization issue", "Conspiracy against Spanish King", "Involvement in Cavite Mutiny", "Failure to follow the Catholic teachings", 3));
-        questionList.add(new cEasyQ1_List("Rizal wrote the lines 'If Burgos had shown the courage of Gomez, the Filipinos would have been different from what they are today' on his letter to?", "Harry Sichrovsky on May 23, 1887", "Mariano Ponce on April 18 1889", "Maximo Viola on June 9 1883", "Ferdinand Blumentritt on December 30 1886", 2));
-        questionList.add(new cEasyQ1_List("He concluded that the retraction document, said to have been discovered in 1935, was not in Rizal's handwriting.", "Ricardo P. Garcia", "Pio Valenzuela", "Rafael Palma", "Guillermo Masangkay", 1));
-        questionList.add(new cEasyQ1_List("He stated 'Surely whether Rizal died as a Catholic or an apostate adds or detracts nothing from his greatness as a Filipino... Catholic or Mason, Rizal is still Rizal.'", "Jose Diokno", "Nicolas Zafra", "Gregorio Zaede", "Marciano Guzman", 1));
-        questionList.add(new cEasyQ1_List("Which event paved the way for the influx of liberal ideas from Europe which also influenced the emergence of Filipino consciousness?", "1872 Cavity Mutiny", "Opening of the Suez Canal", "French Revolution", "American Revolution", 2));
-        questionList.add(new cEasyQ1_List("All of these are Controversies to arise in Philippine History except one?", "Site of the First Mass", "Cavite Mutiny", "Battle of Tirad Pass", "Cry of Rebellion: Balintawak or Pugadlawin", 3));
-        questionList.add(new cEasyQ1_List("What was the punishment given to three Filipino martyr-priests?", "Firing Squad", "Reclusion Perpetua", "Garote", "Silya Elektrika", 3));
-        questionList.add(new cEasyQ1_List("In this Controversy, it can be used as benchmark in measuring how present-day society values martyrdrom, courage and bravery in understanding nationalism and patriotism.", "Rizal's Retraction", "First Mass in Limasawa", "Execution of Rizal", "All of the above", 1));
-        questionList.add(new cEasyQ1_List("He wrote a letter to Rizal describing the current situation of the Filipinos due to taxes.", "Austin Coates", "Rafael Palma", "Mariano Herbosa", "Macario Sakay", 3));
-        questionList.add(new cEasyQ1_List("There are several claims that Bolinao may have been earlier than Limasawa/Masao, but one historian refuted Bolinao’s claim. Who was the explorer that landed on Bolinao?", "Andres de Urdaneta", "Odoric of Pordenone", "Hernandeo de Magallanes", "Miguel Lopez de Legazpi", 2));
-        questionList.add(new cEasyQ1_List("The most weighing reason why the Native Heroes did not qualify for the candidacy of National Hero.", "The scale of their movements was only on a baranggay level.", "They were not literate enough to qualify.", "Their resistance was believed to be mostly politically motivated only.", "They did not accept Christianity as a religion.", 3));
-        questionList.add(new cEasyQ1_List("In 1996, the National Historical Institute (NHI) has already reaffirmed the popular belief propelled by ___________ that the first Holy Mass was celebrated in Masao in Butuan on March", "Republic Act 7384", "Republic Act 2836", "Republic Act 2733", "Republic Act 6542", 3));
-        questionList.add(new cEasyQ1_List("Who was the Spanish governor-general when the Cavite Mutiny happened?", "Miguel Lopez de Legazpi", "Rafael de Izquierdo", "Ramon Blanco", "Camilo de Polavieja", 2));
-        questionList.add(new cEasyQ1_List("The Malolos Congress was conceived by Mabini as:", "An advisory body", "A legislative body", "A judicial body", "An executive body", 1));
-        questionList.add(new cEasyQ1_List("A political condition common throughout the archipelago that develop nationalism among the Indios.", "Unfair treatment against women ", "Immense church influence over state affairs", "Equal opportunity for all the social classes", "Discrimination by foreign parties", 3));
-        questionList.add(new cEasyQ1_List("In __________ , Valenzuela averred that the Katipunan began meeting on 22 August while the Cry took place on 23 August at Apolonio Samson’s house in Balintawak.", "1911", "1909", "1910", "1912", 1));
-        questionList.add(new cEasyQ1_List("This person was a 19th-century Katipunero who had rivalries with his group mates. Due to this, he exposed the secret society of Katipunan. Who was he?", "Miguel Vicos", "Pedro Paterno", "Teodoro Patiño", "Mariano Gil", 3));
-        questionList.add(new cEasyQ1_List("What was the name of the Filipino soldier who led the Cavite Mutiny of 1872?", "Fr. Jose Burgos", "Lt. Taviel de Andrade", "Gen. Mariano Noriel", "Sergeant Lamadrid", 4));
-        questionList.add(new cEasyQ1_List("Below are the literary works of Andres Bonifacio except for?", "Ang Dapat Mabatid ng mga Tagalog", "Katapusang Hibik ng Pilipinas", "Sa Mga Kababayan", "Tapunan ng Lingap", 3));
-        questionList.add(new cEasyQ1_List("All of which is true about Antonio Luna except for?", "It is said that Luna was prolific with the gun and rifle.", "Juan Luna killed his wife and mother-in-law.", "Antonio and his brother Juan set up a firing club called Sala de Armas.", "He was assassinated by the order of Aguinaldo.", 3));
-        questionList.add(new cEasyQ1_List("A failed uprising in 1872 headed by Seargeat Lamadrid in an attempt to overthrow Spanish regime?", "Gomburza Mutiny", "Philippine Revolution", "Dagohoy Revolt", "Cavite Mutiny", 4));
-        questionList.add(new cEasyQ1_List("It is the place claimed by the people of Butuan as the first site of mass in the Philippines.", "Limasawa", "Mazaua", "Cebu", "Panay", 2));
-        questionList.add(new cEasyQ1_List("Based on the plan proposed by whom was The Malolos Constitution drafted?", "Paterno", "Calderon", "Mabini", "Aguinaldo", 2));
-        questionList.add(new cEasyQ1_List("A body of documents on the Philippine revolutions that contains confidential reports, transcripts, clippings, and photographs from Spanish and Philippine newspapers.", "Cuerpos de Compromisarios de Manila", "Cuerpo de Vigilancia de Manila", "Cuerpos de Propagandistas de Manila", "Cuerpos de Militantes de Manila", 2));
-        questionList.add(new cEasyQ1_List("Which is true about Emilio Aguinaldo?", "He saved Bonifacio’s life once.", "He prioritized the investigation for the alleged rape of Bonifacio’s wife.", "He ignored Luna’s advice for guerrilla warfare only to use it in the end.", "He engaged in political mudslinging against Jose P. Laurel.", 3));
+        questionList.add(new cEasyQ1_List("It is a bamboo polychordal tube zither of Bagobo. It is called as kolitong in Cordillera region.", "Kudyapi", "Kugot", "Saluroy", "Sahunay", 3));
+        questionList.add(new cEasyQ1_List("A lip-valley flute, it is considered the toughest of the three bamboo to use because of the way one must shape one's lips against its tip to make a sound.", "Duwagey", "Gabbang", "Suling", "Palendag", 4));
+        questionList.add(new cEasyQ1_List("A one -stringed fiddle instrument of Bilaans.", "Suling", "Aduwag-ay", "Kugot", "Babandil", 2));
+        questionList.add(new cEasyQ1_List("The Maguindanaon and the Banuwaen use it in the rice paddies to guard against voracious birds, using the sound it produces to scare them away.", "Dadabuan", "Kagul", "Gandang", "Kudlung", 2));
+        questionList.add(new cEasyQ1_List("The smallest bamboo flute of the Maguindanaon and the only one classified as a ring-flute.", "Kulintang", "Gabbang", "Gandang", "Suling", 4));
+        questionList.add(new cEasyQ1_List("A goblet -shaped drum of Maguindanao and Maranao, which has a single head covered with goat, lizard or snakeskin.", "Dabakan", "Duwagey", "Gandang", "Gandingan", 1));
+        questionList.add(new cEasyQ1_List("It is a set a two wide rimmed bossed-gongs hangs from horizontal pole or wooden frame.", "Kagong", "Babandil", "Kagul", "Agung", 4));
+        questionList.add(new cEasyQ1_List("A single, narrow-rimmed Philippine gong used primarily as the 'timekeeper' of the Maguindanao kulintang ensemble.", "Banduria", "Gandingan", "Babandil", "Palindag", 3));
+        questionList.add(new cEasyQ1_List("The membrane is made of carabao skin. Decorated with carvings and painted. This drum is part of the Kulintang ensemble.", "Dadabuan", "Kudlung", "Gandingan a Kayo", "Kulintang", 1));
+        questionList.add(new cEasyQ1_List("It is an ensemble of string instruments with a pick.", "Angklung Ensemble", "Musikong Bumbong", "Rondalla", "Kulintang", 3));
+
+        questionList.add(new cEasyQ1_List("A 14-stringed pear-shaped lute with a round sound hole, played with a plectrum.", "Banduria", "Laud", "Octavina", "Palendag", 1));
+        questionList.add(new cEasyQ1_List("A 14-stringed pear-shaped lute with f-shaped sound holes, played with a plectrum.", "Bajo de Unas", "Octavina", "Laud", "Kulintang", 3));
+        questionList.add(new cEasyQ1_List("A 14-stringed lute, shaped like a small guitar, and played with a plectrum.", "Bajo de Unas", "Banduria", "Octavina", "Laud", 3));
+        questionList.add(new cEasyQ1_List("This is also called 'The Jew's harp of the Tagbanua's'", "Babendil", "Aruding", "Tubuldu", "Tipanu", 2));
+        questionList.add(new cEasyQ1_List("This is the polychordal zither of Tagbanua's and is made of bamboo and rattan.", "Aroder", "Tipanu", "Tubuldu", "Pagang", 4));
+        questionList.add(new cEasyQ1_List("A nose flute that originated from the Batak’s of Palawan.", "Lampang", "Gimbal", "Lantoy", "Sabangan", 3));
+        questionList.add(new cEasyQ1_List("This is a wooden guitar that originated from the Batak's of Palawan", "Kadiape", "Budlong", "Gimbal", "Aroder", 1));
+        questionList.add(new cEasyQ1_List("A long drum from the Tagbanuas. Its drumhead is made from animal skins such as big lizards.", "Beberek", "Gimbal", "Pagang", "Agung", 2));
+        questionList.add(new cEasyQ1_List("It is a three-stringed bamboo violin of the Aeta people.", "Tulali", "Litguit", "Lutes", "Libbit", 2));
+        questionList.add(new cEasyQ1_List("It is set of eight, tuned knobbed metal plates strung on a wooden frame crafted by the Maguindanaon.", "Kulintang a tiniok", "Luntang", "Agung a tamlang", "Gabbang", 1));
+        questionList.add(new cEasyQ1_List("It is a bamboo flute with three holes of the Negrito people in Zambales.", "Budlong", "Tambuli", "Tongali", "Bansik", 4));
+        questionList.add(new cEasyQ1_List("_________ is a two-stringed, lute-like instrument of the B'laan that was made in 1997.", "Budlong", "Kolitong", "Faglong", "Kalagong", 3));
+        questionList.add(new cEasyQ1_List("__________ is a two-stringed bamboo with a hole in the middle from Apayao people.", "Butling", "Bansik", "Pas-ing", "Luntang", 3));
+        questionList.add(new cEasyQ1_List("A two-headed cylindrical drum of Tausug, Samal, Badjao, Maranao and Maguindanao.", "Gandang", "Dabakan", "Kagul", "Tongatong", 1));
+        questionList.add(new cEasyQ1_List("________ is a set of four small narrow-rimmed and suspended gongs.", "Tambuli", "Sulibao ", "Gandingan", "Saronay", 3));
         setQuestion();
     }
 
