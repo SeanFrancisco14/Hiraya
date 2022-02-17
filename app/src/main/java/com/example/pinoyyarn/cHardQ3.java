@@ -53,31 +53,31 @@ public class cHardQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getCultEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new cEasyQ1_List("What was the rightist wing of La Liga called?", "Cuerpos de Propagandistas", "Cuerpos de Compromisarios", "Cuerpos de Militantes", "Cuerpos de la Revolucionarios", 2));
-        questionList.add(new cEasyQ1_List("It referred to provinces not yet fully controlled by the colonial government.", "Alcaldia", "Corregimiento", "Residencia", "Visitador", 2));
-        questionList.add(new cEasyQ1_List("The first bishop of Manila in 1581.", "Miguel Lopez de Legazpi", "Domiñgo de Salazar", "Jose Basco Y Vargas", "Pedro de Sarrio", 2));
-        questionList.add(new cEasyQ1_List("They accompany the governor general and gobernadorcillo in patroling the town.", "Cuadrilleros", "Guardia Civil", "Guardia Civil Veterana", "Guardia Civil Alcaldia", 1));
-        questionList.add(new cEasyQ1_List("Raja Lakandula and Raja Sulayman revolted against Governor Guido de Lavezaris, because of the abuses by the Spaniards. What is the revolt called?", "Manila Revolt", "Tamblot Revolt", "Pampanga Revolt", "Isneg Revolt", 1));
-        questionList.add(new cEasyQ1_List("Which one of these Philippine revolts during the Hispanic period lasted longest?", "Dagohoy Revolt", "Parang and Upay Revolt", "Palaris Revolt", "Camerino Revolt", 1));
-        questionList.add(new cEasyQ1_List("The Tejeros Convention happened in which Philippine province?", "Manila", "Cavite", "Laguna", "Batangas", 2));
-        questionList.add(new cEasyQ1_List("Who was the Spanish governor-general who ordered the deportation of Jose Rizal to Dapitan?", "Camilo de Polavieja", "Fermin Jaudenes", "Carlos Maria dela Torre", "Eulogio Despujol", 1));
-        questionList.add(new cEasyQ1_List("What was the name of the Filipino soldier who led the Cavite Mutiny of 1872?", "Lt. Taviel de Andrade", "Fr. Jose Burgos", "Sergeant Lamadrid", "Gen. Mariano Noriel", 3));
-        questionList.add(new cEasyQ1_List("Who excommunicated Fr. Gregorio Aglipay?", "Vidal", "Santos", "Norzaleda", "Sin", 3));
-        questionList.add(new cEasyQ1_List("Who is the Filipino historian who claimed that there was no Philippine history before the execution of the three nationalist priests?", "Teodoro Agoncillo", "Onofre Corpuz", "Gregorio Zaide", "Fidel Villaruel", 1));
-        questionList.add(new cEasyQ1_List("Who established the Spanish colonial rule in the Philippines?", "Miguel Lopez de Legazpi", "Carlos Maria dela Torre", "Andres de Urdaneta", "Ferdinand Magellan", 1));
-        questionList.add(new cEasyQ1_List("What economic policy imposed by Spain on the Indios that requires them to do forced labor?", "tribute", "polo y servicios", "bandala", "cedula", 2));
-        questionList.add(new cEasyQ1_List("Who were Spaniards born in the Philippines?", "creoles", "peninsulares", "ilustrados", "insulares", 4));
-        questionList.add(new cEasyQ1_List("What social class developed the consciousness of the Filipinos to fight Spain?", "mestizos de España", "principalia", "mestizos de sangleys", "ilustrados", 4));
-        questionList.add(new cEasyQ1_List("It refers to the highest court of justice in the Philippines during the Spanish occupation", "Real Audiencia", "Ministry of Colonies", "Court of Appeals", "Ombudsman", 1));
-        questionList.add(new cEasyQ1_List("An old practice in Spain wherein the King, in an effort to recognize the good deeds, services, and loyalty of his officers and men awarded a piece of land", "Encomienda system", "Kasama system", "Bandala system", "Caste system", 1));
-        questionList.add(new cEasyQ1_List("It refers to the obligation of Filipino farmers to sell their products to government at a minimum price.", "Encomienda system", "Kasama system", "Bandala system", "Caste system", 3));
-        questionList.add(new cEasyQ1_List("This is the money paid to be exempted from polo.", "falla", "calla", "mella", "libre", 1));
-        questionList.add(new cEasyQ1_List("They are a mix of both Spanish and Indio. They were regarded inferior people by both Spanish and Filipinos.", "Peninsulares", "Insulares", "Mestizos", "Indio", 3));
-        questionList.add(new cEasyQ1_List("Legazpi took possession of Maynilad in the name of King Philip II on?", "May 19, 1571", "June 3, 1571", "June 24, 1571", "June 1, 1574", 3));
-        questionList.add(new cEasyQ1_List("He gave Manila the name, Insigne y Siempre Leal Ciudad.", "King Charles I", "Legazpi", "King Philip II", "Lavezaris", 3));
-        questionList.add(new cEasyQ1_List("The wife of Raha Humabon, she was renamed after her baptism for the mother of King Charles I of Spain, Magellan gave her a gift of the image of Sto. Nino.", "Beatriz", "Elizabeth", "Juana", "Gabriela", 3));
-        questionList.add(new cEasyQ1_List("A Spanish expedition to the Philippines on 1527, with 3 ships and 110 men. It reached Mindanao but failed to colonize the Philippines.", "Saavedra", "Cabot", "Legazpi", "Villalobos", 4));
-        questionList.add(new cEasyQ1_List("A Spanish settlement, the first of its kind in the Philippines, it was established by  Legazpi on 1565.", "Panay ", "Cebu", "Manila", "Sulu", 2));
+        questionList.add(new cEasyQ1_List("It is worn by women in Batanes and it is made of palm leaves?", "Yakan", "Urian", "Vakul", "Hudlon", 3));
+        questionList.add(new cEasyQ1_List("It refers to a wrap-around piece of cloth worn by women as a skirt and is usually paired with Kimona.", "Hablon", "Patadyong", "Piña", "Sinamay", 2));
+        questionList.add(new cEasyQ1_List("It is a quintessential headgear worn by Ivatan men.", "Voyavoy", "Talugong", "Kanayi", "Valik", 2));
+        questionList.add(new cEasyQ1_List("It is considered the finest of Philippine textiles mainly because of its delicacy and its natural creamy hue.", "Hablon", "Patadyong", "Piña", "Sinamay", 1));
+        questionList.add(new cEasyQ1_List("It is a hand-woven fabric used for clothes and table cloths, taken from a Hiligaynon word which means “to weave”.", "Hablon", "Patadyong", "Piña", "Sinamay", 1));
+        questionList.add(new cEasyQ1_List("They wear tight trousers (kuput) matched with collarless, short tailored jacket.", "Yakan", "Tausug", "Tiruray", "T'Boli", 2));
+        questionList.add(new cEasyQ1_List("What is the name of the sacred clothing worn by T'Boli people?", "T'nalak", "Semmek", "Kuput", "Kanayi", 1));
+        questionList.add(new cEasyQ1_List("Yakan women traditionally made textiles for their cultural dress known as?", "T'nalak", "Semmek", "Vakul", "Tapis", 2));
+        questionList.add(new cEasyQ1_List("The __________ women wear blouses made of plain material like satin.", "Yakan", "T'boli", "Tiruray", "Tausug", 4));
+        questionList.add(new cEasyQ1_List("The women of _______ use body accessories which include colorful necklaces with lots of beads, shells and coins.", "T'boli", "Tiruray", "Yakan", "Ati", 3));
+        questionList.add(new cEasyQ1_List("For accessories, they use simple pieces of jewelry made flowers or animal bones like pig’s teeth for bracelets.", "Yakan", "Ati", "Tausug", "T'boli", 2));
+        questionList.add(new cEasyQ1_List("_______ is when only the vertical yarn, the warp, is tie-dyed for weaving. It’s practiced in natural patterns.", "Double ikat", "Weft ikat", "Warp Ikat", "Single Ikat", 1));
+        questionList.add(new cEasyQ1_List("Ikat of Ifugao characterized by the following, except for?", "Dominant blue stripes", "Repetitive pattern", "Tedious colors", "Solid Colors", 3));
+        questionList.add(new cEasyQ1_List("Created initially in Lubuagan, the _______ which is the wraparound skirt is now more known as the Kalinga.", "Siniwsiwan", "Ka-in", "Ikat", "Inawin", 4));
+        questionList.add(new cEasyQ1_List("Kalinga textiles characterized by the following, except for?", "mestizos de España", "principalia", "mestizos de sangleys", "ilustrados", 4));
+        questionList.add(new cEasyQ1_List("What is an example of Bontoc blanket and clothing?", "Real Audiencia", "Ministry of Colonies", "Court of Appeals", "Ombudsman", 1));
+        questionList.add(new cEasyQ1_List("______ hand woven fabrics are characterized by motifs that include geometric shapes of things around them such as man, lizard, mountain, rains, and flower.", "Encomienda system", "Kasama system", "Bandala system", "Caste system", 1));
+        questionList.add(new cEasyQ1_List("The motifs of the Bontocs are the following, except?", "Encomienda system", "Kasama system", "Bandala system", "Caste system", 3));
+        questionList.add(new cEasyQ1_List("What do you call to this traditional Filipino tube skirt that is made of hand-woven or machine-woven multi collored cotton cloth made of geometric or floral design?", "falla", "calla", "mella", "libre", 1));
+        questionList.add(new cEasyQ1_List("Yakan fabrics are traditionally used as garments. Which among the choices below are not made of Yakan?", "Peninsulares", "Insulares", "Mestizos", "Indio", 3));
+        questionList.add(new cEasyQ1_List("It is a kind of weaving that is a primary form of arts and crafts in Panay Island.", "May 19, 1571", "June 3, 1571", "June 24, 1571", "June 1, 1574", 3));
+        questionList.add(new cEasyQ1_List("Traditional material used for patadyong weaving are cotton and _____________.", "King Charles I", "Legazpi", "King Philip II", "Lavezaris", 3));
+        questionList.add(new cEasyQ1_List("It is a handwoven Philippine textile produced mostly by the Aklanon in the province of Aklan in Western Visayas.", "Beatriz", "Elizabeth", "Juana", "Gabriela", 3));
+        questionList.add(new cEasyQ1_List("It is a necklace or bracelet of beads from Mindanao and is made from dried fruit seeds to protect from illness caused by evil spirits.", "Saavedra", "Cabot", "Legazpi", "Villalobos", 4));
+        questionList.add(new cEasyQ1_List("This is a type of T’nalak woven from deep brown abaca treated in the ikat process to obtain intricate design.", "Panay ", "Cebu", "Manila", "Sulu", 2));
         setQuestion();
     }
 z

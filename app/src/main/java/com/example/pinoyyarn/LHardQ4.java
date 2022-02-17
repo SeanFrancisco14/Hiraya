@@ -53,17 +53,31 @@ public class LHardQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("apat", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
-
+        questionList.add(new LEasyQ1_List("In Noli Me Tangere, who is the merchant from Binondo who became a father figure for Maria Clara.", "Don Rafael", "Kapitan Tiyago", "Tiburcio Espadana", "Filipo Lino", 2));
+        questionList.add(new LEasyQ1_List("This character is a biographical representation of Rizal. He became a bandit to fight for the rights of the oppressed.", "Basilio", "Elias", "Linares", "Crisostomo Ibarra", 2));
+        questionList.add(new LEasyQ1_List("He is known as a devoted general to the Civil Guards and the one who defended Ibarra.", "Kapitan Tiyago", "Don Marcelo", "Teniente Guevarra", "Padre Salvi", 3));
+        questionList.add(new LEasyQ1_List("Pretending to be a physician, lame and submissive to his wife Donya Victorina.", "Don Filipo", "Don Tiburcio", "cDon Tarcilo", "Don Rafael", 2));
+        questionList.add(new LEasyQ1_List("Pilosopo Tasyo is a character in Noli Me Tangere personified by whom in reality?", "Chengoy", "Marcelo", "Paciano", "None of the above", 3));
+        questionList.add(new LEasyQ1_List("The girlfriend of Isagani who dumped him for another man, believing that she has no future if she marries him. ", "Huli", "Juliana de Dios", "Paulita Gomez", "Victorina de Espedana", 3));
+        questionList.add(new LEasyQ1_List("Who is the Dominican Priest who always follows Ibarra?", "Padre Sibyla", "Padre Camorra", "Padre Damaso", "Padre Salvi", 1));
+        questionList.add(new LEasyQ1_List("Who is the parish priest in power in San Diego? He is also the wife of Donya Consolacion.", "Don Tiburcio", "Alperes", "Don Filipo", "Kapitan Basilio", 2));
+        questionList.add(new LEasyQ1_List("In El Filibusterismo, what do you call these illicit drugs that was said to come from the Chinese?", "Haliso", "Opyo", "Kanabis", "Sedata", 2));
+        questionList.add(new LEasyQ1_List("He was the one who found Basillio in the woods.", "Tasyong Baliw", "Basilio", "Elias", "Tandang Selo", 4));
+        questionList.add(new LEasyQ1_List("A pro-Spanish native woman who is going to Laguna in search of her henpecked husband.", "Doña Victorina", "Doña Juanita", "Doña Paulina", "Doña Alba", 1));
+        questionList.add(new LEasyQ1_List("Who is the Filipino priest who is highly respected by all for his gentleness, inherent kindness, and humility?", "Padre Andres", "Padre Justino", "Padre Florentino", "Padre Jose", 3));
+        questionList.add(new LEasyQ1_List("Who is the industrious farmer who became a victim of injustice on the land on which his whole family invested blood, sweat, and life?", "Don Custodio", "Isagani", "Kabesang Tales", "Pasta", 3));
+        questionList.add(new LEasyQ1_List("He was the one emphasized by Padre Clemente who allegedly used weapons to guard the land.", "Telesforo Juan de de Dios", "Kabesang Andang", "Padre Bernardo Salvi", "Kapitan Tiyago", 1));
+        questionList.add(new LEasyQ1_List("In Florante and Laura, who helped and saved Florante from certain death?", "Menandro", "Aladin", "Adolfo", "Antenor", 2));
+        questionList.add(new LEasyQ1_List("Who saved Laura from Adolfo's hands?", "Florante", "Flerida", "Aladin", "Felipe", 2));
+        questionList.add(new LEasyQ1_List("He was the young man tied to a higera tree in the middle of a vast forest outside the Kingdom of Albania.", "Adolfo", "Aladin", "Florante", "Balagtas", 3));
+        questionList.add(new LEasyQ1_List("It is a river in Espiro with poisonous water.", "Ilog Krotona", "Ilog Cocito", "Ilog Sipresa", "Ilog Keto", 2));
+        questionList.add(new LEasyQ1_List("Governor who imposed the punishment of beheading Laura?", "Osmalik", "Miramolin", "Emir", "Oscar", 3));
+        questionList.add(new LEasyQ1_List("What kind of poem is Ibong Adarna?", "Awit", "Ballad", "Korido", "Duplo", 3));
+        questionList.add(new LEasyQ1_List("Who approached Don Juan when he was traveling to the location of Ibong Adarna?", "tLeproso", "Ermitanyo", "Higante", "Sebyerte", 3));
+        questionList.add(new LEasyQ1_List("Name of the tree inhabited by Ibong Adarna.", "Derisenio", "Acacia Correa", "Puno ng Higera", "Piedras Platas", 4));
+        questionList.add(new LEasyQ1_List("Decided that Don Juan and Donya Leonora should marry each other.", "Haring Fernando", "Arsobispo", "Donya Valeriana", "Don Pedro", 2));
+        questionList.add(new LEasyQ1_List("It tells of adventures and magical powers, romance and love, courage and piety, and treachery and betrayal of highborn characters.", "Biag ni Lam-ang", "Alamat ng Sarimanok", "Ibong Adarna", "Florante at Laura", 3));
+        questionList.add(new LEasyQ1_List("Interpretations of this work suggest that the Baltazar used allegory to convey Filipinos' suffering during the Spanish regime.", "El Filibusterismo", "Noli Me Tangere", "Florante at Laura", "Sa Aking Mga Kababayan", 3));
         setQuestion();
     }
 
