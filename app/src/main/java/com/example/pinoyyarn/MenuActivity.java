@@ -16,6 +16,8 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
+        startService(new Intent(this, audioClass.class));
+
         ImageButton btn_play = findViewById(R.id.btn_play);
         ImageButton btn_settings = findViewById(R.id.btn_settings);
         ImageButton btn_exit = findViewById(R.id.btn_exit);

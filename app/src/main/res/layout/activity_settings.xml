@@ -63,6 +63,33 @@
         app:layout_constraintVertical_bias="0.677"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <Button
+        android:id="@+id/btnOn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/custom_round_button"
+        android:text="On"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/btnOff"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOff"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/custom_round_button"
+        android:text="Off"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <SeekBar
         android:id="@+id/seekBarVol"
         android:layout_width="150dp"
