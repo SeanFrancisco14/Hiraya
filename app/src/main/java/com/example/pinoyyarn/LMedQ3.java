@@ -55,7 +55,7 @@ public class LMedQ3 extends AppCompatActivity implements View.OnClickListener {
 
         questionList.add(new LEasyQ1_List("Pick the right translation for ‘Predict’.", "Hiling", "Hulaan", "Hawakan", "Handaan", 2));
         questionList.add(new LEasyQ1_List("Pick the right translation for ‘Research’.", "Pananaliksik", "Pananasilid", "Pananaliksid", "Panaliliksik", 1));
-        questionList.add(new LEasyQ1_List("Pick the right translation for ‘Tumbler’.", "Tubigan", "Sisidlan", "Sikero", "Tsarera", ));
+        questionList.add(new LEasyQ1_List("Pick the right translation for ‘Tumbler’.", "Tubigan", "Sisidlan", "Sikero", "Tsarera",3));
         questionList.add(new LEasyQ1_List("Pick the right translation for ‘Erudite’.", "Pagtugon", "Masinop", "Paham", "Salak", 3));
         questionList.add(new LEasyQ1_List("Pick the right translation for ‘Paper’.", "Kasulatan", "Kartilya", "Kalatas", "Kwaderno", 3));
         questionList.add(new LEasyQ1_List("Pick the right translation for ‘Awkward’.", "Kahiyaan", "Tungal", "Pangamba", "Payak", 2));
