@@ -53,7 +53,7 @@ public class LHardQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("These are words that tell something about the subject (simuno).", "Pang-uri", "Panagur", "Adhetibo", "Paksa", 2));
+        questionList.add(new LEasyQ1_List("These are words that tell something about the subject (simuno).", "Pang-uri", "Panaguri", "Adhetibo", "Paksa", 2));
         questionList.add(new LEasyQ1_List("In Filipino grammar, it is a type of sentence wherein the predicate precedes the subject.", "Matuwid", "Karaniwan", "Sukat", "Diretso", 2));
         questionList.add(new LEasyQ1_List("It is a type of sentence wherein the subject goes before the predicate.", "Baliktad", "Kabaligtaran", "Hindi Tuwid", "Saliwaan", 2));
         questionList.add(new LEasyQ1_List("It is a sentence that expresses presence and being.", "Pagmamayroon", "Eksistensyal", "Kontekstwal", "Kongkreto", 2));
