@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "721091599308",
+    "project_id": "pinoy-yarn",
+    "storage_bucket": "pinoy-yarn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721091599308:android:67f5fe74ca8a6b3b9ddb69",
+        "android_client_info": {
+          "package_name": "com.example.pinoyyarn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721091599308-6via3f18pn8ban9t8toghg6n99a9rodk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvehDw3uq3fokeS-m10AcwiKK4J1W1B_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721091599308-6via3f18pn8ban9t8toghg6n99a9rodk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
