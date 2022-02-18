@@ -55,15 +55,15 @@ public class cEasyQ1 extends AppCompatActivity implements View.OnClickListener {
         questionList = new ArrayList<>();
 
         questionList.add(new cEasyQ1_List("The most famous Filipino food that’s is often seen in every Filipino household.", "Sinigang", "Lechon", "Adobo", "Tinola", 3));
-        questionList.add(new cEasyQ1_List("2.\tIt is a noodle dish layered with a rich orange sauce made from shrimp broth, pork hard-boiled egg, shrimps, chicharon, and sometimes it has oysters and squid.", "Pancit", "Palabok", "Pancit Malabon", "Mami", 2));
-        questionList.add(new cEasyQ1_List("3.\tThis dish is often eaten with rice, it’s much better when tamarind is used in it but Kamias and tomatoes do fit in with this stew.", "Sinigang", "Adobo", "Tinola", "Dinuguan", 1));
-        questionList.add(new cEasyQ1_List("4.\tThis is often seen in fiestas as the main attraction and the center of everything as it has an apple on its mouth.", "Crispy Pata", "Kamaro", "Betute", "Lechon", 4));
-        questionList.add(new cEasyQ1_List("5.\tThis dish is called as “gulay na lada” for the Bicolanos and perfect for people who love coconut and a spicy stew.", "Pinakbet", "Bicol Express", "Bicol Kinilaw", "Sinanglay", 2));
-        questionList.add(new cEasyQ1_List("6.\tIt would be impossible if you haven’t heard of this food as it is sold around the streets. Boiled 17 days old duck embryo topped with salt or vinegar, familiar is it?", "Balut", "Lumpiang Buod", "Bagnet", "Sinugno", 1));
-        questionList.add(new cEasyQ1_List("7.\tThis dish does not look appetizing especially it’s color black and made from pork and pig innards, stewed with pig blood and often eaten with puto.", "Betute", "Tapa", "Dinuguan", "Sinanglay", 3));
-        questionList.add(new cEasyQ1_List("8.\tOften heard when vendors shout this during early morning, made from soybean custard topped with sago and brown sugar syrup.", "Pan de sal", "Halayang ube", "Sinanglay", "Taho", 4));
-        questionList.add(new cEasyQ1_List("9.\tOriginated from Pampanga, mole crickets are cooked and are called as _______.", "Kamaro", "Sinigang", "Betute", "Laing", 1));
-        questionList.add(new cEasyQ1_List("10.\tIt is a chocolate rice porridge and to balance the sweetness it is often served with dried fish.", "Halo-halo", "Sinanglay", "Champorado", "Kuhol sa gata", 3));
+        questionList.add(new cEasyQ1_List("2. It is a noodle dish layered with a rich orange sauce made from shrimp broth, pork hard-boiled egg, shrimps, chicharon, and sometimes it has oysters and squid.", "Pancit", "Palabok", "Pancit Malabon", "Mami", 2));
+        questionList.add(new cEasyQ1_List("3. This dish is often eaten with rice, it’s much better when tamarind is used in it but Kamias and tomatoes do fit in with this stew.", "Sinigang", "Adobo", "Tinola", "Dinuguan", 1));
+        questionList.add(new cEasyQ1_List("4. This is often seen in fiestas as the main attraction and the center of everything as it has an apple on its mouth.", "Crispy Pata", "Kamaro", "Betute", "Lechon", 4));
+        questionList.add(new cEasyQ1_List("5. This dish is called as “gulay na lada” for the Bicolanos and perfect for people who love coconut and a spicy stew.", "Pinakbet", "Bicol Express", "Bicol Kinilaw", "Sinanglay", 2));
+        questionList.add(new cEasyQ1_List("6. It would be impossible if you haven’t heard of this food as it is sold around the streets. Boiled 17 days old duck embryo topped with salt or vinegar, familiar is it?", "Balut", "Lumpiang Buod", "Bagnet", "Sinugno", 1));
+        questionList.add(new cEasyQ1_List("7. This dish does not look appetizing especially it’s color black and made from pork and pig innards, stewed with pig blood and often eaten with puto.", "Betute", "Tapa", "Dinuguan", "Sinanglay", 3));
+        questionList.add(new cEasyQ1_List("8. Often heard when vendors shout this during early morning, made from soybean custard topped with sago and brown sugar syrup.", "Pan de sal", "Halayang ube", "Sinanglay", "Taho", 4));
+        questionList.add(new cEasyQ1_List("9. Originated from Pampanga, mole crickets are cooked and are called as _______.", "Kamaro", "Sinigang", "Betute", "Laing", 1));
+        questionList.add(new cEasyQ1_List("10. It is a chocolate rice porridge and to balance the sweetness it is often served with dried fish.", "Halo-halo", "Sinanglay", "Champorado", "Kuhol sa gata", 3));
         setQuestion();
     }
 

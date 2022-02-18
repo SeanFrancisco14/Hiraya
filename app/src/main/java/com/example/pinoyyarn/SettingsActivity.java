@@ -22,7 +22,7 @@ import android.widget.Toast;
 public class SettingsActivity extends AppCompatActivity implements View.OnClickListener{
 
     private AudioManager audioManager;
-    private Button btnCredits, volumeControlUp, volumeControlDown;
+    private ImageButton btnCredits, volumeControlUp, volumeControlDown;
     private SeekBar seekBar;
 
     @RequiresApi(api = Build.VERSION_CODES.P)
