@@ -39,8 +39,9 @@ public class hEasySets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(hEasySets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT1!");
-                builder.setMessage("TOPIC INSERT HERE wtf");
+                builder.setTitle("HINT: JOSE RIZAL");
+                builder.setMessage("To prove “Ang kabataan ang pag-asa ng bayan”, better make a high score in this set as you’ll face our national hero, Jose Rizal. It would be really a bullet in the back if you’ll have a low score in this. Just before taking it do remember " +
+                        "“Ang ‘di magmahal sa sariling wika ay mahigit pa sa hayop at malansang isda.”");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -58,8 +59,9 @@ public class hEasySets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(hEasySets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT2!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: ANDRES BONIFACIO");
+                builder.setMessage("Just like how we’re still fighting for what we are fighting for, remember we have a hero who’s the leader of the Philippine Revolution, Andres Bonifacio. Fought the Spanish Regiment and created the path for the Filipinos to fight for our freedom. " +
+                        "Now it’s your chance, do not let Andres Bonifacio down with your score.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -77,8 +79,9 @@ public class hEasySets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(hEasySets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT3!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: GENERAL PHILIPPINE HISTORY\t");
+                builder.setMessage("Maybe you’re a know it all, this set will try to prove you have knowledge of Philippine history. From Filipino heroines to dates you should’ve remembered until now, and more. If it’s hard for you " +
+                        "then you should go back to your history class and if this is an easy-peasy, then look forward to more of this in the future.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -96,8 +99,9 @@ public class hEasySets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(hEasySets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT4!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: MANUEL L QUEZON");
+                builder.setMessage("Presenting our second president of the Philippines, Manuel L. Quezon. I know you’re familiar with him since you have seen him so many times in your life, from your teachers to your 20-peso bill. " +
+                        "I hope and he hopes you remember every detail with him, as he is looking at you as his proud fellowmen.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override

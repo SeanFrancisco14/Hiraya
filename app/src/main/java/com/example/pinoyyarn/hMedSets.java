@@ -39,8 +39,9 @@ public class hMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(hMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT1!");
-                builder.setMessage("TOPIC INSERT HERE wtf");
+                builder.setTitle("HINT: PHILIPPINE HISTORICAL EVENTS");
+                builder.setMessage("You may have forgotten your best friend’s birthday, but do not forget the Philippine Historical Events! When did assassinations happen, the martial law, the agreements, " +
+                        "and law? Widen your knowledge and improve your memory with this set. May the force be with you!");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -58,8 +59,9 @@ public class hMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(hMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT2!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: PHILIPPINE HISTORICAL PLACES");
+                builder.setMessage("Do not remove your seatbelts, after the festivals we can go wonder to the historical places here in the Philippines. Maybe you’ve been there before, or maybe you saw them already but you didn’t know it was one of " +
+                        "the historical places here. It’s time to become Dora and Boots as we travel to the past.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -77,8 +79,9 @@ public class hMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(hMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT3!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: PHILIPPINE LEADERS");
+                builder.setMessage("Being born in this generation is not an excuse for not knowing our leaders from the first president or vice president to the present leaders. For sure Manuel Roxas ring a bell, as well as Corazon " +
+                        "Aquino but have you heard of Fernando Lopez or Salvador Laurel. Now’s the time to know them!");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -96,8 +99,9 @@ public class hMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(hMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT4!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: GENERAL HISTORY");
+                builder.setMessage("I see you’ve reached this level of General History. Are you confident enough to pass this? If not take it, easy dude, there’s an easier one here and of course, there will be a harder exam than this. " +
+                        "Pass or not remember that the important part is to become familiar and learn! No pressure, keep going kiddo!");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override

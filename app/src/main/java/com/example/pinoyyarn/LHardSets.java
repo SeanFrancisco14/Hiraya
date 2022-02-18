@@ -39,8 +39,9 @@ public class LHardSets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(LHardSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT1!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: UNFAMILIAR FILIPINO WORDS");
+                builder.setMessage("You’ll get the hang of this mate! The more you know the more you gain the knowledge you know. It’ll be part of the hard Filipino words. " +
+                        "You’ll ponder for a long time but time’s ticking! Go and take the quiz now!");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -58,8 +59,9 @@ public class LHardSets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(LHardSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT2!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: DIFFERENT DIALECTS");
+                builder.setMessage("Ala Eh! You’re now here with the different dialects. Ha, I guess the Filipinos from the Visayas and Ilocos will have the advantage in this set. Don’t worry it’ll be easy with when you get used to it, " +
+                        "maybe use some eenie meanie miny moe, kidding. Do your best and remember them, they might be helpful you know.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -77,8 +79,9 @@ public class LHardSets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(LHardSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT3!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: SINTAKSIS");
+                builder.setMessage("Let’s now go to the hard Filipino grammar, enough of the basics. I knew you can do that already. I hope the words “Panaguri”, “Sambitlang”, “Hugnayan”, “Lansak” and " +
+                        "a lot more are still in your memory. You might want to review in advance though, this will be a little tricky. ");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -96,8 +99,9 @@ public class LHardSets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(LHardSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT4!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: PHILIPPINE FAMOUS LITERATURE");
+                builder.setMessage("Remember “Florante and Laura”, or “Ibong Adarna”, they’re shouting present in this quiz. You may have role-played them or read them from your Filipino subject. " +
+                        "There are more to those stories like what Rizal has made, “Noli Me Tangere” or “El Filibusterismo”. ");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
