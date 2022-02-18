@@ -53,17 +53,21 @@ public class LMedQ4 extends AppCompatActivity implements View.OnClickListener {
     private void getLanEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new LEasyQ1_List("4", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new LEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new LEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new LEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new LEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new LEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new LEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new LEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new LEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new LEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
-
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Pahimakas’.", "Pagdalo", "Pagbati", "Katapatan", "Pamamaalam", 2));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Marahuyo’.", "tMabango", "Pag-ayaw", "Maamo", "Tangkilikin", 2));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Gumon’.", "Kislap", "Malayo", "Walang Interes", "Dilim", 3));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Alpas’.", "Payapa", "Malalim", "Walang kibo", "Nakabigkis", 4));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Awon’.", "Hindi Pabor", "Payag", "Nagdadalawang-isip", "Natatakot", 1));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Kinaadman’.", "Kahinaan", "Kalakasan", "Kaalaman ", "Kamangmangan", 4));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Sapantaha’.", "Katiyakan", "Kutob", "Paghula", "Kaisipan", 1));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘piitan’.", "Laya", "Pagtulak", "Palapitin", "Kulungan", 1));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Samyo’.", "Sarap", "Hangyod", "Halimuyak", "Tikim", 2));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Ragsak’.", "Ligaya", "Pagdurusa", "Lumbay", "Pananabik", 3));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Hidhid’", "Mapag-isa", "Maamo", "Mapagbigay", "Makasarili", 3));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘tayarak’.", "Mumunti", "Katamtaman", "Masalimuot", "Higante", 1));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Kahangturan’.", "Pinagmulan", "Hangganan", "Panlulumo", "Balahura", 2));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘kahidlaw’.", "Pagwawalang-bahala", "Pananabik", "Panandalian", "Pagtatiyaga", 1));
+        questionList.add(new LEasyQ1_List("Find the antonym (kasalungat) of the word ‘Matahum’.", "Palakaibigan", "Peligroso", "Masigasig", "Matalino", 2));
         setQuestion();
     }
 
