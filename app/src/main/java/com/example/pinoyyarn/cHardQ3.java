@@ -80,7 +80,7 @@ public class cHardQ3 extends AppCompatActivity implements View.OnClickListener {
         questionList.add(new cEasyQ1_List("This is a type of T’nalak woven from deep brown abaca treated in the ikat process to obtain intricate design.", "Panay ", "Cebu", "Manila", "Sulu", 2));
         setQuestion();
     }
-z
+
     private void setQuestion() {
         timer.setText(String.valueOf(10));
 
