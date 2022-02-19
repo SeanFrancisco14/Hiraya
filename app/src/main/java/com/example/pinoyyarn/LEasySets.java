@@ -39,8 +39,9 @@ public class LEasySets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(LEasySets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT1!");
-                builder.setMessage("TOPIC INSERT HERE lol");
+                builder.setTitle("HINT: SALITANG INUULIT");
+                builder.setMessage("Welcome to language mode student. You’re probably wondering what’s hard with words that are repeated. Click on the button to find out, " +
+                        "just don’t get dizzy with all the spellings, okay? We don’t provide medical care here.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -58,8 +59,9 @@ public class LEasySets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(LEasySets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT2!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: BASIC SPELLING");
+                builder.setMessage("If you are the queen or king of the spelling bee, then this will fit you right in! test your knowledge with Filipino words. Don’t say it’s easy though, " +
+                        "this is just the start of this quiz. You’ll clench your jaw once the time ticks later.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -77,8 +79,9 @@ public class LEasySets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(LEasySets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT3!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: BASIC GRAMMAR");
+                builder.setMessage("Do you know the difference between “ng” or “nang” and “dito” or “rito”? Then this set will be piece of cake for you. Know more about basic grammar, " +
+                        "don’t get frustrated if you got it wrong, there’s always room for improvement.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -96,8 +99,9 @@ public class LEasySets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(LEasySets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT4!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: PAYAK, MAYLAPI, AT TAMBALAN");
+                builder.setMessage("Still, remember your elementary Filipino subject? This will really test if you remember that much knowledge in this area. Take note, " +
+                        "Payak is the most basic among the three and you’ll probably know the rest from the terms maylapi and tambalan.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override

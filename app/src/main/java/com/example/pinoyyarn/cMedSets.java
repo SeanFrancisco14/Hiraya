@@ -39,8 +39,9 @@ public class cMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(cMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT1!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: Philippine Music");
+                builder.setMessage("Did someone go to your window and make “Harana” or “Kundiman”? Or did you already hear the song “Pangako Sa’yo” and remember Kathniel?  If you haven’t, what’s not clicking? Before venturing to another genre of song " +
+                        "why not try to remember the classic and our own Philippine music.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -58,8 +59,9 @@ public class cMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(cMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT2!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: Philippine Dance");
+                builder.setMessage("I bet nostalgia hits you when you hear the “click clack” of the coconut husks as the maglalatik dancer’s dances or when the bamboo hits the ground during tinikling. I also bet that you haven’t perfected any of the Philippine Dances. Hold on to your barong or saya, as " +
+                        "you go take this quiz to improve your memory on Philippine dances.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -77,8 +79,9 @@ public class cMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(cMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT3!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: Philippine Art");
+                builder.setMessage("Into Museum dates maybe? Or do you just love how emotions, perspective is poured into a beautiful masterpiece? Fernando Amorsolo, Juan Luna, Benedicto Cabrera, " +
+                        "and many more will bring you back to Philippine art as this set will show different artists who may be familiar or whose artwork you’re fond with. ");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -96,8 +99,9 @@ public class cMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(cMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT4!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: Cities in the Philippines");
+                builder.setMessage("Smile in Bacolod, create friendship in Cagayan de Oro or go buy different fish in Navotas. Do you know what cities are known for? If not, hold on to your sit belt, let’s take a ride through the " +
+                        "questions which will introduce you to different cities and provinces. ");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override

@@ -40,8 +40,9 @@ public class cHardSets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(cHardSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT1!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: MINOR AND MAJOR GROUPS");
+                builder.setMessage("Curiosity hits you when you wonder about the different ethnic groups in the Philippines. What do they wear? What are they called? What do they worship? " +
+                        "You’ll probably work on your mind here. Welcome to the hard mode of culture and tradition!");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -59,8 +60,9 @@ public class cHardSets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(cHardSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT2!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: Prominent Filipino Artists and Inventors");
+                builder.setMessage("You’ll mix up the names, their Obra Maestra, their inventions, as there are a lot of talented Filipino artists and inventors. Does Jose Maceda ring a bell? Probably Fernando Amorsolo is familiar. " +
+                        "Better remember their names this time as you should pay respect to their contributions.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -78,8 +80,9 @@ public class cHardSets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(cHardSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT3!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: TRADITIONAL CLOTHES/ WEAVING OF INDIGENOUS GROUPS");
+                builder.setMessage("Ever since we were little children, our teachers opened the idea of a lot of indigenous groups and their clothes and kind of weavings. Of course, you already hear the Bontoc’s motifs, Ifugao’s Ikat, T’boli’s T’nalak, and many more. " +
+                        "Discover more in this set, and I hope they’ll be permanently woven into your mind. ");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -97,8 +100,9 @@ public class cHardSets extends AppCompatActivity implements View.OnClickListener
                 AlertDialog.Builder builder = new AlertDialog.Builder(cHardSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT4!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: TRADITIONAL MUSICAL INSTRUMENTS");
+                builder.setMessage("Fill your ears with different musical instruments that are made from different places here in the Philippines. For sure you haven’t tried them all, and if you already had, then you’re one lucky human being. " +
+                        "You have to fill your music with their sound but for now let’s fill your head with their information.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override

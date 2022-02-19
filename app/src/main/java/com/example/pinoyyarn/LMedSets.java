@@ -39,8 +39,9 @@ public class LMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(LMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT1!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: TONGUE TWISTERS");
+                builder.setMessage("Even Filipinos get tongue-tied with these riddles. It’s more fun when you try to speak and let your friends join with this. The more you try the more you succeed," +
+                        " I guess or maybe the more it becomes complicated with all the confusion.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -58,8 +59,9 @@ public class LMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(LMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT2!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: IDIOMS");
+                builder.setMessage("If someone said “Matigas ang leeg”, and you thought you have a stiff neck then think again. But don’t think a lot, it will result in a lack of time. For sure you know bits of this, " +
+                        "you don’t notice you use this on daily basis. I hope your mind is not tired from all of this.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -77,8 +79,9 @@ public class LMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(LMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT3!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: OLD FILIPINO WORDS TRANSLATION");
+                builder.setMessage("This can be frustrating, but it’ll be amazing to know a lot of Filipino words. It’ll be nearly impossible to finish this without any mistake, honestly, even " +
+                        "the creators were shocked. But it’s nice to share some knowledge, go on and try it, youngster.");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
@@ -96,8 +99,9 @@ public class LMedSets extends AppCompatActivity implements View.OnClickListener 
                 AlertDialog.Builder builder = new AlertDialog.Builder(LMedSets.this);
 
                 builder.setCancelable(true);
-                builder.setTitle("HINT4!");
-                builder.setMessage("TOPIC INSERT HERE");
+                builder.setTitle("HINT: ANTONYMS");
+                builder.setMessage("Why not try some antonyms this time? If you know the meaning, " +
+                        "you might know the opposite of it. This is just a little Who knows opposite might attract a high score? ");
 
                 builder.setPositiveButton("Continue...", new DialogInterface.OnClickListener() {
                     @Override
