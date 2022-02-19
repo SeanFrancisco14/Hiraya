@@ -6,25 +6,28 @@
     android:layout_height="match_parent"
     android:background="@drawable/tut"
     android:orientation="vertical"
-    tools:context=".HowToPlay">
-
+    tools:context=".HowToPlay2">
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/tutorial1" />
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tutorial2" />
+
 
     <ImageButton
-        android:id="@+id/btn_next"
-        android:layout_width="97dp"
+        android:id="@+id/btn_backtomenu"
+        android:layout_width="208dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="645dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="0dp"
-        android:background="@drawable/next" />
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="658dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/backtomenu" />
 
 </RelativeLayout>
+
