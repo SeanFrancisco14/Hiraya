@@ -4,26 +4,29 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ImageButton;
 import android.view.View;
+import android.widget.ImageButton;
 
-public class HowToPlay extends AppCompatActivity implements View.OnClickListener{
+public class HowToPlay2 extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_how_to_play);
+        setContentView(R.layout.activity_how_to_play2);
 
-        ImageButton btn_next = findViewById(R.id.btn_next);
+        ImageButton btn_backtomenu = findViewById(R.id.btn_backtomenu);
 
-        btn_next.setOnClickListener(this);
+        btn_backtomenu.setOnClickListener(this);
+
 
     }
-    @Override
+
+        @Override
         public void onClick(View v) {
-            if (v.getId() == R.id.btn_next) {
-                startActivity(new Intent(this, HowToPlay2.class));
+            if (v.getId() == R.id.btn_backtomenu) {
+                startActivity(new Intent(this, MenuActivity.class));
                 overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
             }
+
     }
 }

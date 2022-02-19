@@ -13,6 +13,7 @@
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_ceasy_q4.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_ceasy_sets.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_cmed_sets.xml" value="0.25416666666666665" />
+        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_credits.xml" value="0.2212962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_cscore.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_culture_easy_qs.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_culture_level.xml" value="0.24010416666666667" />
@@ -25,13 +26,19 @@
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_heasy_q3.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_heasy_q4.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_heasy_sets.xml" value="0.25416666666666665" />
+        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_hhard_q4.xml" value="0.2212962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_histcategory_level.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_history_stages.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_hmed_sets.xml" value="0.25416666666666665" />
+        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_how_to_play.xml" value="0.22685185185185186" />
+        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_how_to_play2.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_hscore.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lancategory_level.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_language_stages.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_level_culture.xml" value="0.25416666666666665" />
+        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lmed_q3.xml" value="0.2212962962962963" />
+        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lmed_q4.xml" value="0.22685185185185186" />
+        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lmed_sets.xml" value="0.22685185185185186" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_play.xml" value="0.25416666666666665" />

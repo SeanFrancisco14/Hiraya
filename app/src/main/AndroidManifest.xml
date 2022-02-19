@@ -16,6 +16,9 @@
             android:name=".HowToPlay"
             android:exported="false" />
         <activity
+            android:name=".HowToPlay2"
+            android:exported="false" />
+        <activity
             android:name=".hHardQ4"
             android:exported="false" />
         <activity
@@ -199,7 +202,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".audioClass"/>
+        <service android:name=".audioClass" />
     </application>
 
 </manifest>

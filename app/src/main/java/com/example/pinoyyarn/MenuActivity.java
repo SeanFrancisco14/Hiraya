@@ -29,8 +29,6 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         btn_exit.setOnClickListener(this);
     }
 
-
-
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.btn_play) {
