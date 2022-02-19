@@ -15,11 +15,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="56dp"
         android:background="@drawable/sound"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.275"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481"
+        app:layout_constraintVertical_bias="0.294"
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -44,10 +44,10 @@
         android:textColor="#EC0909"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintHorizontal_bias="0.711"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481"
+        app:layout_constraintVertical_bias="0.294"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -60,44 +60,30 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677"
+        app:layout_constraintVertical_bias="0.679"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <Button
-        android:id="@+id/btnOn"
-        android:layout_width="100dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="116dp"
-        android:background="@drawable/custom_round_button"
-        android:text="On"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toStartOf="@+id/btnOff"
-        app:layout_constraintHorizontal_bias="0.326"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnOff"
-        android:layout_width="100dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="116dp"
-        android:background="@drawable/custom_round_button"
-        android:text="Off"
-        android:textColor="@color/black"
+    <ImageButton
+        android:id="@+id/btnMusic"
+        android:layout_width="342dp"
+        android:layout_height="164dp"
+        android:background="@drawable/music"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <SeekBar
         android:id="@+id/seekBarVol"
         android:layout_width="150dp"
         android:layout_height="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="140dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_Sounds" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

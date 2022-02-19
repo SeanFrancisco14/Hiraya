@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.text.Html;
 import android.view.View;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 
 import com.google.firebase.firestore.FirebaseFirestore;
 
@@ -22,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        startService(new Intent(this, audioClass.class));
+
         new Handler().postDelayed(() -> {
             Intent intent = new Intent(MainActivity.this, MenuActivity.class);
             startActivity(intent);
@@ -33,9 +37,11 @@ public class MainActivity extends AppCompatActivity {
         final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setMessage(Html.fromHtml("<font color='#000000'>Are you sure you want to exit?</font>"));
         builder.setCancelable(true);
-        builder.setPositiveButton(Html.fromHtml("<font color='#FFD700'>Yes</font>"), (dialog, which) -> finish());
+        builder.setPositiveButton(Html.fromHtml("<font color='#FFD700'>Yes</font>"), (dialog, which) -> finishAndRemoveTask());
         builder.setNegativeButton(Html.fromHtml("<font color='#FFD700'>No</font>"), (dialog, i) -> dialog.cancel());
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
+        stopService(new Intent(this, audioClass.class));
     }
 }

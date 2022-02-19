@@ -4,10 +4,12 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
 import android.widget.ImageButton;
+import android.media.AudioManager;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -15,8 +17,6 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
-        startService(new Intent(this, audioClass.class));
 
         ImageButton btn_play = findViewById(R.id.btn_play);
         ImageButton btn_settings = findViewById(R.id.btn_settings);
@@ -55,4 +55,5 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
             alertDialog.show();
         }
     }
+
 }

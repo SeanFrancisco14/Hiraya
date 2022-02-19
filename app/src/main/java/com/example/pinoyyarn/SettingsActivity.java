@@ -22,8 +22,7 @@ import android.widget.Toast;
 public class SettingsActivity extends AppCompatActivity implements View.OnClickListener{
 
     private AudioManager audioManager;
-    private ImageButton volumeControlUp, volumeControlDown, btnCredits;
-    private Button btnOn, btnOff;
+    private ImageButton volumeControlUp, volumeControlDown, btnMusic, btnCredits;
     private SeekBar seekBar;
 
     @RequiresApi(api = Build.VERSION_CODES.P)
@@ -37,14 +36,13 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         volumeControlDown = findViewById(R.id.volumeControlDown);
         seekBar = findViewById(R.id.seekBarVol);
         btnCredits = findViewById(R.id.btnCredits);
-        btnOn = findViewById(R.id.btnOn);
-        btnOff = findViewById(R.id.btnOff);
+        btnMusic = findViewById(R.id.btnMusic);
 
         volumeControlUp.setOnClickListener(this);
         volumeControlDown.setOnClickListener(this);
         btnCredits.setOnClickListener(this);
-        btnOn.setOnClickListener(this);
-        btnOff.setOnClickListener(this);
+        btnMusic.setOnClickListener(this);
+
         seekBar.setMax(audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC));
         seekBar.setProgress(audioManager.getStreamVolume(AudioManager.STREAM_MUSIC));
     }
@@ -65,11 +63,11 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         if (v.getId() == R.id.btnCredits) {
             startActivity(new Intent(this, CreditsActivity.class));
         }
-        if (v.getId() == R.id.btnOn) {
-            startService(new Intent(this, audioClass.class));
-        }
-        if (v.getId() == R.id.btnOff) {
+        if (v.getId() == R.id.btnMusic) {
             stopService(new Intent(this, audioClass.class));
+        }
+        if (v.getId() == R.id.btnMusic) {
+            startService(new Intent(this, audioClass.class));
         }
     }
 
