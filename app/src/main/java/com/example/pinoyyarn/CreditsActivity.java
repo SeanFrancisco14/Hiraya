@@ -32,6 +32,7 @@ public class CreditsActivity extends AppCompatActivity implements View.OnClickLi
 
         credits.setText("CREDITS \n" + "ADRIAN YABES \n" + "DANICA PAMOLERAS \n" + "ACTOR 3 \n" + "ACTOR 4 \n");
         credits.startAnimation(animation);
+
     }
 
     @Override
