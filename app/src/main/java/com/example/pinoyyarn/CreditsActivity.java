@@ -10,11 +10,15 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CreditsActivity extends AppCompatActivity implements View.OnClickListener{
 
     private ImageButton btn_exit;
     private TextView credits;
     private Animation animation;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +28,6 @@ public class CreditsActivity extends AppCompatActivity implements View.OnClickLi
         btn_exit = findViewById(R.id.btn_creditsExit);
         credits = findViewById(R.id.textViewCredits);
         animation = AnimationUtils.loadAnimation(this, R.anim.credits_anim);
-
         btn_exit.setOnClickListener(this);
 
         credits.setText("CREDITS \n" + "ACTOR 1 \n" + "ACTOR 2 \n" + "ACTOR 3 \n" + "ACTOR 4 \n");
