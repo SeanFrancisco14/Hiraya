@@ -115,15 +115,15 @@
         android:id="@+id/LMedTimer"
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:gravity="center"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="35dp"
-        android:backgroundTint="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="176dp"
         android:background="@drawable/custom_round_button"
-        android:textSize="24dp"
-        android:textStyle="bold"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="10"
         android:textColor="@color/black"
-        android:text="10" />
+        android:textSize="24dp"
+        android:textStyle="bold" />
 </RelativeLayout>
