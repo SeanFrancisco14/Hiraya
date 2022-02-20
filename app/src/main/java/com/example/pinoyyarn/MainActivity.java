@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        startService(new Intent(this, audioClass.class));
-
         new Handler().postDelayed(() -> {
             Intent intent = new Intent(MainActivity.this, MenuActivity.class);
             startActivity(intent);

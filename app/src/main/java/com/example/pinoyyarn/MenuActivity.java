@@ -27,6 +27,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
         btn_achievements.setOnClickListener(this);
         btn_settings.setOnClickListener(this);
         btn_exit.setOnClickListener(this);
+
     }
 
     @Override

@@ -24,6 +24,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
     private AudioManager audioManager;
     private ImageButton volumeControlUp, volumeControlDown, btnMusic, btnCredits;
     private SeekBar seekBar;
+    boolean state = true;
 
     @RequiresApi(api = Build.VERSION_CODES.P)
     @Override
@@ -63,11 +64,13 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         if (v.getId() == R.id.btnCredits) {
             startActivity(new Intent(this, CreditsActivity.class));
         }
-        if (v.getId() == R.id.btnMusic) {
-            stopService(new Intent(this, audioClass.class));
-        }
-        if (v.getId() == R.id.btnMusic) {
+        if (v.getId() == R.id.btnMusic && state == true) {
             startService(new Intent(this, audioClass.class));
+            state = false;
+        }
+        else if (v.getId() == R.id.btnMusic && state != true) {
+            stopService(new Intent(this, audioClass.class));
+            state = true;
         }
     }
 

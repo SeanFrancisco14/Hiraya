@@ -203,6 +203,7 @@
         </activity>
 
         <service android:name=".audioClass" />
+        <activity android:name=".CreditsActivity"/>
     </application>
 
 </manifest>
