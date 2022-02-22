@@ -53,16 +53,21 @@ public class hMedQ3 extends AppCompatActivity implements View.OnClickListener {
     private void getHistEasyQuestions() {
         questionList = new ArrayList<>();
 
-        questionList.add(new hEasyQ1_List("hist3", "A. Apolinario Mabini", "B. Emilio Jacinto", "C. Andres Bonifacio", "D. Jose Rizal", 3));
-        questionList.add(new hEasyQ1_List("Who is the national hero of the Philippines?", "A. Andres Bonifacio", "B. Jose Rizal", "C. Emilio Aguinaldo", "D. Gregorio Del Pilar", 2));
-        questionList.add(new hEasyQ1_List("Who is generally acknowledged as the first President of the Philippines?", "A. Emilio Aguinaldo", "B. Manuel L. Quezon", "C. Andres Bonifacio", "D. Manuel Roxas", 1));
-        questionList.add(new hEasyQ1_List("She is a Filipino heroine. After her husband died, she continued the war against Spain, was caught and hanged.", "A. Teodora Alonso", "B. Gregoria de Jesus", "C. Gabriela Silang", "D. Leonor Rivera", 3));
-        questionList.add(new hEasyQ1_List("She was the first woman member of the Katipunan (July 1893).", "A. Gregoria de Jesus", "B. Segunda Katikbak", "C. Gabriela Silang", "D. Marina Dizon", 1));
-        questionList.add(new hEasyQ1_List("He is known as the founder and 'Father of Katipunan', 'Supremo', or the 'Great Plebeian'.", "A. Gregorio del Pilar", "B. Andres Bonifacio", "C. Antonio Luna", "D. Emilio Jacinto", 2));
-        questionList.add(new hEasyQ1_List("It is the town is Zamboanga del Norte where Dr. Jose Rizal was exiled for four years before he was executed.", "A. Dipolog", "B. Ipil", "C. Dagonoy", "D. Dapitan", 4));
-        questionList.add(new hEasyQ1_List("Dr. Jose Rizal wrote this poem before he was executed.", "A. Mi Ultimo Adios", "B. La Solidaridad", "C. Noli Me Tangere", "D. Ibong Adarna", 1));
-        questionList.add(new hEasyQ1_List("Who was the chief advisor of Gen. Emilio Aguinaldo?", "A. Felipe Calderon", "B. Apolinario Mabini", "C. Pedro Paterno", "D. Jose Rizal", 2));
-        questionList.add(new hEasyQ1_List("We celebrate the Araw ng Kagitingan every_______________.", "A. February 27", "B. April 9", "C. June 24", "D. December 30", 2));
+        questionList.add(new hEasyQ1_List("He is the first president from Pampanga who served during 1961-1965.", "A. Manuel Quezon", "B. Benigno Aquino III", "C. Benigno Aquino Jr.", "D. Diosdado Macapagal", 4));
+        questionList.add(new hEasyQ1_List("He served as the 6th Vice President of the Philippines during 1961-1965.", "A. Emmanuel Neri Pelaez", "B. Fernando Lopez", "C. Joseph Estrada", "D. Salvador Laurel", 1));
+        questionList.add(new hEasyQ1_List("She is the first female president of the Philippines.", "A. Leni Robredo", "B. Gloria Macapagal Arroyo", "C. Corazon Aquino", "D. Gabriela Silang", 3));
+        questionList.add(new hEasyQ1_List("First president who previously served in the Supreme Court of the Philippines as Associate Justice.", "A. Sergio Osmena", "B. Jose P. Laurel", "C. Ramon Magsaysay", "D. Carlos P. Garcia", 2));
+        questionList.add(new hEasyQ1_List("He is the first president to wear barong tagalog while taking their oath of office.", "A. Sergio Osmena", "B. Jose P. Laurel", "C. Ramon Magsaysay", "D. Carlos P. Garcia", 3));
+        questionList.add(new hEasyQ1_List("He served as the 11th Vice President of the Philippines during 2001-2004.", "Teofisto Guingona Jr.", "B. Noli de Castro", "C. Fernando Lopez", "D. Emmanuel Pelaez", 1));
+        questionList.add(new hEasyQ1_List("He is the 2nd vice president of the Philippines and the 6th president of the Philippines.", "A. Elpidio Quirino", "B. Emilio Aguinaldo", "C. Manuel Quezon", "D. Sergio Osmena", 1));
+        questionList.add(new hEasyQ1_List("She is the 14th vice president of the Philippines who is the second woman who served as the vice president of the Philippines.", "A. Gloria Macapagal Arroyo", "B. Corazon Aquino", "C. Gabriela Silang", "D. Leni Robredo", 4));
+        questionList.add(new hEasyQ1_List("First president to be non-catholic and a protestant.", "A. Rodrigo Duterte", "B. Fidel Ramos", "C. Diosdado Macapagal", "D. Elpidio Quirino", 2));
+        questionList.add(new hEasyQ1_List("He is the 8th vice president of the Philippines who is a major leader of the United Nationalist Democratic Organization.", "A. Fernando Lopez", "B. Carlos P. Garcia", "C. Salvador Laurel", "D. Jejomar Binay", 3));
+        questionList.add(new hEasyQ1_List("He is the first president who was an actor and undergone an impeachment trial.", "Carlos P. Garcia", "B. Ramon Magsaysay", "C. Diosdado Macapagal", "D. Joseph Estrada", 4));
+        questionList.add(new hEasyQ1_List("First President to be a bachelor and childless while in office.", "A. Rodrigo Duterte", "B. Ferdinand Marcos", "C. Benigno Aquino III", "D. Manuel Roxas", 3));
+        questionList.add(new hEasyQ1_List("He is the 12th vice president under Gloria Macapagal Arroyo.", "A. Jejomar Binay", "B. Noli de Castro", "C. Salvador Laurel", "D. Fernando Lopez", 2));
+        questionList.add(new hEasyQ1_List("First president who met Pope Pius XII and a representative of Ilocos Sur from 1919 to 1925..", "A. Manuel Roxas", "B. Fernando Lopez", "C. Jose P. Laurel", "D. Elpidio Quirino", 4));
+        questionList.add(new hEasyQ1_List("The second president and the first president who was a lawyer.", "A. Manuel Quezon", "B. Manuel Roxas", "C. Carlos Garcia", "D. Jose Laurel", 1));
 
         setQuestion();
     }
