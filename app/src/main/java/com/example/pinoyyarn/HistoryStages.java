@@ -29,4 +29,10 @@ public class HistoryStages extends AppCompatActivity implements View.OnClickList
         if (v.getId() == R.id.btn_history_medium) startActivity(new Intent(this, hMedSets.class));
         if (v.getId() == R.id.btn_history_difficult) startActivity(new Intent(this, hDiffSets.class));
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }

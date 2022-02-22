@@ -29,4 +29,10 @@ public class CultureStages extends AppCompatActivity implements View.OnClickList
         if (v.getId() == R.id.btn_culture_medium) startActivity(new Intent(this, cMedSets.class));
         if (v.getId() == R.id.btn_culture_difficult) startActivity(new Intent(this, cHardSets.class));
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }

@@ -29,4 +29,10 @@ public class LanguageStages extends AppCompatActivity implements View.OnClickLis
         if (v.getId() == R.id.btn_language_medium) startActivity(new Intent(this, LMedSets.class));
         if (v.getId() == R.id.btn_language_difficult) startActivity(new Intent(this, LHardSets.class));
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }

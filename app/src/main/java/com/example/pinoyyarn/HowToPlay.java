@@ -26,4 +26,11 @@ public class HowToPlay extends AppCompatActivity implements View.OnClickListener
                 overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
             }
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(this, MenuActivity.class));
+        finish();
+    }
 }

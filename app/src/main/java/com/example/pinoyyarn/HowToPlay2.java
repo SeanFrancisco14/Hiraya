@@ -29,4 +29,11 @@ public class HowToPlay2 extends AppCompatActivity implements View.OnClickListene
             }
 
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(this, MenuActivity.class));
+        finish();
+    }
 }

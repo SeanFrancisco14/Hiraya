@@ -45,4 +45,10 @@ public class CategoryActivity extends AppCompatActivity implements View.OnClickL
         }
 
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }
