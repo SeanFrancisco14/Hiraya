@@ -18,7 +18,7 @@
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_chard_q2.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_chard_q3.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_chard_q4.xml" value="0.20462962962962963" />
-        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_chard_sets.xml" value="0.2" />
+        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_chard_sets.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_cmed_q1.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_cmed_q2.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_cmed_q3.xml" value="0.20462962962962963" />
@@ -57,13 +57,11 @@
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_leasy_q2.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_leasy_q3.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_leasy_q4.xml" value="0.20462962962962963" />
-        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_leasy_sets.xml" value="0.19907407407407407" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_level_culture.xml" value="0.25416666666666665" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lhard_q1.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lhard_q2.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lhard_q3.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lhard_q4.xml" value="0.20462962962962963" />
-        <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lhard_sets.xml" value="0.536" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lmed_q1.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lmed_q2.xml" value="0.20462962962962963" />
         <entry key="..\:/PINOYYARN/app/src/main/res/layout/activity_lmed_q3.xml" value="0.2212962962962963" />
@@ -90,6 +88,7 @@
         <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya (2)/app/src/main/res/layout/activity_settings.xml" value="0.25" />
         <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_category.xml" value="0.223731884057971" />
         <entry key="..\:/Users/seanf/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_category.xml" value="0.253125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Hiraya/app/src/main/res/layout/activity_settings.xml" value="0.253125" />
       </map>
     </option>
