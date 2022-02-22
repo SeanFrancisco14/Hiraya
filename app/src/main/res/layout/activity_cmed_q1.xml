@@ -5,25 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/questionmedium"
-    tools:context=".cMedQ1">
+    tools:context=".cMedQ2">
 
     <TextView
         android:id="@+id/cMedCurrentQ"
-        android:layout_width="wrap_content"
-        android:layout_height="156dp"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="126dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="448dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="449dp"
         android:background="#4f7649"
         android:gravity="center"
         android:text="Question"
         android:textColor="@color/white"
-        android:textSize="15dp"
+        android:textSize="15sp"
         tools:layout_editor_absoluteX="-3dp"
         tools:layout_editor_absoluteY="90dp" />
 
@@ -112,16 +112,16 @@
 
     <TextView
         android:id="@+id/cMedTimer"
-        android:layout_width="85dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="165dp"
-        android:layout_marginBottom="647dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="651dp"
         android:background="@drawable/custom_round_button"
         android:backgroundTint="@color/white"
         android:gravity="center"
@@ -129,4 +129,5 @@
         android:textColor="@color/black"
         android:textSize="24dp"
         android:textStyle="bold" />
+
 </RelativeLayout>

@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PINOYYARN">
         <activity
+            android:name=".secret"
+            android:exported="false" />
+        <activity
+            android:name=".cMedQ1"
+            android:exported="false" />
+        <activity
             android:name=".HowToPlay"
             android:exported="false" />
         <activity
@@ -203,7 +209,8 @@
         </activity>
 
         <service android:name=".audioClass" />
-        <activity android:name=".CreditsActivity"/>
+
+        <activity android:name=".CreditsActivity" />
     </application>
 
 </manifest>

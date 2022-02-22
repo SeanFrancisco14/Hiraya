@@ -115,7 +115,7 @@ public class cMedSets extends AppCompatActivity implements View.OnClickListener 
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.cMedSet1) startActivity(new Intent(this, cMedQ1.class));
+        if (v.getId() == R.id.cMedSet1) startActivity(new Intent(this, cMedQ2.class));
         if (v.getId() == R.id.cMedSet2) startActivity(new Intent(this, cMedQ2.class));
         if (v.getId() == R.id.cMedSet3) startActivity(new Intent(this, cMedQ3.class));
         if (v.getId() == R.id.cMedSet4) startActivity(new Intent(this, cMedQ4.class));
