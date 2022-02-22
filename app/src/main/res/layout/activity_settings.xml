@@ -76,11 +76,22 @@
         app:layout_constraintVertical_bias="0.541"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="230dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/btn_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <SeekBar
         android:id="@+id/seekBarVol"
         android:layout_width="150dp"
         android:layout_height="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="208dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

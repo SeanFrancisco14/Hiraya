@@ -22,7 +22,7 @@ import android.widget.Toast;
 public class SettingsActivity extends AppCompatActivity implements View.OnClickListener{
 
     private AudioManager audioManager;
-    private ImageButton volumeControlUp, volumeControlDown, btnMusic, btnCredits;
+    private ImageButton volumeControlUp, volumeControlDown, btnMusic, btnCredits, btnBack;
     private SeekBar seekBar;
     boolean state = true;
 
@@ -38,11 +38,13 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         seekBar = findViewById(R.id.seekBarVol);
         btnCredits = findViewById(R.id.btnCredits);
         btnMusic = findViewById(R.id.btnMusic);
+        btnBack = findViewById(R.id.btn_back);
 
         volumeControlUp.setOnClickListener(this);
         volumeControlDown.setOnClickListener(this);
         btnCredits.setOnClickListener(this);
         btnMusic.setOnClickListener(this);
+        btnBack.setOnClickListener(this);
 
         seekBar.setMax(audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC));
         seekBar.setProgress(audioManager.getStreamVolume(AudioManager.STREAM_MUSIC));
@@ -71,6 +73,9 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         else if (v.getId() == R.id.btnMusic && state != true) {
             stopService(new Intent(this, audioClass.class));
             state = true;
+        }
+        if (v.getId() == R.id.btn_back) {
+            startActivity(new Intent(this, MenuActivity.class));
         }
     }
 

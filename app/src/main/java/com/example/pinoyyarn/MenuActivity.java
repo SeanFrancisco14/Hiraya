@@ -20,13 +20,13 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
 
         ImageButton btn_play = findViewById(R.id.btn_play);
         ImageButton btn_settings = findViewById(R.id.btn_settings);
-        ImageButton btn_exit = findViewById(R.id.btn_exit);
+        ImageButton btn_back = findViewById(R.id.btn_back);
         ImageButton btn_achievements = findViewById(R.id.btn_achievements);
 
         btn_play.setOnClickListener(this);
         btn_achievements.setOnClickListener(this);
         btn_settings.setOnClickListener(this);
-        btn_exit.setOnClickListener(this);
+        btn_back.setOnClickListener(this);
 
     }
 
@@ -44,14 +44,9 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(this, SettingsActivity.class));
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
-        if (v.getId() == R.id.btn_exit) {
-            final AlertDialog.Builder builder = new AlertDialog.Builder(MenuActivity.this);
-            builder.setMessage(Html.fromHtml("<font color='#000000'>Are you sure you want to exit?</font>"));
-            builder.setCancelable(true);
-            builder.setPositiveButton(Html.fromHtml("<font color='#FFD700'>Yes</font>"), (dialog, which) -> finish());
-            builder.setNegativeButton(Html.fromHtml("<font color='#FFD700'>No</font>"), (dialog, i) -> dialog.cancel());
-            AlertDialog alertDialog = builder.create();
-            alertDialog.show();
+        if (v.getId() == R.id.btn_back) {
+            startActivity(new Intent(this, MainActivity.class));
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         }
     }
 
