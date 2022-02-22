@@ -32,16 +32,17 @@ public class CategoryActivity extends AppCompatActivity implements View.OnClickL
                 break;
         }
         switch(v.getId()) {
-            case R.id.btn_history:
-                startActivity(new Intent(this, HistoryStages.class));
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);;
-                break;
-        }
-        switch(v.getId()) {
             case R.id.btn_language:
                 startActivity(new Intent(this, LanguageStages.class));
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 break;
         }
+        switch(v.getId()) {
+            case R.id.btn_history:
+                startActivity(new Intent(this, HistoryStages.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);;
+                break;
+        }
+
     }
 }
