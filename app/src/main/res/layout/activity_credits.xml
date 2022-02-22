@@ -5,35 +5,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/settings_bg"
+    android:background="@drawable/wood"
     tools:context=".CreditsActivity">
 
   <ImageButton
       android:id="@+id/btn_creditsExit"
-      android:layout_width="197dp"
-      android:layout_height="102dp"
-      android:background="@drawable/exit"
+      android:layout_width="81dp"
+      android:layout_height="90dp"
+      android:background="@drawable/back"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.074"
+      app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.953" />
+      app:layout_constraintVertical_bias="0.0" />
 
   <TextView
       android:id="@+id/textViewCredits"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:textAlignment="center"
       android:gravity="center"
-      android:textSize="32dp"
-      android:textColor="@color/black"
-      android:textStyle="bold"
       android:text="TextView"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="32dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

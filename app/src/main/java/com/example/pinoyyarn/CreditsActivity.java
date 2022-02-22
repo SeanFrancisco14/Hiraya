@@ -30,7 +30,7 @@ public class CreditsActivity extends AppCompatActivity implements View.OnClickLi
         animation = AnimationUtils.loadAnimation(this, R.anim.credits_anim);
         btn_exit.setOnClickListener(this);
 
-        credits.setText("CREDITS \n" + "ADRIAN YABES \n" + "DANICA PAMOLERAS \n" + "ACTOR 3 \n" + "ACTOR 4 \n");
+        credits.setText("CREDITS \n" + "ADRIAN YABES,  \n" + "Front-End Programmer \n" + "Game Designer \n" + "DANICA PAMOLERAS \n"+ "Back-End Programmer \n"+ "Art DIrector\n"+ "SEAN FRANCISCO \n"+ "Back-End Programmer \n"+ "Music Director \n"+ "JAY DE VERA \n"+ "Data Analysts \n"+ "Art Director \n");
         credits.startAnimation(animation);
 
     }
