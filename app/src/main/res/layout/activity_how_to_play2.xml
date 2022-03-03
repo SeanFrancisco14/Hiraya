@@ -17,17 +17,22 @@
 
     <ImageButton
         android:id="@+id/btn_backtomenu"
-        android:layout_width="208dp"
-        android:layout_height="wrap_content"
+        android:layout_width="297dp"
+        android:layout_height="100dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="658dp"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="17dp"
-        android:background="@drawable/backtomenu" />
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="636dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="-5dp"
+        android:adjustViewBounds="true"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/backtomenu"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </RelativeLayout>
 
