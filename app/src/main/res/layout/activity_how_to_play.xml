@@ -17,8 +17,8 @@
 
     <ImageButton
         android:id="@+id/btn_next"
-        android:layout_width="97dp"
-        android:layout_height="wrap_content"
+        android:layout_width="143dp"
+        android:layout_height="100dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
