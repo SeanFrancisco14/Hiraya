@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             builder.setMessage(Html.fromHtml("<font color='#000000'>Are you sure you want to exit?</font>"));
             builder.setCancelable(true);
             builder.setPositiveButton(Html.fromHtml("<font color='#FFD700'>Yes</font>"), (dialog, which) -> finishAndRemoveTask());
-            builder.setNegativeButton(Html.fromHtml("<font color='#FFD700'>No</font>"), (dialog, i) -> dialog.cancel());
+            builder.setNegativeButton(Html.fromHtml("<font color='#FFD700'>No</font>"), (dialog, i) -> finish());
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
 
