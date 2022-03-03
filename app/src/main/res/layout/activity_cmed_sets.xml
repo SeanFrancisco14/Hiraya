@@ -8,18 +8,19 @@
     android:foregroundTint="#FFFFFF"
     tools:context=".cMedSets">
 
+
     <TextView
-        android:id="@+id/CmedsetSelect"
+        android:id="@+id/setSelect"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="83dp"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="509dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="535dp"
         android:background="#4f7649"
         android:gravity="center"
         android:text="Select the Question Set:"
@@ -29,7 +30,7 @@
         tools:layout_editor_absoluteY="90dp" />
 
     <TextView
-        android:id="@+id/cMed_qCount"
+        android:id="@+id/Leasy_qCount"
         android:layout_width="412dp"
         android:layout_height="100dp"
         android:layout_alignParentStart="true"
@@ -47,18 +48,17 @@
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="23dp" />
 
+
     <Button
         android:id="@+id/cMedSet1"
         android:layout_width="291dp"
         android:layout_height="77dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="274dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="380dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="384dp"
         android:background="@drawable/custom_round_button"
         android:backgroundTint="#ffffff"
         android:text="Set 1"
@@ -72,15 +72,14 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="284dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="285dp"
         android:background="@drawable/custom_round_button"
         android:backgroundTint="#ffffff"
         android:text="Set 2"
         android:textColor="@color/black"
         android:textStyle="bold" />
-
 
     <Button
         android:id="@+id/cMedSet3"
@@ -89,9 +88,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="189dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="191dp"
         android:background="@drawable/custom_round_button"
         android:backgroundTint="#ffffff"
         android:text="Set 3"
@@ -105,15 +104,14 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="91dp"
         android:background="@drawable/custom_round_button"
         android:backgroundTint="#ffffff"
         android:text="Set 4"
         android:textColor="@color/black"
         android:textStyle="bold" />
-
 
     <ImageButton
         android:id="@+id/cmed1_hint"
@@ -134,6 +132,7 @@
         app:srcCompat="@drawable/hint_btn"
         tools:ignore="SpeakableTextPresentCheck" />
 
+
     <ImageButton
         android:id="@+id/cmed1_hint2"
         android:layout_width="wrap_content"
@@ -142,10 +141,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="301dp"
-        android:layout_marginTop="348dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="273dp"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="271dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/app_name"
@@ -172,6 +171,7 @@
         app:srcCompat="@drawable/hint_btn"
         tools:ignore="SpeakableTextPresentCheck" />
 
+
     <ImageButton
         android:id="@+id/cmed1_hint4"
         android:layout_width="wrap_content"
@@ -181,9 +181,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="303dp"
-        android:layout_marginTop="556dp"
+        android:layout_marginTop="545dp"
         android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="66dp"
+        android:layout_marginBottom="77dp"
         android:adjustViewBounds="true"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/app_name"
