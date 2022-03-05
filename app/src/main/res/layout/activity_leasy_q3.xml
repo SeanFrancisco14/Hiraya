@@ -123,7 +123,6 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="167dp"
         android:layout_marginBottom="654dp"
-        android:background="@drawable/custom_round_button"
         android:backgroundTint="@color/white"
         android:gravity="center"
         android:text="10"
